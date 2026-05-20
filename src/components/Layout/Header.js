@@ -201,105 +201,67 @@ export default function Header() {
         <div class="offcanvas-body inner-mobile-nav">
             <div class="mb-body">
                 <ul id="menu-mobile-menu" class="style-1">
+                    <li class="menu-item">
+                        <a href="/" class="item-menu-mobile">HOME</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="/about-us" class="item-menu-mobile">OUR STORY</a>
+                    </li>
                     <li class="menu-item menu-item-has-children-mobile active">
                         <a href="#dropdown-menu-one" class="item-menu-mobile collapsed" data-bs-toggle="collapse"
                             aria-expanded="true" aria-controls="dropdown-menu-one">
-                            Home
+                            ALL VERTICALS
                         </a>
                         <div id="dropdown-menu-one" class="collapse" data-bs-parent="#menu-mobile-menu">
-                            <ul class="sub-mobile">
-                                <li class="menu-item active"><a href="/">Home</a>
-                                </li>
-                                <li class="menu-item"><a href="../demo-agency/index.html">Agency</a></li>
-                                <li class="menu-item"><a href="../demo-insurance/index.html">   </a></li>
-                                <li class="menu-item"><a href="../demo-medical/index.html">Medical</a></li>
-                                <li class="menu-item"><a href="../demo-restaurant/index.html">Restaurant</a>
-                                </li>
-                                <li class="menu-item"><a href="../demo-aitech/index.html">AI Tech</a></li>
-                                <li class="menu-item"><a href="../demo-aicontentwriter/index.html">AI
-                                        Content Writer</a></li>
-                                <li class="menu-item"><a href="../demo-saas/index.html">SaaS</a></li>
-                                <li class="menu-item"><a href="../demo-healthcoach/index.html">Health Coach</a>
-                                </li>
-                                <li class="menu-item"><a href="../demo-spasalon/index.html">Spa Salon</a></li>
-                                <li class="menu-item"><a href="../demo-construction/index.html">Construction</a></li>
-                                <li class="menu-item"><a href="../demo-coworkingspace/index.html">Coworking
-                                        Space</a></li>
-                                <li class="menu-item"><a href="../demo-gardenlandscaping/index.html">Garden
-                                        Landscaping</a></li>
-                                <li class="menu-item"><a href="../demo-carservices/index.html">Car Service</a></li>
-                                <li class="menu-item"><a href="../demo-charity/index.html">Charity</a></li>
-                                <li class="menu-item"><a href="../demo-architechture/index.html">Architechture</a></li>
-                                <li class="menu-item"><a href="../demo-logistics/index.html">Logistics</a></li>
-                                <li class="menu-item"><a href="../demo-solarenergy/index.html">Solar Energy</a></li>
-                                <li class="menu-item"><a href="../demo-agriculturefarming/index.html">Agriculture
-                                        farming</a>
-                                </li>
-                                <li class="menu-item"><a href="../demo-lawyer/index.html">Lawyer</a></li>
+                            <ul class="sub-mobile">                               
+                                <li class="menu-item"><a href="/brands/lintex">Linte</a></li>
+                                <li class="menu-item"><a href="/brands/curewith3d">Curewith3D</a></li>
+                                <li class="menu-item"><a href="/brands/caretab">CareTAB</a></li>
+                                <li class="menu-item"><a href="#">Medical Implats</a></li>
+                                <li class="menu-item"><a href="#">IndiaMD</a></li>
+                                <li class="menu-item"><a href="#">Tumble</a></li>
                             </ul>
                         </div>
                     </li>
                     <li class="menu-item menu-item-has-children-mobile">
                         <a href="#dropdown-menu-two" class="item-menu-mobile collapsed" data-bs-toggle="collapse"
                             aria-expanded="true" aria-controls="dropdown-menu-two">
-                            gfgdf
+                            CAREER
                         </a>
                         <div id="dropdown-menu-two" class="collapse" data-bs-parent="#menu-mobile-menu">
                             <ul class="sub-mobile ">
-                                <li class="menu-item"><a href="about-us.html">About Us</a></li>
-                                <li class="menu-item"><a href="our-team.html">Our Team</a></li>
-                                <li class="menu-item"><a href="team-detail.html">Team Detail</a></li>
-                                <li class="menu-item"><a href="carrer.html">Carrer</a>
-                                </li>
-                                <li class="menu-item"><a href="carrer-detail.html">Carrer Detail</a>
-                                </li>
-                                <li class="menu-item"><a href="FAQs.html">FAQs</a>
-                                </li>
-                                <li class="menu-item"><a href="404.html">404 Error</a>
-                                </li>
+                                <li class="menu-item"><a href="#">Culture</a></li>
+                                <li class="menu-item"><a href="#">Career</a></li>
+                                <li class="menu-item"><a href="#">Vacancy</a></li>
+                               
                             </ul>
                         </div>
                     </li>
                     <li class="menu-item menu-item-has-children-mobile">
                         <a href="#dropdown-menu-three" class="item-menu-mobile collapsed" data-bs-toggle="collapse"
                             aria-expanded="true" aria-controls="dropdown-menu-three">
-                            Services
+                            REACH US
                         </a>
                         <div id="dropdown-menu-three" class="collapse" data-bs-parent="#menu-mobile-menu">
                             <ul class="sub-mobile">
-                                <li class="menu-item"><a href="services.html">Services</a></li>
-                                <li class="menu-item"><a href="#">Service Detail</a></li>
+                                <li class="menu-item"><a href="#">News & Media</a></li>
+                                <li class="menu-item"><a href="/contact-us">Contact Us</a></li>
                             </ul>
                         </div>
                     </li>
                     <li class="menu-item menu-item-has-children-mobile">
                         <a href="#dropdown-menu-four" class="item-menu-mobile collapsed" data-bs-toggle="collapse"
                             aria-expanded="true" aria-controls="dropdown-menu-four">
-                            Project
+                            CSR
                         </a>
                         <div id="dropdown-menu-four" class="collapse" data-bs-parent="#menu-mobile-menu">
                             <ul class="sub-mobile">
-                                <li class="menu-item"><a href="portfolio.html">Portfolio</a></li>
-                                <li class="menu-item"><a href="#">Portfolio Detail</a></li>
+                                <li class="menu-item"><a target="_blank" href="https://anvkafoundation.com/">Anvka Foundation</a></li>
+                                <li class="menu-item"><a target="_blank" href="https://azureinnolabs.com/">Azure Innovation Labs</a></li>
                             </ul>
                         </div>
-                    </li>
-                    <li class="menu-item menu-item-has-children-mobile">
-                        <a href="#dropdown-menu-five" class="item-menu-mobile collapsed" data-bs-toggle="collapse"
-                            aria-expanded="true" aria-controls="dropdown-menu-five">
-                            Blog
-                        </a>
-                        <div id="dropdown-menu-five" class="collapse" data-bs-parent="#menu-mobile-menu">
-                            <ul class="sub-mobile">
-                                <li class="menu-item"><a href="blog-full-width.html">Blog Full Width</a></li>
-                                <li class="menu-item"><a href="blog-with-sidebar.html">Blog With Sidebar</a></li>
-                                <li class="menu-item"><a href="blog-detail.html">Blog Detail</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="menu-item">
-                        <a href="contact.html" class="item-menu-mobile">Contact</a>
-                    </li>
+                    </li>                    
+                    
                 </ul>
                 <div class="support">
                     <a href="#" class="text-need text-body-2"> Need help?</a>
