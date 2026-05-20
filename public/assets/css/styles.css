@@ -23904,13 +23904,10 @@ a.mapboxgl-ctrl-logo {
   display: none !important;
 }
 
-@media (max-width: 767px) {
-  .dnonede {
-    display: block !important;
-  }
-}
+
 
 .headsocial a{background: #2b2a29; color: #fff !important;}
+
 .text-menu{text-transform: uppercase;}
 .cwhite{color: #fff;;}
 .bwhite{background-color: #fff !important;}
@@ -23944,4 +23941,8 @@ a.mapboxgl-ctrl-logo {
 
 .section-faqs-1 .blc{
     color: #2b2a29;
+}
+
+@media (max-width: 767px) {
+  .tf-social a {    height: 35px;    width: 35px;}
 }
