@@ -79,7 +79,7 @@ export default function Header() {
                                 <span class="bg-effect"></span>
                             </a> */}
                             <ul class="tf-social headsocial">
-                                <li><a href="#" class="icon-LinkedinLogo"></a></li>
+                                <li><a href="https://www.linkedin.com/company/anvkahealthcare/" class="icon-LinkedinLogo"></a></li>
                                 <li><a href="#" class="icon-x-logo"></a></li>
                                 <li><a href="#" class="icon-instagram-logo"></a></li>                                              
                             </ul>
@@ -170,7 +170,7 @@ export default function Header() {
                                 <span class="bg-effect"></span>
                             </a> */}
                             <ul class="tf-social headsocial">
-                                <li><a href="#" class="icon-LinkedinLogo"></a></li>
+                                <li><a href="https://www.linkedin.com/company/anvkahealthcare/" class="icon-LinkedinLogo"></a></li>
                                 <li><a href="#" class="icon-x-logo"></a></li>
                                 <li><a href="#" class="icon-instagram-logo"></a></li>                                              
                             </ul>
@@ -272,8 +272,7 @@ export default function Header() {
                             <div class="wrap-social">
                                 <p>Follow us:</p>
                                 <ul class="social ">
-                                    <li><a href="#" class="icon-Linkedin"></a></li>
-                                    <li><a href="#" class="icon-XLogo-2"></a></li>
+                                    <li><a href="https://www.linkedin.com/company/anvkahealthcare/" class="icon-Linkedin"></a></li>                           
                                     <li><a href="#" class="icon-InsLogo-fill"></a></li>
                                     <li><a href="#" class="icon-Youtube"></a></li>
                                 </ul>
