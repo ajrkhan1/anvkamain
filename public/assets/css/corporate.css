@@ -1,7 +1,7 @@
 :root {
     /* color */
     --Primary: #e31e24;
-    --Secondary: #154040;
+    --Secondary: #2b2a29;
     --font-main2: "Red Hat Display", sans-serif;
     --font-main3: "Manrope", sans-serif;
     --font-main4: "Rethink Sans", sans-serif;
@@ -35,4 +35,8 @@
 
 .tf-box-icon.style-2 {
     border-top: 1px solid var(--Line);
+}
+
+.tf-btn {
+    color:#fff;
 }
