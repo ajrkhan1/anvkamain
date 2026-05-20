@@ -49,7 +49,7 @@ export default function Header() {
                                             <span class="text" data-splitting>Reach Us</span>
                                         </a>
                                         <ul class="submenu">
-                                            <li><Link href="#">News & Media</Link></li>
+                                            <li><Link href="/news">News & Media</Link></li>
                                             <li><a href="/contact-us">Contact Us</a></li>
                                         </ul>
                                     </li>
@@ -140,7 +140,7 @@ export default function Header() {
                                             <span class="text" data-splitting>Reach Us</span>
                                         </a>
                                         <ul class="submenu">
-                                            <li><Link href="#">News & Media</Link></li>
+                                            <li><Link href="/news">News & Media</Link></li>
                                             <li><a href="/contact-us">Contact Us</a></li>
                                         </ul>
                                     </li>
@@ -187,10 +187,10 @@ export default function Header() {
                 </header>
 
 
-                <div class="offcanvas offcanvas-end mobile-nav-wrap " tabindex="-1" id="menu-mobile" aria-labelledby="menu-mobile">
+ <div class="offcanvas offcanvas-end mobile-nav-wrap " tabindex="-1" id="menu-mobile" aria-labelledby="menu-mobile">
         <div class="offcanvas-header top-nav-mobile">
             <div class="offcanvas-title">
-                <a href="index.html" class="site-logo">
+                <a href="/" class="site-logo">
                     <img src="./assets/images/logo/logoanv.png" alt="logo" class="main-logo" width="193" height="44"/>
                 </a>
             </div>
@@ -204,14 +204,14 @@ export default function Header() {
                     <li class="menu-item menu-item-has-children-mobile active">
                         <a href="#dropdown-menu-one" class="item-menu-mobile collapsed" data-bs-toggle="collapse"
                             aria-expanded="true" aria-controls="dropdown-menu-one">
-                            Demos
+                            Home
                         </a>
                         <div id="dropdown-menu-one" class="collapse" data-bs-parent="#menu-mobile-menu">
                             <ul class="sub-mobile">
-                                <li class="menu-item active"><a href="index.html">Corporate</a>
+                                <li class="menu-item active"><a href="/">Home</a>
                                 </li>
                                 <li class="menu-item"><a href="../demo-agency/index.html">Agency</a></li>
-                                <li class="menu-item"><a href="../demo-insurance/index.html">Insurance</a></li>
+                                <li class="menu-item"><a href="../demo-insurance/index.html">   </a></li>
                                 <li class="menu-item"><a href="../demo-medical/index.html">Medical</a></li>
                                 <li class="menu-item"><a href="../demo-restaurant/index.html">Restaurant</a>
                                 </li>
@@ -242,7 +242,7 @@ export default function Header() {
                     <li class="menu-item menu-item-has-children-mobile">
                         <a href="#dropdown-menu-two" class="item-menu-mobile collapsed" data-bs-toggle="collapse"
                             aria-expanded="true" aria-controls="dropdown-menu-two">
-                            Pages
+                            gfgdf
                         </a>
                         <div id="dropdown-menu-two" class="collapse" data-bs-parent="#menu-mobile-menu">
                             <ul class="sub-mobile ">
