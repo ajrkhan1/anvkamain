@@ -3621,7 +3621,7 @@ a:focus, a:hover {
 .navigation .submenu li a {
   display: inline-block;
   width: 100%;
-  padding: 10px 15px;
+  padding: 7px 12px;
   color: var(--Text-primary);
 }
 .navigation .submenu li.current-item > a, .navigation .submenu li:hover > a {
@@ -23932,6 +23932,7 @@ a.mapboxgl-ctrl-logo {
     color: #2b2a29;
 }
 .submenu li a{font-size: 13px;}
+.submenu li a:hover{background-color: #e31e24; color: #fff !important;}
 @media (max-width: 767px) {
   .tf-social a {height: 35px; width: 35px;}
   .videsl video{min-height: 400px !important;}
