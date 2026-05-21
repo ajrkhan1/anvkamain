@@ -30,7 +30,8 @@ export default function Header() {
                                             <li><a href="/brands/medical-implats">Medical Implats</a></li>
                                             <li><a href="/brands/curewith3d">Curewith3D</a></li>
                                             <li><a href="/brands/indiamd">IndiaMD</a></li>
-                                            <li><a href="/brands/caretab">CareTAB</a></li>                                            
+                                            <li><a href="/brands/caretab">CareTAB</a></li>
+                                            <li><a href="/brands/akiechef">AkieChef</a></li>
                                             <li><a href="#">Tumble</a></li>
                                         </ul>
                                     </li>
@@ -122,7 +123,7 @@ export default function Header() {
                                             <li><a href="/brands/curewith3d">Curewith3D</a></li>
                                             <li><a href="/brands/indiamd">IndiaMD</a></li>
                                             <li><a href="/brands/caretab">CareTAB</a></li>
-                                            <li><a href="/brands/caretab">AkieChef</a></li>                                            
+                                            <li><a href="/brands/akiechef">AkieChef</a></li>                                       
                                             <li><a href="#">Tumble</a></li>
                                         </ul>
                                     </li>
@@ -220,6 +221,7 @@ export default function Header() {
                                 <li class="menu-item"><a href="#">Medical Implats</a></li>
                                 <li class="menu-item"><a href="/indiamd">IndiaMD</a></li>
                                 <li class="menu-item"><a href="/brands/caretab">CareTAB</a></li>
+                                <li class="menu-item"><a href="/brands/akiechef">AkieChef</a></li>                                
                                 <li class="menu-item"><a href="#">Tumble</a></li>
                             </ul>
                         </div>
