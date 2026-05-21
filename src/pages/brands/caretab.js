@@ -29,9 +29,9 @@ export default function Home() {
                             <div className="row">
                                 <div className="col-sm-8">
                                     <h2 class="text_white">Your health partner for life</h2>
-                                    <p className="headrp">
+                                    {/* <p className="headrp">
                                         Care(T.A.B).ai envisions building a quality-driven, outcome-focused, and tech-enabled ecosystem for healthcare delivery beyond hospital walls.
-                                    </p>
+                                    </p> */}
                                 </div>
 
                                 <div className="col-sm-4">
@@ -54,15 +54,17 @@ export default function Home() {
                                 <div class="row align-items-end">
                                     <div class="col-lg-12">
                                         <br/><br/><br/>
-                                        <h3 class="title text_primary title split-text effect-right">About Lintex</h3>
+                                        <h3 class="title text_primary title split-text effect-right">CareTAB.ai</h3>
                                         <br></br>
-                                        <p>Picture a small room filled with big dreams. That's where Lintex was born. A bunch of workwear enthusiasts with a shared goal: to inject some style and fun into the world of uniforms. A group of workwear aficionados came together with a vision. They pondered upon a simple yet profound question: "Why does work attire have to be so uninspiring?" And then flourished the idea of establishing “Lintex”. Our journey began with this very question, driven by a desire to redefine the world of uniforms.</p>
+                                        <p>
+                                            Healthcare does not end when a patient leaves the hospital. Recovery, rehabilitation, chronic disease management, and elderly care often require continuous medical attention at home. For many families, finding trusted healthcare professionals who can deliver reliable and timely support becomes a major challenge. 
+                                        </p>
                                         <br></br>
-                                        <p>The Lintex brand derives its name from the combination of two words: "Linen" and "Textile." Lintex holds the distinction of being India's pioneer in creating an immersive retail space dedicated to uniforms and medical attire. At our experience store, customers have the opportunity to personally engage with our wide range of options, allowing them to carefully select the ideal colour, fabric, and style that best suits their personal preferences and brand needs. From those humble beginnings, we've steadily grown into a brand that's reshaping how people perceive work clothing.</p>
+                                        <p>
+                                            To bridge this gap, ANVKA introduced CareTAB.ai — an innovative home healthcare platform designed to deliver hospital-quality care directly to patients in the comfort of their homes. Combining advanced technology, AI-powered healthcare support, and professionally trained medical experts, CareTAB.ai ensures that patients receive continuous, compassionate, and personalized care whenever they need it. 
+                                        </p>
                                     </div>
-                                    <div class="col-lg-12">
-                                        
-                                    </div>
+                                     
                                 </div>
                             </div>                         
                         </div>
@@ -75,8 +77,7 @@ export default function Home() {
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="">                                            
-                                            <h2 class="title split-text effect-left">Caring Healthcare You Can Trust
-                                            </h2>
+                                            <h3 class="title split-text effect-left">Caring Healthcare You Can Trust</h3>
                                         </div>
                                     </div>
                                    
@@ -85,49 +86,40 @@ export default function Home() {
                             <div class="tf-grid-layout md-col-3 gap_30">
                                 <div class="portfolio-item style-2 hover-image-2">
                                     <a href="#" class="img-style">
-                                        <img src="/assets/images/portfolio-item-2.jpg" alt="about-item"/>
+                                        <img src="/assets/images/doctor-consultations.webp" alt="about-item"/>
                                     </a>
                                     <div class="content">
-                                        <a href="#" class="title mb_8 link h5">Experienced Professionals</a>
-                                        <p class="text_secondary mb_16">Over 20 years of trusted medical expertise,
-                                            delivering
-                                            consistent and compassionate care.</p>
+                                        <a href="#" class="title mb_8 link h5">Doctor Consultations</a>
+                                        <p class="text_secondary mb_16">From tele-consultations to emergency visits, expert care is just one call away.</p>
                                         <div>
                                             <a href="#"
-                                                class="hover-underline-link text_primary-color text-button">Our
-                                                Teams</a>
+                                                class="hover-underline-link text_primary-color text-button">Read More</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="portfolio-item style-2 hover-image-2">
                                     <a href="#" class="img-style">
-                                        <img src="/assets/images/portfolio-item-3.jpg" alt="about-item"/>
+                                        <img src="/assets/images/nursing-care.webp" alt="about-item"/>
                                     </a>
                                     <div class="content">
-                                        <a href="#" class="title mb_8 link h5">State-Of-The-Art Facilities.</a>
-                                        <p class="text_secondary mb_16">Equipped with cutting-edge technology to ensure
-                                            accurate, efficient, and safe medical services.</p>
+                                        <a href="#" class="title mb_8 link h5">Nursing Care</a>
+                                        <p class="text_secondary mb_16">Short & long-term nursing care including post-op, palliative & respiratory care.</p>
                                         <div>
                                             <a href="#"
-                                                class="hover-underline-link text_primary-color text-button">Our
-                                                Services</a>
+                                                class="hover-underline-link text_primary-color text-button">Read More</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="portfolio-item style-2 hover-image-2">
                                     <a href="#" class="img-style">
-                                        <img src="/assets/images/portfolio-item-4.jpg" alt="about-item"/>
+                                        <img src="/assets/images/icu.webp" alt="about-item"/>
                                     </a>
                                     <div class="content">
-                                        <a href="#" class="title mb_8 link h5">Personalized Treatment
-                                            Plans.</a>
-                                        <p class="text_secondary mb_16">Care tailored to your unique health needs, with
-                                            expert
-                                            guidance every step forward.</p>
+                                        <a href="#" class="title mb_8 link h5">ICU Setup at Home</a>
+                                        <p class="text_secondary mb_16">Complete intensive care environment setup with ventilators, monitors, & skilled staff.</p>
                                         <div>
                                             <a href="#"
-                                                class="hover-underline-link text_primary-color text-button">Contact
-                                                Us</a>
+                                                class="hover-underline-link text_primary-color text-button">Read More</a>
                                         </div>
                                     </div>
                                 </div>

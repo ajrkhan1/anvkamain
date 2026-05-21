@@ -29,7 +29,7 @@ export default function Header() {
                                             <li><Link href="/brands/lintex">Lintex</Link></li>
                                             <li><a href="/brands/medical-implats">Medical Implats</a></li>
                                             <li><a href="/brands/curewith3d">Curewith3D</a></li>
-                                            <li><a href="/brands/IndiaMD">IndiaMD</a></li>
+                                            <li><a href="/brands/indiamd">IndiaMD</a></li>
                                             <li><a href="/brands/caretab">CareTAB</a></li>                                            
                                             <li><a href="#">Tumble</a></li>
                                         </ul>
@@ -120,7 +120,7 @@ export default function Header() {
                                             <li><Link href="/brands/lintex">LINTEX </Link></li>
                                             <li><a href="/brands/medical-implats">Medical Implats</a></li>
                                             <li><a href="/brands/curewith3d">Curewith3D</a></li>
-                                            <li><a href="/brands/IndiaMD">IndiaMD</a></li>
+                                            <li><a href="/brands/indiamd">IndiaMD</a></li>
                                             <li><a href="/brands/caretab">CareTAB</a></li>
                                             <li><a href="/brands/caretab">AkieChef</a></li>                                            
                                             <li><a href="#">Tumble</a></li>
@@ -216,10 +216,10 @@ export default function Header() {
                         <div id="dropdown-menu-one" class="collapse" data-bs-parent="#menu-mobile-menu">
                             <ul class="sub-mobile">                               
                                 <li class="menu-item"><a href="/brands/lintex">Linte</a></li>
-                                <li class="menu-item"><a href="/brands/curewith3d">Curewith3D</a></li>
-                                <li class="menu-item"><a href="/brands/caretab">CareTAB</a></li>
+                                <li class="menu-item"><a href="/brands/curewith3d">Curewith3D</a></li>                                
                                 <li class="menu-item"><a href="#">Medical Implats</a></li>
-                                <li class="menu-item"><a href="#">IndiaMD</a></li>
+                                <li class="menu-item"><a href="/indiamd">IndiaMD</a></li>
+                                <li class="menu-item"><a href="/brands/caretab">CareTAB</a></li>
                                 <li class="menu-item"><a href="#">Tumble</a></li>
                             </ul>
                         </div>
