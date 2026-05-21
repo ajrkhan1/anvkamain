@@ -38,7 +38,7 @@ export default function Home() {
                                 </div> */}
                             </div>
                         </div>
-                        <div class="support">
+                        {/* <div class="support">
                             <div class="tf-container">
                                 <div class="wrap d-flex">
                                     <h6 class="font-main text_white flex-0 title">The Support You Deserve:</h6>
@@ -54,7 +54,7 @@ export default function Home() {
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 

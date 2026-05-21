@@ -11297,6 +11297,7 @@ form textarea.style-line-bottom:focus {
 .hero-banner-3 .content {
   position: absolute;
   inset: 0;
+  bottom: 40%;
   display: flex;
   justify-content: end;
   flex-direction: column;
