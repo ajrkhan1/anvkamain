@@ -2785,14 +2785,14 @@ a:focus, a:hover {
   margin-right: auto;
 }
 .header.style-3 .header-inner {
-  padding: 0 40px;
+  padding: 0 15px;
   padding-right: 14px;
   border-radius: 80px;
   background-color: var(--White);
 }
 @media (max-width: 991px) {
   .header.style-3 .header-inner {
-    padding: 0 15px;
+    padding: 0 0px;
   }
 }
 .header.style-3 .header-right {
