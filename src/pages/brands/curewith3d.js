@@ -91,8 +91,7 @@ export default function Home() {
                                         <p class="text_secondary mb_16">You want every procedure to feel well-planned, accurate, and predictable. With patient-specific implants, you move closer to that level of precision.</p>
                                         <div>
                                             <a href="#"
-                                                class="hover-underline-link text_primary-color text-button">Our
-                                                Teams</a>
+                                                class="hover-underline-link text_primary-color text-button">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -105,8 +104,7 @@ export default function Home() {
                                         <p class="text_secondary mb_16">At Curewith3D, you get more than a standard surgical tool — you get a guide created to support your accuracy inside the operating room.</p>
                                         <div>
                                             <a href="#"
-                                                class="hover-underline-link text_primary-color text-button">Our
-                                                Services</a>
+                                                class="hover-underline-link text_primary-color text-button">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -119,8 +117,7 @@ export default function Home() {
                                         <p class="text_secondary mb_16">At CureWith3D, you get a planning workflow built to match the way you operate. Whether you’re reconstructing a jaw, preparing a fibula flap,</p>
                                         <div>
                                             <a href="#"
-                                                class="hover-underline-link text_primary-color text-button">Contact
-                                                Us</a>
+                                                class="hover-underline-link text_primary-color text-button">Read More</a>
                                         </div>
                                     </div>
                                 </div>

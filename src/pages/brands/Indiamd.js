@@ -97,7 +97,7 @@ export default function Home() {
                                         <p class="text_secondary mb_16">India offers advanced medical treatments with internationally trained doctors and modern hospitals at significantly lower costs compared to many countries, making quality healthcare more accessible.</p>
                                         <div>
                                             <a href="#"
-                                                class="hover-underline-link text_primary-color text-button">Our Teams</a>
+                                                class="hover-underline-link text_primary-color text-button">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -110,8 +110,7 @@ export default function Home() {
                                         <p class="text_secondary mb_16">India is known for highly experienced specialists across cardiology, oncology, orthopedics, IVF, organ transplants, and more, supported by cutting-edge medical infrastructure and accredited hospitals.</p>
                                         <div>
                                             <a href="#"
-                                                class="hover-underline-link text_primary-color text-button">Our
-                                                Services</a>
+                                                class="hover-underline-link text_primary-color text-button">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -124,8 +123,7 @@ export default function Home() {
                                         <p class="text_secondary mb_16">Beyond treatment, India combines medical care with wellness options like Ayurveda, Yoga, rehabilitation, and hospitality support, helping international patients recover comfortably.</p>
                                         <div>
                                             <a href="#"
-                                                class="hover-underline-link text_primary-color text-button">Contact
-                                                Us</a>
+                                                class="hover-underline-link text_primary-color text-button">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -140,11 +138,11 @@ export default function Home() {
                                 <div class="row align-items-center">
                                     <div class="col-lg-6">
                                         <div class="heading">
-                                            <h3 class="title split-text split-lines-rotation-x cwhite">Partner with Us for a <br></br>Healthier Tomorrow</h3>
+                                            <h2 class="title split-text split-lines-rotation-x cwhite">Partner with Us for a Healthier Tomorrow</h2>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
-                                        <div class="content">
+                                        <div class="content">                                           
                                             <div class="wrap-btn d-flex gap_20 flex-wrap wow fadeInUp">
                                                 <a href="#" class="tf-btn btn-hover-animate-2 btn-bg-secondary">
                                                     <span>Schedule A Free Consultation</span>

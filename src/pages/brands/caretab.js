@@ -128,129 +128,29 @@ export default function Home() {
                     </div>
                     <br/><br/><br/><br/>
 
-                    <div class="section-faqs-1 tf-spacing-1">
+                    <div class="section-cta tf-spacing-1">
                         <div class="tf-container">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="heading-section style-default">
-                                        <div class="sub text-label text-uppercase lh-20 split-text effect-up">FAQs</div>
-                                        <h2 class="title split-text effect-blur-fade">Frequently Asked Questions</h2>
-                                        <p
-                                            class="desc text-body-default text_secondary split-text split-lines-transform blc">
-                                            Subscribe to get the latest company news, expert insights, and industry trends delivered straight to your inbox — no spam, just value.</p>
+                            <div class="content-inner">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6">
+                                        <div class="heading">
+                                            <h2 class="title split-text split-lines-rotation-x cwhite">Partner with Us for a Healthier Tomorrow</h2>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <ul class="accordion-wrap d-grid gap_16" id="accordion-faq">
-                                        <li class="accordion-item style-2 action_click wow fadeInRight active"
-                                            data-wow-delay=".1s">
-                                            <a href="#accordion-faq-1" class="accordion-title action "
-                                                data-bs-toggle="collapse" aria-expanded="true"
-                                                aria-controls="accordion-faq-1">
-                                                <div class="heading">
-                                                    <h5 class="title text-capitalize">
-                                                        Q1: What types of insurance do you offer?
-                                                    </h5>
-                                                    <span class="icon"></span>
-                                                </div>
-                                            </a>
-                                            <div id="accordion-faq-1" class="collapse show"
-                                                data-bs-parent="#accordion-faq">
-                                                <div class="accordion-faqs-content">
-                                                    <p class="text-body-default text_secondary">
-                                                        Simply fill out our online form or contact us directly — we’ll
-                                                        send you
-                                                        a personalized quote within 24 hours.
-                                                    </p>
-                                                </div>
+                                    <div class="col-lg-6">
+                                        <div class="content">                                           
+                                            <div class="wrap-btn d-flex gap_20 flex-wrap wow fadeInUp">
+                                                <a href="#" class="tf-btn btn-hover-animate-2 btn-bg-secondary">
+                                                    <span>Schedule A Free Consultation</span>
+                                                    <span></span>
+                                                </a>
+                                                <a href="#" class="tf-btn btn-hover-animate-border style-border-2 bwhite">
+                                                    <span>Call Us: +91-92055 59801</span>
+                                                    <span></span>
+                                                </a>
                                             </div>
-                                        </li>
-                                        <li class="accordion-item style-2 action_click wow fadeInRight"
-                                            data-wow-delay=".2s">
-                                            <a href="#accordion-faq-2" class="accordion-title action  collapsed"
-                                                data-bs-toggle="collapse" aria-expanded="false"
-                                                aria-controls="accordion-faq-2">
-                                                <div class="heading">
-                                                    <h5 class="title text-capitalize">
-                                                        Q2: How do I get a quote?</h5>
-                                                    <span class="icon"></span>
-                                                </div>
-                                            </a>
-                                            <div id="accordion-faq-2" class="collapse" data-bs-parent="#accordion-faq">
-                                                <div class="accordion-faqs-content">
-                                                    <p class="text-body-default text_secondary">
-                                                        Simply fill out our online form or contact us directly — we’ll
-                                                        send you
-                                                        a personalized quote within 24 hours.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="accordion-item style-2 action_click wow fadeInRight"
-                                            data-wow-delay=".3s">
-                                            <a href="#accordion-faq-3" class="accordion-title action  collapsed"
-                                                data-bs-toggle="collapse" aria-expanded="false"
-                                                aria-controls="accordion-faq-3">
-                                                <div class="heading">
-                                                    <h5 class="title text-capitalize">
-                                                        Q3: Is there a free consultation before I buy a plan?</h5>
-                                                    <span class="icon"></span>
-                                                </div>
-                                            </a>
-                                            <div id="accordion-faq-3" class="collapse" data-bs-parent="#accordion-faq">
-                                                <div class="accordion-faqs-content">
-                                                    <p class="text-body-default text_secondary">
-                                                        Simply fill out our online form or contact us directly — we’ll
-                                                        send you
-                                                        a personalized quote within 24 hours.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="accordion-item style-2 action_click wow fadeInRight"
-                                            data-wow-delay=".4s">
-                                            <a href="#accordion-faq-4" class="accordion-title action  collapsed"
-                                                data-bs-toggle="collapse" aria-expanded="false"
-                                                aria-controls="accordion-faq-4">
-                                                <div class="heading">
-                                                    <h5 class="title text-capitalize">
-                                                        Q4: Can I customize my insurance plan?</h5>
-                                                    <span class="icon"></span>
-                                                </div>
-                                            </a>
-                                            <div id="accordion-faq-4" class="collapse" data-bs-parent="#accordion-faq">
-                                                <div class="accordion-faqs-content">
-                                                    <p class="text-body-default text_secondary">
-                                                        Simply fill out our online form or contact us directly — we’ll
-                                                        send you
-                                                        a personalized quote within 24 hours.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="accordion-item style-2 action_click wow fadeInRight"
-                                            data-wow-delay=".5s">
-                                            <a href="#accordion-faq-5" class="accordion-title action  collapsed"
-                                                data-bs-toggle="collapse" aria-expanded="false"
-                                                aria-controls="accordion-faq-5">
-                                                <div class="heading">
-                                                    <h5 class="title text-capitalize">
-                                                        Q5: What if I want to cancel my policy?
-                                                    </h5>
-                                                    <span class="icon"></span>
-                                                </div>
-                                            </a>
-                                            <div id="accordion-faq-5" class="collapse" data-bs-parent="#accordion-faq">
-                                                <div class="accordion-faqs-content">
-                                                    <p class="text-body-default text_secondary">
-                                                        Simply fill out our online form or contact us directly — we’ll
-                                                        send you
-                                                        a personalized quote within 24 hours.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
