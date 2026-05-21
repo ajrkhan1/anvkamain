@@ -74,64 +74,6 @@ export default function Home() {
                         </div>
                     </div>
 
-
-                     <div class="section-about-3">
-                        <div class="tf-container medium">
-                            <div class="heading-section-5 mb_48">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="">                                            
-                                            <h3 class="title split-text effect-left">India Medical Destination</h3>
-                                        </div>
-                                    </div>
-                                   
-                                </div>
-                            </div>
-                            <div class="tf-grid-layout md-col-3 gap_30">
-                                <div class="portfolio-item style-2 hover-image-2">
-                                    <a href="#" class="img-style">
-                                        <img src="/assets/images/world-class-healthcare.webp" alt="about-item"/>
-                                    </a>
-                                    <div class="content">
-                                        <a href="#" class="title mb_8 link h5">World-Class Healthcare at Affordable Cost</a>
-                                        <p class="text_secondary mb_16">India offers advanced medical treatments with internationally trained doctors and modern hospitals at significantly lower costs compared to many countries, making quality healthcare more accessible.</p>
-                                        <div>
-                                            <a href="#"
-                                                class="hover-underline-link text_primary-color text-button">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="portfolio-item style-2 hover-image-2">
-                                    <a href="#" class="img-style">
-                                        <img src="/assets/images/expert-doctors.webp" alt="about-item"/>
-                                    </a>
-                                    <div class="content">
-                                        <a href="#" class="title mb_8 link h5">Expert Doctors & Advanced Medical Technology</a>
-                                        <p class="text_secondary mb_16">India is known for highly experienced specialists across cardiology, oncology, orthopedics, IVF, organ transplants, and more, supported by cutting-edge medical infrastructure and accredited hospitals.</p>
-                                        <div>
-                                            <a href="#"
-                                                class="hover-underline-link text_primary-color text-button">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="portfolio-item style-2 hover-image-2">
-                                    <a href="#" class="img-style">
-                                        <img src="/assets/images/complete-healing-experience.webp" alt="about-item"/>
-                                    </a>
-                                    <div class="content">
-                                        <a href="#" class="title mb_8 link h5">Complete Healing Experience</a>
-                                        <p class="text_secondary mb_16">Beyond treatment, India combines medical care with wellness options like Ayurveda, Yoga, rehabilitation, and hospitality support, helping international patients recover comfortably.</p>
-                                        <div>
-                                            <a href="#"
-                                                class="hover-underline-link text_primary-color text-button">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br/><br/><br/><br/>
-
                     <div class="section-cta tf-spacing-1">
                         <div class="tf-container">
                             <div class="content-inner">
