@@ -23934,4 +23934,5 @@ a.mapboxgl-ctrl-logo {
 
 @media (max-width: 767px) {
   .tf-social a {height: 35px; width: 35px;}
+  .videsl video{min-height: 500px !important;}
 }
