@@ -244,7 +244,7 @@ export default function Header() {
                         </a>
                         <div id="dropdown-menu-three" class="collapse" data-bs-parent="#menu-mobile-menu">
                             <ul class="sub-mobile">
-                                <li class="menu-item"><a href="#">News & Media</a></li>
+                                <li class="menu-item"><a href="/news">News & Media</a></li>
                                 <li class="menu-item"><a href="/contact-us">Contact Us</a></li>
                             </ul>
                         </div>
