@@ -1,5 +1,7 @@
 
 @import url(./bootstrap-select.min.css);
+
+
 :root {
   --font-main: "Plus Jakarta Sans", sans-serif;
   --font-main2: "Red Hat Display", sans-serif;
@@ -19,7 +21,7 @@
   --Bg-dark-2: #0F191C;
   --Placehover: #c1c1c1;
 }
-
+h1, h2, h3, h4, h5, h6, p{color: #2b2a29;}
 
 
 /*---------- Reset css styles ----------- */
@@ -1293,7 +1295,7 @@ a:focus, a:hover {
   border-radius: 32px !important;
 }
 
-h1, h2, h3, h4, h5, h6, div,span, p{color: #2b2a29;}
+
 
 .gap_0 {
   gap: 0;
