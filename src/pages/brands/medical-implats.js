@@ -54,12 +54,17 @@ export default function Home() {
                                 <div class="row align-items-end">
                                     <div class="col-lg-12">
                                         <br/><br/><br/>
-                                        <h3 class="title text_primary title split-text effect-right">About Lintex</h3>
-                                        <br></br>
-                                        <p>The story of LINTEX began with empathy, observation, and a desire to solve real-world problems. The ideas that eventually shaped the brand did not emerge overnight. Instead, they developed gradually through meaningful interactions and a deep understanding of human needs. </p>
+                                        <h3 class="title text_primary title split-text effect-right">Medical Implats</h3>
+                                        <br></br><br></br>
+                                        <p>
+                                            At ANVKA, we believe that healthcare innovation is not only about creating new technologies, but also about ensuring that world-class medical solutions reach the patients and healthcare providers who need them most. Our Medical Implants division is built on this vision — strengthening healthcare delivery across India through trusted partnerships with globally recognized implant manufacturers.
+                                        </p>
                                         <br></br>
                                         <p>
-                                            One such defining moment came during interactions with new mothers. Breastfeeding women often struggled to find clothing that was comfortable, functional, dignified, and suited to their changing lifestyles during one of the most demanding phases of life. What began as a thoughtful initiative to distribute breastfeeding and lactation-friendly garments soon uncovered a much larger gap in the apparel industry — the lack of purpose-driven clothing designed around comfort, practicality, and functionality. 
+                                            By collaborating with leading international companies, we bring advanced implant technologies and high-quality medical devices to hospitals, surgeons, and healthcare institutions. Our focus is on reliability, precision, and accessibility, enabling medical professionals to perform complex procedures with confidence while ensuring better patient outcomes.
+                                        </p><br></br>
+                                        <p>
+                                            With a strong understanding of healthcare requirements and a commitment to operational excellence, ANVKA serves as a dependable bridge between global innovation and local healthcare systems. From sourcing premium-quality implants to ensuring seamless supply and technical support, we work closely with healthcare providers at every stage. 
                                         </p>
                                     </div>
                                     <div class="col-lg-12">
@@ -71,7 +76,7 @@ export default function Home() {
                     </div>
 
 
-                     <div class="section-about-3">
+                     {/* <div class="section-about-3">
                         <div class="tf-container medium">
                             <div class="heading-section-5 mb_48">
                                 <div class="row">
@@ -136,7 +141,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <br/><br/><br/><br/>
+                    <br/><br/><br/><br/> */}
 
                    <div class="section-cta tf-spacing-1">
                         <div class="tf-container">
@@ -144,7 +149,7 @@ export default function Home() {
                                 <div class="row align-items-center">
                                     <div class="col-lg-6">
                                         <div class="heading">
-                                            <h2 class="title split-text split-lines-rotation-x cwhite">Partner with Us for a Healthier Tomorrow</h2>
+                                            <h3 class="title split-text split-lines-rotation-x cwhite">Partner with Us for a Healthier Tomorrow</h3>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">

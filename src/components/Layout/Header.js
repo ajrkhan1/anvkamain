@@ -27,9 +27,10 @@ export default function Header() {
                                         </a>
                                         <ul class="submenu">
                                             <li><Link href="/brands/lintex">Lintex</Link></li>
+                                            <li><a href="/brands/medical-implats">Medical Implats</a></li>
                                             <li><a href="/brands/curewith3d">Curewith3D</a></li>
                                             <li><a href="/brands/caretab">CareTAB</a></li>
-                                            <li><a href="/brands/medical-implats">Medical Implats</a></li>
+                                            
                                             <li><a href="/brands/IndiaMD">IndiaMD</a></li>
                                             <li><a href="#">Tumble</a></li>
                                         </ul>
@@ -117,10 +118,11 @@ export default function Header() {
                                             <span class="text" data-splitting>All Verticals</span>
                                         </a>
                                         <ul class="submenu">
-                                            <li><Link href="/brands/lintex">Lintex</Link></li>
+                                            <li><Link href="/brands/lintex">LINTEX </Link></li>
+                                            <li><a href="/brands/medical-implats">Medical Implats</a></li>
                                             <li><a href="/brands/curewith3d">Curewith3D</a></li>
                                             <li><a href="/brands/caretab">CareTAB</a></li>
-                                            <li><a href="/brands/medical-implats">Medical Implats</a></li>
+                                            <li><a href="/brands/caretab">AkieChef</a></li>                                            
                                             <li><a href="/brands/IndiaMD">IndiaMD</a></li>
                                             <li><a href="#">Tumble</a></li>
                                         </ul>

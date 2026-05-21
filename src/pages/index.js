@@ -25,7 +25,7 @@ export default function Home() {
                         <div class="tf-container">
                             <div class="row align-items-center">
                                 <div class="col-lg-8">
-                                    <h1 class="title text_white split-text effect-right">ANVKA HEALTHCARE</h1>
+                                    <h1 class="title text_white split-text effect-right">Where Excellence Meets Innovation!</h1>
                                 </div>
                                 {/* <div class="col-lg-6">
                                     <div class="right">
@@ -373,33 +373,7 @@ export default function Home() {
                         </div>
                     </div> */}
                    
-                    {/* <div class="section-cta tf-spacing-1">
-                        <div class="tf-container">
-                            <div class="content-inner">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6">
-                                        <div class="heading">
-                                            <h2 class="title split-text split-lines-rotation-x cwhite">Ready To Take Your Business Further?</h2>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="content">                                           
-                                            <div class="wrap-btn d-flex gap_20 flex-wrap wow fadeInUp">
-                                                <a href="#" class="tf-btn btn-hover-animate-2 btn-bg-secondary">
-                                                    <span>Schedule A Free Consultation</span>
-                                                    <span></span>
-                                                </a>
-                                                <a href="#" class="tf-btn btn-hover-animate-border style-border-2 bwhite">
-                                                    <span>Call Us: +91-92055 59801</span>
-                                                    <span></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
+                    
                
                     {/* <div class="section-testimonial tf-spacing-1">
                         <div class="tf-container">
