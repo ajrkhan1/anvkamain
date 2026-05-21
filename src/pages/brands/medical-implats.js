@@ -16,7 +16,7 @@ export default function Home() {
 
             <div class="page-layout-v04">
                     <div class="img-style">
-                        <img class="img-cover" width="1920" height="720" loading="eager" decoding="async" src="/assets/images/lintexb.webp" alt="page-title"/>
+                        <img class="img-cover" width="1920" height="720" loading="eager" decoding="async" src="/assets/images/medical-implants.webp" alt="page-title"/>
                     </div>
                     <div class="content">
                         <div class="tf-container">
@@ -28,10 +28,10 @@ export default function Home() {
                             </ul> */}
                             <div className="row">
                                 <div className="col-sm-8">
-                                    <h2 class="text_white">Purpose-Driven Uniform Solutions</h2>
-                                    <p className="headrp">
+                                    <h2 class="text_white">Medical Implats</h2>
+                                    {/* <p className="headrp">
                                         The story of LINTEX began with empathy, observation, and a desire to solve real-world problems. The ideas that eventually shaped the brand did not emerge overnight.
-                                    </p>
+                                    </p> */}
                                 </div>
 
                                 <div className="col-sm-4">
@@ -47,7 +47,7 @@ export default function Home() {
                 </div>
 
 
-                <div class="main-content">                    
+                <div class="main-content">
                     <div class="section-contact">
                         <div class="tf-container medium">
                             <div class="mb_48">
@@ -64,14 +64,14 @@ export default function Home() {
                                             By collaborating with leading international companies, we bring advanced implant technologies and high-quality medical devices to hospitals, surgeons, and healthcare institutions. Our focus is on reliability, precision, and accessibility, enabling medical professionals to perform complex procedures with confidence while ensuring better patient outcomes.
                                         </p><br></br>
                                         <p>
-                                            With a strong understanding of healthcare requirements and a commitment to operational excellence, ANVKA serves as a dependable bridge between global innovation and local healthcare systems. From sourcing premium-quality implants to ensuring seamless supply and technical support, we work closely with healthcare providers at every stage. 
+                                            With a strong understanding of healthcare requirements and a commitment to operational excellence, ANVKA serves as a dependable bridge between global innovation and local healthcare systems. From sourcing premium-quality implants to ensuring seamless supply and technical support, we work closely with healthcare providers at every stage.
                                         </p>
                                     </div>
                                     <div class="col-lg-12">
-                                        
+
                                     </div>
                                 </div>
-                            </div>                         
+                            </div>
                         </div>
                     </div>
 
@@ -81,12 +81,12 @@ export default function Home() {
                             <div class="heading-section-5 mb_48">
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <div class="">                                            
+                                        <div class="">
                                             <h2 class="title split-text effect-left">Caring Healthcare You Can Trust
                                             </h2>
                                         </div>
                                     </div>
-                                   
+
                                 </div>
                             </div>
                             <div class="tf-grid-layout md-col-3 gap_30">
@@ -153,7 +153,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
-                                        <div class="content">                                           
+                                        <div class="content">
                                             <div class="wrap-btn d-flex gap_20 flex-wrap wow fadeInUp">
                                                 <a href="#" class="tf-btn btn-hover-animate-2 btn-bg-secondary">
                                                     <span>Schedule A Free Consultation</span>

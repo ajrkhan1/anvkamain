@@ -54,11 +54,11 @@ export default function Home() {
                                 <div class="row align-items-end">
                                     <div class="col-lg-12">
                                         <br/><br/><br/>
-                                        <h3 class="title text_primary title split-text effect-right">About Lintex</h3>
+                                        <h3 class="title text_primary title split-text effect-right">Curewith3D</h3>
                                         <br></br>
-                                        <p>Picture a small room filled with big dreams. That's where Lintex was born. A bunch of workwear enthusiasts with a shared goal: to inject some style and fun into the world of uniforms. A group of workwear aficionados came together with a vision. They pondered upon a simple yet profound question: "Why does work attire have to be so uninspiring?" And then flourished the idea of establishing “Lintex”. Our journey began with this very question, driven by a desire to redefine the world of uniforms.</p>
+                                        <p>As healthcare innovation continued to evolve, a significant challenge became increasingly evident in operating rooms worldwide. During complex surgical procedures, surgeons often found that traditional implants and standard surgical tools could not always accommodate the unique anatomy of every patient. Each case required a level of precision and personalization that conventional solutions struggled to deliver consistently.</p>
                                         <br></br>
-                                        <p>The Lintex brand derives its name from the combination of two words: "Linen" and "Textile." Lintex holds the distinction of being India's pioneer in creating an immersive retail space dedicated to uniforms and medical attire. At our experience store, customers have the opportunity to personally engage with our wide range of options, allowing them to carefully select the ideal colour, fabric, and style that best suits their personal preferences and brand needs. From those humble beginnings, we've steadily grown into a brand that's reshaping how people perceive work clothing.</p>
+                                        <p>This challenge became the foundation for Curewith3D, an advanced healthcare innovation platform focused on patient-specific implants, customized surgical guides, anatomical models, and virtual surgery planning. By integrating cutting-edge engineering with modern medicine, Curewith3D empowers surgeons with highly accurate, customized solutions designed specifically for each patient’s anatomy.</p>
                                     </div>
                                     <div class="col-lg-12">
                                         
@@ -75,8 +75,7 @@ export default function Home() {
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="">                                            
-                                            <h2 class="title split-text effect-left">Caring Healthcare You Can Trust
-                                            </h2>
+                                            <h3 class="title split-text effect-left">3D Printing Services</h3>
                                         </div>
                                     </div>
                                    
@@ -85,13 +84,11 @@ export default function Home() {
                             <div class="tf-grid-layout md-col-3 gap_30">
                                 <div class="portfolio-item style-2 hover-image-2">
                                     <a href="#" class="img-style">
-                                        <img src="/assets/images/portfolio-item-2.jpg" alt="about-item"/>
+                                        <img src="/assets/images/patient-specific-implants.webp" alt="about-item"/>
                                     </a>
                                     <div class="content">
-                                        <a href="#" class="title mb_8 link h5">Experienced Professionals</a>
-                                        <p class="text_secondary mb_16">Over 20 years of trusted medical expertise,
-                                            delivering
-                                            consistent and compassionate care.</p>
+                                        <a href="#" class="title mb_8 link h5">Patient Specific Implants</a>
+                                        <p class="text_secondary mb_16">You want every procedure to feel well-planned, accurate, and predictable. With patient-specific implants, you move closer to that level of precision.</p>
                                         <div>
                                             <a href="#"
                                                 class="hover-underline-link text_primary-color text-button">Our
@@ -101,12 +98,11 @@ export default function Home() {
                                 </div>
                                 <div class="portfolio-item style-2 hover-image-2">
                                     <a href="#" class="img-style">
-                                        <img src="/assets/images/portfolio-item-3.jpg" alt="about-item"/>
+                                        <img src="/assets/images/custom-surgical-guides.jpg" alt="about-item"/>
                                     </a>
                                     <div class="content">
-                                        <a href="#" class="title mb_8 link h5">State-Of-The-Art Facilities.</a>
-                                        <p class="text_secondary mb_16">Equipped with cutting-edge technology to ensure
-                                            accurate, efficient, and safe medical services.</p>
+                                        <a href="#" class="title mb_8 link h5">Surgical Guides</a>
+                                        <p class="text_secondary mb_16">At Curewith3D, you get more than a standard surgical tool — you get a guide created to support your accuracy inside the operating room.</p>
                                         <div>
                                             <a href="#"
                                                 class="hover-underline-link text_primary-color text-button">Our
@@ -116,14 +112,11 @@ export default function Home() {
                                 </div>
                                 <div class="portfolio-item style-2 hover-image-2">
                                     <a href="#" class="img-style">
-                                        <img src="/assets/images/portfolio-item-4.jpg" alt="about-item"/>
+                                        <img src="/assets/images/virtual-surgery-planning.jpg" alt="about-item"/>
                                     </a>
                                     <div class="content">
-                                        <a href="#" class="title mb_8 link h5">Personalized Treatment
-                                            Plans.</a>
-                                        <p class="text_secondary mb_16">Care tailored to your unique health needs, with
-                                            expert
-                                            guidance every step forward.</p>
+                                        <a href="#" class="title mb_8 link h5">Virtual Surgery Planning</a>
+                                        <p class="text_secondary mb_16">At CureWith3D, you get a planning workflow built to match the way you operate. Whether you’re reconstructing a jaw, preparing a fibula flap,</p>
                                         <div>
                                             <a href="#"
                                                 class="hover-underline-link text_primary-color text-button">Contact
@@ -136,129 +129,29 @@ export default function Home() {
                     </div>
                     <br/><br/><br/><br/>
 
-                    <div class="section-faqs-1 tf-spacing-1">
+                    <div class="section-cta tf-spacing-1">
                         <div class="tf-container">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="heading-section style-default">
-                                        <div class="sub text-label text-uppercase lh-20 split-text effect-up">FAQs</div>
-                                        <h2 class="title split-text effect-blur-fade">Frequently Asked Questions</h2>
-                                        <p
-                                            class="desc text-body-default text_secondary split-text split-lines-transform blc">
-                                            Subscribe to get the latest company news, expert insights, and industry trends delivered straight to your inbox — no spam, just value.</p>
+                            <div class="content-inner">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6">
+                                        <div class="heading">
+                                            <h3 class="title split-text split-lines-rotation-x cwhite">Partner with Us for a <br></br>Healthier Tomorrow</h3>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <ul class="accordion-wrap d-grid gap_16" id="accordion-faq">
-                                        <li class="accordion-item style-2 action_click wow fadeInRight active"
-                                            data-wow-delay=".1s">
-                                            <a href="#accordion-faq-1" class="accordion-title action "
-                                                data-bs-toggle="collapse" aria-expanded="true"
-                                                aria-controls="accordion-faq-1">
-                                                <div class="heading">
-                                                    <h5 class="title text-capitalize">
-                                                        Q1: What types of insurance do you offer?
-                                                    </h5>
-                                                    <span class="icon"></span>
-                                                </div>
-                                            </a>
-                                            <div id="accordion-faq-1" class="collapse show"
-                                                data-bs-parent="#accordion-faq">
-                                                <div class="accordion-faqs-content">
-                                                    <p class="text-body-default text_secondary">
-                                                        Simply fill out our online form or contact us directly — we’ll
-                                                        send you
-                                                        a personalized quote within 24 hours.
-                                                    </p>
-                                                </div>
+                                    <div class="col-lg-6">
+                                        <div class="content">
+                                            <div class="wrap-btn d-flex gap_20 flex-wrap wow fadeInUp">
+                                                <a href="#" class="tf-btn btn-hover-animate-2 btn-bg-secondary">
+                                                    <span>Schedule A Free Consultation</span>
+                                                    <span></span>
+                                                </a>
+                                                <a href="#" class="tf-btn btn-hover-animate-border style-border-2 bwhite">
+                                                    <span>Call Us: +91-92055 59801</span>
+                                                    <span></span>
+                                                </a>
                                             </div>
-                                        </li>
-                                        <li class="accordion-item style-2 action_click wow fadeInRight"
-                                            data-wow-delay=".2s">
-                                            <a href="#accordion-faq-2" class="accordion-title action  collapsed"
-                                                data-bs-toggle="collapse" aria-expanded="false"
-                                                aria-controls="accordion-faq-2">
-                                                <div class="heading">
-                                                    <h5 class="title text-capitalize">
-                                                        Q2: How do I get a quote?</h5>
-                                                    <span class="icon"></span>
-                                                </div>
-                                            </a>
-                                            <div id="accordion-faq-2" class="collapse" data-bs-parent="#accordion-faq">
-                                                <div class="accordion-faqs-content">
-                                                    <p class="text-body-default text_secondary">
-                                                        Simply fill out our online form or contact us directly — we’ll
-                                                        send you
-                                                        a personalized quote within 24 hours.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="accordion-item style-2 action_click wow fadeInRight"
-                                            data-wow-delay=".3s">
-                                            <a href="#accordion-faq-3" class="accordion-title action  collapsed"
-                                                data-bs-toggle="collapse" aria-expanded="false"
-                                                aria-controls="accordion-faq-3">
-                                                <div class="heading">
-                                                    <h5 class="title text-capitalize">
-                                                        Q3: Is there a free consultation before I buy a plan?</h5>
-                                                    <span class="icon"></span>
-                                                </div>
-                                            </a>
-                                            <div id="accordion-faq-3" class="collapse" data-bs-parent="#accordion-faq">
-                                                <div class="accordion-faqs-content">
-                                                    <p class="text-body-default text_secondary">
-                                                        Simply fill out our online form or contact us directly — we’ll
-                                                        send you
-                                                        a personalized quote within 24 hours.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="accordion-item style-2 action_click wow fadeInRight"
-                                            data-wow-delay=".4s">
-                                            <a href="#accordion-faq-4" class="accordion-title action  collapsed"
-                                                data-bs-toggle="collapse" aria-expanded="false"
-                                                aria-controls="accordion-faq-4">
-                                                <div class="heading">
-                                                    <h5 class="title text-capitalize">
-                                                        Q4: Can I customize my insurance plan?</h5>
-                                                    <span class="icon"></span>
-                                                </div>
-                                            </a>
-                                            <div id="accordion-faq-4" class="collapse" data-bs-parent="#accordion-faq">
-                                                <div class="accordion-faqs-content">
-                                                    <p class="text-body-default text_secondary">
-                                                        Simply fill out our online form or contact us directly — we’ll
-                                                        send you
-                                                        a personalized quote within 24 hours.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="accordion-item style-2 action_click wow fadeInRight"
-                                            data-wow-delay=".5s">
-                                            <a href="#accordion-faq-5" class="accordion-title action  collapsed"
-                                                data-bs-toggle="collapse" aria-expanded="false"
-                                                aria-controls="accordion-faq-5">
-                                                <div class="heading">
-                                                    <h5 class="title text-capitalize">
-                                                        Q5: What if I want to cancel my policy?
-                                                    </h5>
-                                                    <span class="icon"></span>
-                                                </div>
-                                            </a>
-                                            <div id="accordion-faq-5" class="collapse" data-bs-parent="#accordion-faq">
-                                                <div class="accordion-faqs-content">
-                                                    <p class="text-body-default text_secondary">
-                                                        Simply fill out our online form or contact us directly — we’ll
-                                                        send you
-                                                        a personalized quote within 24 hours.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
