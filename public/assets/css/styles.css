@@ -23931,7 +23931,7 @@ a.mapboxgl-ctrl-logo {
 .section-faqs-1 .blc{
     color: #2b2a29;
 }
-
+.submenu li a{font-size: 13px;}
 @media (max-width: 767px) {
   .tf-social a {height: 35px; width: 35px;}
   .videsl video{min-height: 400px !important;}
