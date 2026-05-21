@@ -36,7 +36,7 @@ export default function Home() {
 
                                 <div className="col-sm-4">
                                     <div class="btn_wrapper ms-lg-auto flotr">
-                                            <a href="https://www.curewith3d.com/" class="tf-btn btn-hover-animate-2 anvkacbtn wow fadeInRight btn-item btn-hover">
+                                            <a href="#" class="tf-btn btn-hover-animate-2 anvkacbtn wow fadeInRight btn-item btn-hover">
                                                 <span class="h4">GO</span>
                                             </a>
                                         </div>

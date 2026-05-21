@@ -95,7 +95,7 @@ export default function Home() {
                                             delivering
                                             consistent and compassionate care.</p>
                                         <div>
-                                            <a href="#" class="hover-underline-link text_primary-color text-button">Read More</a>
+                                            <a href="https://lintex.in/" class="hover-underline-link text_primary-color text-button">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -108,7 +108,7 @@ export default function Home() {
                                         <p class="text_secondary mb_16">Equipped with cutting-edge technology to ensure
                                             accurate, efficient, and safe medical services.</p>
                                         <div>
-                                            <a href="#" class="hover-underline-link text_primary-color text-button">Read More</a>
+                                            <a href="https://lintex.in/" class="hover-underline-link text_primary-color text-button">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -123,7 +123,7 @@ export default function Home() {
                                             expert
                                             guidance every step forward.</p>
                                         <div>
-                                            <a href="#" class="hover-underline-link text_primary-color text-button">Read More</a>
+                                            <a href="https://lintex.in/" class="hover-underline-link text_primary-color text-button">Read More</a>
                                         </div>
                                     </div>
                                 </div>

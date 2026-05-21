@@ -36,7 +36,7 @@ export default function Home() {
 
                                 <div className="col-sm-4">
                                     <div class="btn_wrapper ms-lg-auto flotr">
-                                            <a href="https://www.curewith3d.com/" class="tf-btn btn-hover-animate-2 anvkacbtn wow fadeInRight btn-item btn-hover">
+                                            <a href="https://caretab.ai/" class="tf-btn btn-hover-animate-2 anvkacbtn wow fadeInRight btn-item btn-hover">
                                                 <span class="h4">GO</span>
                                             </a>
                                         </div>
@@ -92,7 +92,7 @@ export default function Home() {
                                         <a href="#" class="title mb_8 link h5">Doctor Consultations</a>
                                         <p class="text_secondary mb_16">From tele-consultations to emergency visits, expert care is just one call away.</p>
                                         <div>
-                                            <a href="#"
+                                            <a href="https://caretab.ai/"
                                                 class="hover-underline-link text_primary-color text-button">Read More</a>
                                         </div>
                                     </div>
@@ -105,7 +105,7 @@ export default function Home() {
                                         <a href="#" class="title mb_8 link h5">Nursing Care</a>
                                         <p class="text_secondary mb_16">Short & long-term nursing care including post-op, palliative & respiratory care.</p>
                                         <div>
-                                            <a href="#"
+                                            <a href="https://caretab.ai/"
                                                 class="hover-underline-link text_primary-color text-button">Read More</a>
                                         </div>
                                     </div>
@@ -118,7 +118,7 @@ export default function Home() {
                                         <a href="#" class="title mb_8 link h5">ICU Setup at Home</a>
                                         <p class="text_secondary mb_16">Complete intensive care environment setup with ventilators, monitors, & skilled staff.</p>
                                         <div>
-                                            <a href="#"
+                                            <a href="https://caretab.ai/"
                                                 class="hover-underline-link text_primary-color text-button">Read More</a>
                                         </div>
                                     </div>
@@ -140,7 +140,7 @@ export default function Home() {
                                     <div class="col-lg-6">
                                         <div class="content">                                           
                                             <div class="wrap-btn d-flex gap_20 flex-wrap wow fadeInUp">
-                                                <a href="#" class="tf-btn btn-hover-animate-2 btn-bg-secondary">
+                                                <a href="https://caretab.ai/" class="tf-btn btn-hover-animate-2 btn-bg-secondary">
                                                     <span>Schedule A Free Consultation</span>
                                                     <span></span>
                                                 </a>
