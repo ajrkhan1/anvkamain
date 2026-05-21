@@ -41,7 +41,7 @@ export default function Header() {
                                         </a>
                                         <ul class="submenu">
                                             <li><Link href="/culture">Culture</Link></li>                            
-                                            <li><a href="#">Vacancy</a></li>
+                                            <li><a href="/vacancy">Vacancy</a></li>
                                         </ul>
                                     </li>
 
@@ -132,7 +132,7 @@ export default function Header() {
                                         </a>
                                         <ul class="submenu">
                                             <li><Link href="/culture">Culture</Link></li>                                            
-                                            <li><a href="#">Vacancy</a></li>
+                                            <li><a href="/vacancy">Vacancy</a></li>
                                         </ul>
                                     </li>
 
@@ -232,7 +232,7 @@ export default function Header() {
                         <div id="dropdown-menu-two" class="collapse" data-bs-parent="#menu-mobile-menu">
                             <ul class="sub-mobile ">
                                 <li class="menu-item"><a href="#">Culture</a></li>                              
-                                <li class="menu-item"><a href="#">Vacancy</a></li>
+                                <li class="menu-item"><a href="/vacancy">Vacancy</a></li>
                                
                             </ul>
                         </div>
