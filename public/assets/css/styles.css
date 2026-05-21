@@ -172,7 +172,8 @@ body {
   padding: 0 !important;
   font-family: var(--font-main);
   color: var(--Secondary);
-  background-color: #fff;
+  background-color: #fff !important;
+  background: #fff !important;
 }
 body::-webkit-scrollbar {
   width: 0px;
