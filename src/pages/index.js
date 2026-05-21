@@ -87,7 +87,7 @@ export default function Home() {
 
                                 </div>
                             </div>
-                            <div class="wrap-counter tf-grid-layout lg-col-4 tf-col-2">
+                            {/* <div class="wrap-counter tf-grid-layout lg-col-4 tf-col-2">
                                 <div class="counter-item">
                                     <div class="counter h1 font-2"><span class="numberCounter" data-count="10"
                                             data-duration="700">0</span><span class="sub-counter">+</span></div>
@@ -108,7 +108,7 @@ export default function Home() {
                                             data-duration="700">0</span><span class="sub-counter">%</span></div>
                                     <p class="sub-title text-body-2 text_secondary">Client Satisfaction</p>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
              
