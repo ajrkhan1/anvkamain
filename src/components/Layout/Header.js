@@ -32,7 +32,7 @@ export default function Header() {
                                             <li><a href="/brands/indiamd">IndiaMD</a></li>
                                             <li><a href="/brands/caretab">CareTAB</a></li>
                                             <li><a href="/brands/akiechef">AkieChef</a></li>
-                                            <li><a href="#">Tumble</a></li>
+                                            <li><a href="/brands/tumble-salon">Tumble</a></li>
                                         </ul>
                                     </li>
 
@@ -40,8 +40,7 @@ export default function Header() {
                                             <span class="text" data-splitting>Career</span>
                                         </a>
                                         <ul class="submenu">
-                                            <li><Link href="/culture">Culture</Link></li>
-                                            <li><a href="/career">Career</a></li>
+                                            <li><Link href="/culture">Culture</Link></li>                            
                                             <li><a href="#">Vacancy</a></li>
                                         </ul>
                                     </li>
@@ -58,8 +57,8 @@ export default function Header() {
                                             <span class="text" data-splitting>CSR</span>
                                         </a>
                                         <ul class="submenu">
-                                            <li><Link href="#">ANVKA Foundation</Link></li>
-                                            <li><a href="/contact-us">Azure Innovation Labs</a></li>
+                                            <li><a target="_blank" href="https://anvkafoundation.com/">ANVKA Foundation</a></li>
+                                            <li><a target="_blank" href="https://azureinnolabs.com/">Azure Innovation Labs</a></li>
                                         </ul>
                                     </li>
                             </ul>
@@ -124,7 +123,7 @@ export default function Header() {
                                             <li><a href="/brands/indiamd">IndiaMD</a></li>
                                             <li><a href="/brands/caretab">CareTAB</a></li>
                                             <li><a href="/brands/akiechef">AkieChef</a></li>                                       
-                                            <li><a href="#">Tumble</a></li>
+                                            <li><a href="/brands/tumble-salon">Tumble</a></li>
                                         </ul>
                                     </li>
 
@@ -132,8 +131,7 @@ export default function Header() {
                                             <span class="text" data-splitting>Career</span>
                                         </a>
                                         <ul class="submenu">
-                                            <li><Link href="/culture">Culture</Link></li>
-                                            <li><a href="/career">Career</a></li>
+                                            <li><Link href="/culture">Culture</Link></li>                                            
                                             <li><a href="#">Vacancy</a></li>
                                         </ul>
                                     </li>
@@ -150,8 +148,8 @@ export default function Header() {
                                             <span class="text" data-splitting>CSR</span>
                                         </a>
                                         <ul class="submenu">
-                                            <li><Link href="#">ANVKA Foundation</Link></li>
-                                            <li><a href="/contact-us">Azure Innovation Labs</a></li>
+                                            <li><a target="_blank" href="https://anvkafoundation.com/">ANVKA Foundation</a></li>
+                                            <li><a target="_blank" href="https://azureinnolabs.com/">Azure Innovation Labs</a></li>
                                         </ul>
                                     </li>
                             </ul>
@@ -222,7 +220,7 @@ export default function Header() {
                                 <li class="menu-item"><a href="/indiamd">IndiaMD</a></li>
                                 <li class="menu-item"><a href="/brands/caretab">CareTAB</a></li>
                                 <li class="menu-item"><a href="/brands/akiechef">AkieChef</a></li>                                
-                                <li class="menu-item"><a href="#">Tumble</a></li>
+                                <li class="menu-item"><a href="/brands/tumble-salon">Tumble</a></li>
                             </ul>
                         </div>
                     </li>
@@ -233,8 +231,7 @@ export default function Header() {
                         </a>
                         <div id="dropdown-menu-two" class="collapse" data-bs-parent="#menu-mobile-menu">
                             <ul class="sub-mobile ">
-                                <li class="menu-item"><a href="#">Culture</a></li>
-                                <li class="menu-item"><a href="#">Career</a></li>
+                                <li class="menu-item"><a href="#">Culture</a></li>                              
                                 <li class="menu-item"><a href="#">Vacancy</a></li>
                                
                             </ul>
