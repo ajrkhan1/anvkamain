@@ -57,13 +57,15 @@ export default function Home() {
                                         <h3 class="title text_primary title split-text effect-right">AkieChef</h3>
                                         <br></br>
                                         <p>
-                                            As India continues to gain global recognition for its world-class healthcare infrastructure, advanced medical expertise, and affordable treatment solutions, the need for a trusted healthcare navigation partner has become more important than ever. IndiaMD was established to bridge this gap by offering a premium medical value travel experience for international patients seeking quality healthcare in India.
+                                            The journey of ANVKA has always been rooted in care, compassion, and the belief that healthcare extends beyond treatment alone. During the COVID-19 pandemic, hospitals across the country faced immense pressure, and patient attendants often spent countless hours outside hospital wards with limited access to proper meals and refreshments.
                                         </p>
                                         <br></br>
-                                        <p>Backed by the vision of making healthcare accessible beyond borders, IndiaMD simplifies the entire medical journey for patients and their families. From identifying the right hospital and specialist to managing travel logistics and post-treatment care, IndiaMD delivers a seamless, stress-free, and patient-centric experience. </p>
+                                        <p>
+                                            In those challenging times, simple acts of kindness made a meaningful difference. Food and snacks were distributed to attendants and families waiting outside hospitals, offering comfort and support when it was needed most. What began as a humanitarian initiative gradually evolved into a larger vision — the creation of AkieChef, a brand dedicated to delivering nutritious, convenient, and high-quality food solutions for healthcare environments and beyond. 
+                                        </p>
                                         <br></br>
                                         <p>
-                                            With a strong commitment to excellence, transparency, and personalized support, IndiaMD contributes to the larger aspiration of positioning India as a “Vishwa Chikitsalaya” — a global destination for trusted, affordable, and advanced medical care. 
+                                            Today, AkieChef stands as a reflection of ANVKA’s commitment to holistic well-being, combining nutrition, quality, and accessibility into every meal served. 
                                         </p>
                                 </div>
                                     <div class="col-lg-12">
