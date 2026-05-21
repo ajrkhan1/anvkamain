@@ -1,22 +1,4 @@
-/* ---------------------------------------------------------
-    * Name: Viora AI-powered Multipurpose HTML Themes
-    * Version: 1.0.0
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
 
-	* Abstracts variable
-
-    * Reset css styles
-
-    * Components
-
-    * section
-
-    * dashboard
-
-    * Responsive
- ------------------------------------------------------------------------------ */
-/*--------- Abstracts variable ---------- */
 @import url(./bootstrap-select.min.css);
 :root {
   --font-main: "Plus Jakarta Sans", sans-serif;
@@ -190,6 +172,7 @@ body {
   padding: 0 !important;
   font-family: var(--font-main);
   color: var(--Secondary);
+  background-color: #fff;
 }
 body::-webkit-scrollbar {
   width: 0px;
@@ -23944,5 +23927,5 @@ a.mapboxgl-ctrl-logo {
 }
 
 @media (max-width: 767px) {
-  .tf-social a {    height: 35px;    width: 35px;}
+  .tf-social a {height: 35px; width: 35px;}
 }
