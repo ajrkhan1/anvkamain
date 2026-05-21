@@ -181,7 +181,7 @@ export default function Home() {
                                     <div class="col-lg-7 d-grid gap_16">
                                         <div class="sub text-label text-uppercase split-text effect-up">Our Brands
                                         </div>
-                                        <h2 class="title split-text effect-blur-fade">ANVKA Brands</h2>
+                                        <h2 class="title split-text effect-blur-fade">ANVKA Verticals</h2>
                                     </div>
                                     <div class="col-lg-5">
                                         <a href="/brands"
@@ -279,7 +279,7 @@ export default function Home() {
                     <div class="section-insights-1 sw-layout tf-spacing-1 pt-0">
                         <div class="heading-section style-default text-center mb_47">
                             <br></br><br></br><br></br>
-                            <h2 class="title split-text effect-right">Latest News & Insights</h2>
+                            <h2 class="title split-text effect-right">ANVKA Journey</h2>
                         </div> 
 
                         <div>
