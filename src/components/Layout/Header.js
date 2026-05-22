@@ -216,8 +216,8 @@ export default function Header() {
                             <ul class="sub-mobile">                               
                                 <li class="menu-item"><a href="/brands/lintex">Linte</a></li>
                                 <li class="menu-item"><a href="/brands/curewith3d">Curewith3D</a></li>                                
-                                <li class="menu-item"><a href="#">Medical Implats</a></li>
-                                <li class="menu-item"><a href="/indiamd">IndiaMD</a></li>
+                                <li class="menu-item"><a href="/brands/medical-implats">Medical Implats</a></li>
+                                <li class="menu-item"><a href="/brands/indiamd">IndiaMD</a></li>
                                 <li class="menu-item"><a href="/brands/caretab">CareTAB</a></li>
                                 <li class="menu-item"><a href="/brands/akiechef">AkieChef</a></li>                                
                                 <li class="menu-item"><a href="/brands/tumble-salon">Tumble</a></li>
