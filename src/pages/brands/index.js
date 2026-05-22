@@ -25,7 +25,7 @@ export default function Home() {
                         <div class="tf-container">
                             <div class="row align-items-center">
                                 <div class="col-lg-8">
-                                    <h1 class="title text_white split-text effect-right">ANVKA Brands</h1>
+                                    <h1 class="title text_white split-text effect-right">ANVKA VERTICALS</h1>
                                     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                                 </div>
                                 {/* <div class="col-lg-6">

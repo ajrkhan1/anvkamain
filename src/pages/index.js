@@ -25,7 +25,7 @@ export default function Home() {
                         <div class="tf-container">
                             <div class="row align-items-center">
                                 <div class="col-lg-8">
-                                    <h1 class="title text_white split-text effect-right">Where Excellence Meets Innovation!</h1>
+                                    <h2 class="title text_white split-text effect-right">Where Excellence <br></br>Meets Innovation!</h2>
                                 </div>
                                 {/* <div class="col-lg-6">
                                     <div class="right">
