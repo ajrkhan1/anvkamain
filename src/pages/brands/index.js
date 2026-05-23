@@ -25,7 +25,7 @@ export default function Home() {
                         <div class="tf-container">
                             <div class="row align-items-center">
                                 <div class="col-lg-8">
-                                    <h1 class="title text_white split-text effect-right">ANVKA VERTICALS</h1>
+                                    <h1 class="title text_white split-text effect-right">Our Verticals</h1>
                                     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                                 </div>
                                 {/* <div class="col-lg-6">
@@ -50,12 +50,12 @@ export default function Home() {
                    
                     <div class="section-service-4 tf-spacing-1 sw-layout">
                         <div class="tf-container">
-                            <div class="heading-section style-1 mb_60">
+                            <div class="heading-section style-1 mb_30">
                                 <div class="row align-items-center">
                                     <div class="col-lg-7 d-grid gap_16">
-                                        <div class="sub text-label text-uppercase split-text effect-up">Our Brands
-                                        </div>
-                                        <h2 class="title split-text effect-blur-fade">ANVKA Brands</h2>
+                                        {/* <div class="sub text-label text-uppercase split-text effect-up">Our Brands
+                                        </div> */}
+                                        <h2 class="title split-text effect-blur-fade">Our Verticals</h2>
                                     </div>
                                     <div class="col-lg-5">
                                         <a href="#"
