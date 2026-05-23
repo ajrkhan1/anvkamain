@@ -29,9 +29,9 @@ export default function Home() {
                             <div className="row">
                                 <div className="col-sm-8">
                                     <h2 class="text_white">Unmatched Accuracy</h2>
-                                    <p className="headrp">
+                                    {/* <p className="headrp">
                                         CureWith3D, a healthcare-innovation company focused on creating customized, patient-specific 3D-printed surgical guides, orthopedic & dental implants, and anatomical models.
-                                    </p>
+                                    </p> */}
                                 </div>
 
                                 {/* <div className="col-sm-4">
@@ -47,9 +47,9 @@ export default function Home() {
                 </div>
 
 
-                <div class="main-content">                    
+                <div class="main-content">
                     <div class="section-contact">
-                        <div class="tf-container medium">
+                        <div class="tf-container">
                             <div class="mb_48">
                                 <div class="row align-items-end">
                                     <div class="col-lg-12">
@@ -61,24 +61,24 @@ export default function Home() {
                                         <p>This challenge became the foundation for Curewith3D, an advanced healthcare innovation platform focused on patient-specific implants, customized surgical guides, anatomical models, and virtual surgery planning. By integrating cutting-edge engineering with modern medicine, Curewith3D empowers surgeons with highly accurate, customized solutions designed specifically for each patient’s anatomy.</p>
                                     </div>
                                     <div class="col-lg-12">
-                                        
+
                                     </div>
                                 </div>
-                            </div>                         
+                            </div>
                         </div>
                     </div>
 
 
                      <div class="section-about-3">
-                        <div class="tf-container medium">
+                        <div class="tf-container">
                             <div class="heading-section-5 mb_48">
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <div class="">                                            
+                                        <div class="">
                                             <h3 class="title split-text effect-left">3D Printing Services</h3>
                                         </div>
                                     </div>
-                                   
+
                                 </div>
                             </div>
                             <div class="tf-grid-layout md-col-3 gap_30">
@@ -128,22 +128,18 @@ export default function Home() {
 
                     <div class="section-cta tf-spacing-1">
                         <div class="tf-container">
-                            <div class="content-inner">
+                            <div class="content">
                                 <div class="row align-items-center">
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-8">
                                         <div class="heading">
-                                            <h3 class="title split-text split-lines-rotation-x cwhite">Partner with Us for a <br></br>Healthier Tomorrow</h3>
+                                            <h3 class="title split-text split-lines-rotation-x cwhite">Partner with Us for a Healthier Tomorrow</h3>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-4">
                                         <div class="content">
-                                            <div class="wrap-btn d-flex gap_20 flex-wrap wow fadeInUp">
-                                                <a href="#" class="tf-btn btn-hover-animate-2 btn-bg-secondary">
-                                                    <span>Schedule A Free Consultation</span>
-                                                    <span></span>
-                                                </a>
-                                                <a href="#" class="tf-btn btn-hover-animate-border style-border-2 bwhite">
-                                                    <span>Call Us: +91-92055 59801</span>
+                                            <div class="wrap-btn d-flex gap_20 flex-wrap wow fadeInUp btnflotright">
+                                                <a target="_blank" href="https://www.curewith3d.com/" class="tf-btn btn-hover-animate-2 btn-bg-secondary">
+                                                    <span>Visit Our Website</span>
                                                     <span></span>
                                                 </a>
                                             </div>

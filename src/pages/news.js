@@ -28,26 +28,20 @@ export default function Home() {
                             </ul> */}
                             <div className="row">
                                 <div className="col-sm-8">
-                                    <h2 class="text_white">Unmatched Accuracy</h2>
-                                    <p className="headrp">
+                                    <h2 class="text_white">News & Media</h2>
+                                    {/* <p className="headrp">
                                         CureWith3D, a healthcare-innovation company focused on creating customized, patient-specific 3D-printed surgical guides, orthopedic & dental implants, and anatomical models.
-                                    </p>
+                                    </p> */}
                                 </div>
 
-                                <div className="col-sm-4">
-                                    <div class="btn_wrapper ms-lg-auto flotr">
-                                            <a href="https://www.curewith3d.com/" class="tf-btn btn-hover-animate-2 anvkacbtn wow fadeInRight btn-item btn-hover">
-                                                <span class="h4">GO</span>
-                                            </a>
-                                        </div>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="main-content">                    
+                <div class="main-content">
                     <div class="blog-post-3 tf-spacing-1">
                         <div class="tf-container">
                             <div class="tf-grid-layout lg-col-3 sm-col-2">

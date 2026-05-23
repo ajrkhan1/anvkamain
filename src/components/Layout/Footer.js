@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
        <footer class="footer style-default">
-                    <div class="tf-container medium">
+                    <div class="tf-container">
                         <div class="footer-body">
                             <div class="row">
                                 <div class="col-lg-4 col-md-6">
@@ -18,7 +18,34 @@ export default function Footer() {
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <div class="footer-content footer-item d-flex justify-content-between"
-                                        data-wow-delay="0.2s">
+                                        data-wow-delay="0.2s">                                        
+                                        <div class="footer-col-block quick-link">
+                                            <div class="footer-heading  footer-heading-mobile text-uppercase text-label fw-5 text_primary-color mb_16">
+                                                Quick Links
+                                            </div>
+                                            <div class="tf-collapse-content">
+                                                <ul class="footer-menu-list d-grid gap_12">
+                                                    <li class="text-caption-1 text_white">
+                                                        <a href="/about-us" class="link">Our Story</a>
+                                                    </li>
+                                                    <li class="text-caption-1 text_white">
+                                                        <a href="#" class="link">Services</a>
+                                                    </li>
+                                                    <li class="text-caption-1 text_white">
+                                                        <a href="/brands" class="link">All Verticals</a>
+                                                    </li>
+                                                    <li class="text-caption-1 text_white">
+                                                        <a href="/news" class="link">News & Media</a>
+                                                    </li>
+                                                    <li class="text-caption-1 text_white">
+                                                        <a href="/vacancy" class="link">Vacancy</a>
+                                                    </li>
+                                                    <li class="text-caption-1 text_white">
+                                                        <a href="/contact-us" class="link">Contact Us</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                         <div class="footer-col-block company">
                                             <div class="footer-heading  footer-heading-mobile text-uppercase text-label fw-5 text_primary-color mb_16">
                                                 OUR Brands
@@ -26,7 +53,7 @@ export default function Footer() {
                                             <div class="tf-collapse-content">
                                                 <ul class="footer-menu-list d-grid gap_12">
                                                     <li class="text-caption-1 text_white">
-                                                        <a href="#" class="link">Lintex</a>
+                                                        <a href="/about-us" class="link">Lintex</a>
                                                     </li>
                                                     <li class="text-caption-1 text_white">
                                                         <a href="#" class="link">Curewith3d</a>
@@ -44,33 +71,6 @@ export default function Footer() {
                                                         <a href="#" class="link">Azure Medical devices</a>
                                                     </li>
                                                     
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="footer-col-block quick-link">
-                                            <div class="footer-heading  footer-heading-mobile text-uppercase text-label fw-5 text_primary-color mb_16">
-                                                Quick Links
-                                            </div>
-                                            <div class="tf-collapse-content">
-                                                <ul class="footer-menu-list d-grid gap_12">
-                                                    <li class="text-caption-1 text_white">
-                                                        <a href="#" class="link">About Us</a>
-                                                    </li>
-                                                    <li class="text-caption-1 text_white">
-                                                        <a href="#" class="link">Services</a>
-                                                    </li>
-                                                    <li class="text-caption-1 text_white">
-                                                        <a href="#" class="link">Case Studies</a>
-                                                    </li>
-                                                    <li class="text-caption-1 text_white">
-                                                        <a href="#" class="link">Blog</a>
-                                                    </li>
-                                                    <li class="text-caption-1 text_white">
-                                                        <a href="#" class="link">Careers</a>
-                                                    </li>
-                                                    <li class="text-caption-1 text_white">
-                                                        <a href="#" class="link">Contact</a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>

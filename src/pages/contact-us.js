@@ -39,7 +39,7 @@ export default function Home() {
                             <div class="heading-title mb_48">
                                 <div class="row align-items-end">
                                     <div class="col-lg-6">
-                                        <h3 class="title text_primary">Got Questions? We’d Love To Hear From You!</h3>
+                                        <h2 class="title text_primary ajfont30">Have Questions? We’d Be <br></br>Happy to Assist You!</h2>
                                     </div>
                                     <div class="col-lg-6">
                                         <p class="text-body-2 text_secondary">We are deeply committed to providing
@@ -67,7 +67,7 @@ export default function Home() {
                                                     </div>
                                                     <div class="content">
                                                         <div class="text-caption-1 text_secondary mb_4">Address:</div>
-                                                        <p class="h6">101 E 129th St, East Chicago, 2nd Floor, NY</p>
+                                                        <p class="h6">Plot No. 231, Phase IV, Udyog Vihar, Sector 18, Gurugram, Haryana 122001</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -75,8 +75,8 @@ export default function Home() {
                                                         <i class="icon-PhoneCall"></i>
                                                     </div>
                                                     <div class="content">
-                                                        <div class="text-caption-1 text_secondary mb_4">Phone:</div>
-                                                        <p class="h6">1-555-678-8888</p>
+                                                        <div class="text-caption-1 text_secondary mb_4">Phone:</div>                                                       
+                                                        <a href="tel:+91-92055 59801" class="h6 link">+91-92055 59801</a>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -85,7 +85,7 @@ export default function Home() {
                                                     </div>
                                                     <div class="content">
                                                         <div class="text-caption-1 text_secondary mb_4">Email:</div>
-                                                        <a href="#" class="h6 link">themesflat@gmail.com</a>
+                                                          <a href="mailto:reachus@anvka.com" class="h6 link">reachus@anvka.com</a>
                                                     </div>
                                                 </li>
 

@@ -13,8 +13,6 @@ export default function Home() {
 				<link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
 				<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
 			</Head>
-indiamd
-Indiamd
             <div class="page-layout-v04">
                     <div class="img-style">
                         <img class="img-cover" width="1920" height="720" loading="eager" decoding="async" src="/assets/images/indiamd.webp" alt="page-title"/>
@@ -50,7 +48,7 @@ Indiamd
 
                 <div class="main-content">                    
                     <div class="section-contact">
-                        <div class="tf-container medium">
+                        <div class="tf-container">
                             <div class="mb_48">
                                 <div class="row align-items-end">
                                     <div class="col-lg-12">
@@ -77,7 +75,7 @@ Indiamd
 
 
                      <div class="section-about-3">
-                        <div class="tf-container medium">
+                        <div class="tf-container">
                             <div class="heading-section-5 mb_48">
                                 <div class="row">
                                     <div class="col-lg-12">
@@ -135,24 +133,20 @@ Indiamd
 
                     <div class="section-cta tf-spacing-1">
                         <div class="tf-container">
-                            <div class="content-inner">
+                            <div class="content">
                                 <div class="row align-items-center">
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-8">
                                         <div class="heading">
-                                            <h2 class="title split-text split-lines-rotation-x cwhite">Partner with Us for a Healthier Tomorrow</h2>
+                                            <h3 class="title split-text split-lines-rotation-x cwhite">Partner with Us for a Healthier Tomorrow</h3>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-4">
                                         <div class="content">                                           
-                                            <div class="wrap-btn d-flex gap_20 flex-wrap wow fadeInUp">
-                                                <a href="#" class="tf-btn btn-hover-animate-2 btn-bg-secondary">
-                                                    <span>Schedule A Free Consultation</span>
+                                            <div class="wrap-btn d-flex gap_20 flex-wrap wow fadeInUp btnflotright">
+                                                <a target="" href="#" class="tf-btn btn-hover-animate-2 btn-bg-secondary">
+                                                    <span>Visit Our Website</span>
                                                     <span></span>
-                                                </a>
-                                                <a href="#" class="tf-btn btn-hover-animate-border style-border-2 bwhite">
-                                                    <span>Call Us: +91-92055 59801</span>
-                                                    <span></span>
-                                                </a>
+                                                </a>                                             
                                             </div>
                                         </div>
                                     </div>
