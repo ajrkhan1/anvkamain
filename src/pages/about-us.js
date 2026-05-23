@@ -130,14 +130,15 @@ export default function Home() {
 
                     <div class="section-service-4 tf-spacing-1 sw-layout">
                         <div class="tf-container">
-                            <div class="heading-section style-1 mb_30">
+                            <div class="heading-section style-1 mb_40">
                                 <div class="row align-items-center">
-                                    <div class="col-lg-7 d-grid gap_16">
-                                        
+                                    <div class="col-lg-7 d-grid gap_10">
+                                        {/* <div class="sub text-label text-uppercase split-text effect-up">Our Brands
+                                        </div> */}
                                         <h3 class="title split-text effect-blur-fade">Our Verticals</h3>
                                     </div>
                                     {/* <div class="col-lg-5">
-                                        <a href="#"
+                                        <a href="/brands"
                                             class="tf-btn btn-hover-animate-2 ms-lg-auto wow fadeInRight">
                                             <span>All Brands</span>
                                             <span></span>
