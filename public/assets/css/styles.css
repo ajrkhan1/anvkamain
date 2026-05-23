@@ -11285,7 +11285,7 @@ form textarea.style-line-bottom:focus {
   position: relative;
 }
 .hero-banner-3 .thumbs-video {
-  max-height: 840px;
+  height: 100dvh;
   object-fit: cover;
   width: 100%;
 }
