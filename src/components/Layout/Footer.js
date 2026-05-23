@@ -91,9 +91,10 @@ export default function Footer() {
                                                 Follow
                                                 Us:</div>
                                             <ul class="tf-social">
-                                                <li><a href="#" class="icon-messenger-logo"></a></li>
-                                                <li><a href="#" class="icon-x-logo"></a></li>
-                                                <li><a href="#" class="icon-instagram-logo"></a></li>                                              
+                                                <li><a target='_blank' href="https://www.linkedin.com/company/anvkahealthcare/" class="icon-LinkedinLogo"></a></li>
+                                                <li><a target='_blank' href="https://www.facebook.com/anvkahealthcarec" class="icon-FaceBook-2"></a></li>
+                                                <li><a target='_blank' href="https://www.instagram.com/anvkahealthcare/" class="icon-instagram-logo"></a></li>
+                                                
                                             </ul>
                                         </div>
                                     </div>
@@ -108,8 +109,7 @@ export default function Footer() {
                                 All Rights Reserved.</p>
                             <ul class="wrap">
                                 <li><a href="#" class="text-caption-1 link text_white">Terms Of Services</a></li>
-                                <li><a href="#" class="text-caption-1 link text_white">Privacy Policy</a></li>
-                                <li><a href="#" class="text-caption-1 link text_white">Cookie Policy</a></li>
+                                <li><a href="#" class="text-caption-1 link text_white">Privacy Policy</a></li>                                
                             </ul>
                         </div>
                     </div>

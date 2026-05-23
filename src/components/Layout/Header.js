@@ -79,9 +79,9 @@ export default function Header() {
                                 <span class="bg-effect"></span>
                             </a> */}
                             <ul class="tf-social headsocial">
-                                <li><a href="https://www.linkedin.com/company/anvkahealthcare/" class="icon-LinkedinLogo"></a></li>
-                                <li><a href="#" class="icon-x-logo"></a></li>
-                                <li><a href="#" class="icon-instagram-logo"></a></li>                                              
+                                <li><a target="_blank" href="https://www.linkedin.com/company/anvkahealthcare/" class="icon-LinkedinLogo"></a></li>
+                                <li><a target='_blank' href="https://www.facebook.com/anvkahealthcarec" class="icon-FaceBook-2"></a></li>
+                                <li><a target="_blank" href="https://www.instagram.com/anvkahealthcare/" class="icon-instagram-logo"></a></li>                                              
                             </ul>
                             <div class="mobile-button d-xl-none" data-bs-toggle="offcanvas" data-bs-target="#menu-mobile"
                                 aria-controls="menu-mobile">
@@ -170,9 +170,10 @@ export default function Header() {
                                 <span class="bg-effect"></span>
                             </a> */}
                             <ul class="tf-social headsocial">
-                                <li><a href="https://www.linkedin.com/company/anvkahealthcare/" class="icon-LinkedinLogo"></a></li>
-                                <li><a href="#" class="icon-x-logo"></a></li>
-                                <li><a href="#" class="icon-instagram-logo"></a></li>                                              
+                                <li><a target="_blank" href="https://www.linkedin.com/company/anvkahealthcare/" class="icon-LinkedinLogo"></a></li>
+                       
+                                <li><a target='_blank' href="https://www.facebook.com/anvkahealthcarec" class="icon-FaceBook-2"></a></li>
+                                <li><a target="_blank" href="https://www.instagram.com/anvkahealthcare/" class="icon-instagram-logo"></a></li>                                        
                             </ul>
                             <div class="mobile-button d-xl-none" data-bs-toggle="offcanvas" data-bs-target="#menu-mobile"
                                 aria-controls="menu-mobile">
