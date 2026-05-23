@@ -28,7 +28,7 @@ export default function Home() {
                             </ul> */}
                             <div className="row">
                                 <div className="col-sm-8">
-                                    <h2 class="text_white">Lintex</h2>
+                                    <h2 class="text_white">LINTEX</h2>
                                     {/* <p className="headrp">
                                         The story of LINTEX began with empathy, observation, and a desire to solve real-world problems. The ideas that eventually shaped the brand did not emerge overnight.
                                     </p> */}
