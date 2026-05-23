@@ -26,7 +26,7 @@ export default function Home() {
 
             <div class="page-layout-v04">
                     <div class="img-style">
-                        <img class="img-cover" width="1920" height="720" loading="eager" decoding="async" src="/assets/images/vacancy.webp" alt="page-title"/>
+                        <img class="img-cover" width="1920" height="720" loading="eager" decoding="async" src="/assets/images/culture.webp" alt="page-title"/>
                     </div>
                     <div class="content">
                         <div class="tf-container">
@@ -52,7 +52,7 @@ export default function Home() {
                 <div class="main-content">                    
                     <div class="hiring ajh">
                             <div class="wrap-box tf-spacing-1">
-                                <div class="tf-container medium">
+                                <div class="tf-container">
                                     <div class="row">                                    
                                         <div class="content-inner galrm">
                                             <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
@@ -90,9 +90,7 @@ export default function Home() {
                                                 <a href="/assets/images/culture/c12.webp">
                                                     <img alt="img1" className="dds" src="/assets/images/culture/c12.webp" />
                                                 </a>
-                                                <a href="/assets/images/culture/c13.webp">
-                                                    <img alt="img1" className="dds" src="/assets/images/culture/c13.webp" />
-                                                </a>
+                                              
                                                 <a href="/assets/images/culture/c14.webp">
                                                     <img alt="img1" className="dds" src="/assets/images/culture/c14.webp" />
                                                 </a>
@@ -108,9 +106,7 @@ export default function Home() {
                                                 <a href="/assets/images/culture/c18.webp">
                                                     <img alt="img1" className="dds" src="/assets/images/culture/c18.webp" />
                                                 </a>
-                                                <a href="/assets/images/culture/c19.webp">
-                                                    <img alt="img1" className="dds" src="/assets/images/culture/c19.webp" />
-                                                </a>
+                                               
                                                 <a href="/assets/images/culture/c20.webp">
                                                     <img alt="img1" className="dds" src="/assets/images/culture/c20.webp" />
                                                 </a>

@@ -23950,7 +23950,7 @@ a.mapboxgl-ctrl-logo {
   float: right;
 }
 
-.galrm{}
+.galrm a{ width: 33.33%; float: left; padding: 5px;}
 @media (max-width: 767px) {
   .tf-social a {height: 35px; width: 35px;}
   .videsl video{min-height: 400px !important;}
