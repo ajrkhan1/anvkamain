@@ -80,11 +80,9 @@ export default function Home() {
                                                 <a href="service-detail.html"
                                                     class="fw-5 text_white title link mb_12 h5">Lintex</a>
                                                 <div class="wrap">
-                                                    <p class="font-3 text-body-default text_white desc mb_12">Implement
-                                                        Lintex is redefining uniforms across various professional sectors including healthcare, hospitality...</p>
-                                                    <a href="#"
-                                                        class="text-caption-1 text_primary-color fw-4 hover-underline-link">Explore
-                                                        Plans</a>
+                                                    <p class="font-3 text-body-default text_white desc mb_12">LINTEX is a specialized uniform and fashion brand that designs high-quality, comfortable, and durable apparel.</p>
+                                                    <a target="_blank" href="https://lintex.in/"
+                                                        class="text-caption-1 text_primary-color fw-4 hover-underline-link">Explore</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -99,10 +97,9 @@ export default function Home() {
                                                 <a href="service-detail.html"
                                                     class="fw-5 text_white title link mb_12 h5">Curewith3D</a>
                                                 <div class="wrap">
-                                                    <p class="font-3 text-body-default text_white desc mb_12">Cure with 3D, is a one-stop destination for cutting-edge 3D printing solutions in healthcare.</p>
-                                                    <a href="#"
-                                                        class="text-caption-1 text_primary-color fw-4 hover-underline-link">Explore
-                                                        Plans</a>
+                                                    <p class="font-3 text-body-default text_white desc mb_12">Curewith3D is a healthcare innovation company specializing in customized, patient-specific 3D-printed...</p>
+                                                    <a target="_blank" href="https://www.curewith3d.com/"
+                                                        class="text-caption-1 text_primary-color fw-4 hover-underline-link">Explore</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -117,10 +114,9 @@ export default function Home() {
                                                 <a href="service-detail.html"
                                                     class="fw-5 text_white title link mb_12 h5">CareTAB</a>
                                                 <div class="wrap">
-                                                    <p class="font-3 text-body-default text_white desc mb_12">Tumble is your haven for all things beauty and wellness. Located in the heart of Delhi...</p>
-                                                    <a href="#"
-                                                        class="text-caption-1 text_primary-color fw-4 hover-underline-link">Explore
-                                                        Plans</a>
+                                                    <p class="font-3 text-body-default text_white desc mb_12">CareTAB.ai is building a quality-driven, outcome-focused, technology-enabled ecosystem for healthcare...</p>
+                                                    <a target="_blank" href="https://caretab.ai/"
+                                                        class="text-caption-1 text_primary-color fw-4 hover-underline-link">Explore</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -135,10 +131,9 @@ export default function Home() {
                                                 <a href="service-detail.html"
                                                     class="fw-5 text_white title link mb_12 h5">Tumble Salon</a>
                                                 <div class="wrap">
-                                                    <p class="font-3 text-body-default text_white desc mb_12">Care[T.A.B].ai envisions building a quality-driven, outcome-focused, and tech-enabled...</p>
-                                                    <a href="#"
-                                                        class="text-caption-1 text_primary-color fw-4 hover-underline-link">Explore
-                                                        Plans</a>
+                                                    <p class="font-3 text-body-default text_white desc mb_12">Tumble Salon reflects the philosophy of wellness beyond healthcare by offering professional grooming...</p>
+                                                    <a target="_blank" href="https://www.instagram.com/tumblesalon"
+                                                        class="text-caption-1 text_primary-color fw-4 hover-underline-link">Explore</a>
                                                 </div>
                                             </div>
                                         </div>
