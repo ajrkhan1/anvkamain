@@ -30,18 +30,20 @@ export default function Footer() {
                                                     </li>
                                                     <li class="text-caption-1 text_white">
                                                         <a href="/our-story" class="link">Our Story</a>
-                                                    </li>
-                                                    <li class="text-caption-1 text_white">
-                                                        <a href="#" class="link">Services</a>
-                                                    </li>
-                                                    <li class="text-caption-1 text_white">
-                                                        <a href="/brands" class="link">All Verticals</a>
-                                                    </li>
+                                                    </li>                                              
+                                                  
                                                     <li class="text-caption-1 text_white">
                                                         <a href="/news" class="link">News & Media</a>
                                                     </li>
                                                     <li class="text-caption-1 text_white">
+                                                        <a href="/culture" class="link">Culture</a>
+                                                    </li>
+                                                    <li class="text-caption-1 text_white">
                                                         <a href="/vacancy" class="link">Vacancy</a>
+                                                    </li>
+                                                    
+                                                    <li class="text-caption-1 text_white">
+                                                        <a href="/news" class="link">News & Media</a>
                                                     </li>
                                                     <li class="text-caption-1 text_white">
                                                         <a href="/contact-us" class="link">Contact Us</a>
@@ -56,22 +58,28 @@ export default function Footer() {
                                             <div class="tf-collapse-content">
                                                 <ul class="footer-menu-list d-grid gap_12">
                                                     <li class="text-caption-1 text_white">
-                                                        <a href="/about-us" class="link">Lintex</a>
+                                                        <a href="/brands/lintex" class="link">Lintex</a>
                                                     </li>
                                                     <li class="text-caption-1 text_white">
-                                                        <a href="#" class="link">Curewith3d</a>
+                                                        <a href="/brands/medical-implats" class="link">MEDICAL IMPLANTS</a>
                                                     </li>
                                                     <li class="text-caption-1 text_white">
-                                                        <a href="#" class="link">CareTAB</a>
+                                                        <a href="/brands/curewith3d" class="link">Curewith3D</a>
                                                     </li>
                                                     <li class="text-caption-1 text_white">
-                                                        <a href="#" class="link">IndiaMD</a>
+                                                        <a href="/brands/lintex" class="link">IndiaMD</a>
                                                     </li>
                                                     <li class="text-caption-1 text_white">
-                                                        <a href="#" class="link">Tumble Salon</a>
+                                                        <a href="/brands/Indiamd" class="link">IndiaMD</a>
                                                     </li>
                                                     <li class="text-caption-1 text_white">
-                                                        <a href="#" class="link">Azure Medical devices</a>
+                                                        <a href="/brands/caretab" class="link">CareTAB.ai</a>
+                                                    </li>
+                                                    <li class="text-caption-1 text_white">
+                                                        <a href="/brands/akiechef" class="link">AkieChef</a>
+                                                    </li>
+                                                    <li class="text-caption-1 text_white">
+                                                        <a href="/brands/tumble-salon" class="link">Tumble Salon</a>
                                                     </li>
                                                     
                                                 </ul>
