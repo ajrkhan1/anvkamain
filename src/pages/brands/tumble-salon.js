@@ -6,8 +6,8 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>IndiaMD - ANVKA</title>
-				<meta name="description" content="For sending DICOM Data Online" />
+				<title>Luxury Hair & Beauty Salon Services Near You</title>
+				<meta name="description" content="Experience premium hair styling, beauty, skincare, and grooming services designed to refresh your look with expert care and comfort." />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 				<link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
@@ -28,10 +28,10 @@ export default function Home() {
                             </ul> */}
                             <div className="row">
                                 <div className="col-sm-8">
-                                    <h2 class="text_white">Tumble Salon</h2>
-                                    {/* <p className="headrp">
-                                        CureWith3D, a healthcare-innovation company focused on creating customized, patient-specific 3D-printed surgical guides, orthopedic & dental implants, and anatomical models.
-                                    </p> */}
+                                    <h2 class="text_white">Tumble Salon </h2>
+                                    <p className="headrp">
+                                        Style. Care. Confidence. Everyday.
+                                    </p>
                                 </div>
 
                                 {/* <div className="col-sm-4">
@@ -46,26 +46,41 @@ export default function Home() {
                     </div>
                 </div>
 
+                <br></br><br></br><br></br><br></br><br></br><br></br>
+                <div class="main-content">      
 
-                <div class="main-content">                    
-                    <div class="section-contact">
-                        <div class="tf-container">
+                    <div class="tf-container">
                             <div class="mb_48">
-                                <div class="row align-items-end">
-                                    <div class="col-lg-12">
-                                        <br/><br/><br/>
-                                        <h3 class="title text_primary title split-text effect-right">Tumble Salon</h3>
+                                <div class="row align-items">
+                                    <div class="col-sm-6 tumblesalonx">
+                                        <div class="leftimage ">
+                                            {/* <img src="/assets/images/portfolio-item-2.jpg" alt="Lintex"/> */}
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 textjustfy">                                        
+                                        <div className="shdwala">                                          
+                                        <h3 class="title text_primary title split-text effect-right font24">Where Beauty Meets Self-Care </h3>
                                         <br></br>
                                         <p>
-                                            Finally, ANVKA also recognizes that well-being is closely linked with confidence and self-care. Tumble Salon reflects this belief by offering grooming and wellness services that help individuals look and feel their best, reinforcing the idea that personal care is an essential part of overall well-being.   
+                                            At Tumble Salon, beauty is more than just a service; it’s an experience designed to help you look and feel your absolute best. From precision haircuts and expert styling to rejuvenating skincare and grooming solutions, every service is delivered with attention to detail, creativity, and care. 
                                         </p>
-
-                                </div>
-                              
+                                        <br></br>
+                                        <p>
+                                            Our salon combines modern trends with personalized consultations to ensure every client receives a look that complements their personality and lifestyle. Whether you’re preparing for a special occasion, refreshing your everyday style, or simply taking time for self-care, Tumble Salon offers a welcoming space where comfort and transformation go hand in hand. 
+                                        </p>
+                                        <br></br>
+                                        <p>
+                                            With skilled professionals, premium products, and a relaxing ambiance, we focus on creating experiences that leave lasting confidence. From hair coloring and styling to beauty treatments and wellness care, every appointment is tailored to provide quality, hygiene, and satisfaction. 
+                                        </p>
+                                        <br></br>
+                                        <p>
+                                            At Tumble Salon, we believe beauty should feel effortless, empowering, and enjoyable because when you feel confident, it reflects in everything you do. 
+                                        </p>
+                                        </div>
+                                    </div>                                    
                                 </div>
                             </div>                         
                         </div>
-                    </div>
 
                     <div class="section-cta tf-spacing-1">
                         <div class="tf-container">
@@ -73,7 +88,7 @@ export default function Home() {
                                 <div class="row align-items-center">
                                     <div class="col-lg-8">
                                         <div class="heading">
-                                            <h3 class="title split-text split-lines-rotation-x cwhite">Partner with Us for a Healthier Tomorrow</h3>
+                                            <h3 class="title split-text split-lines-rotation-x cwhite">Book Your Salon Experience</h3>
                                         </div>
                                     </div>
                                     <div class="col-lg-4">

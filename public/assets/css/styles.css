@@ -23953,6 +23953,97 @@ a.mapboxgl-ctrl-logo {
   z-index: 999999999999999;
     background: #ffffff;
 }
+.font24{font-size: 24px;}
+
+.leftimg{
+  order: 0; place-self: auto; grid-area: auto; z-index: auto; float: none; flex-shrink: 1; display: inline-block; margin: 0px; inset: auto; position: relative; flex-basis: auto; overflow: visible; box-sizing: border-box; width: 599px; height: 599px; padding: 0px;
+}
+
+.leftimgm{
+  translate: none; rotate: none; scale: none; inset: 0px auto auto 0px; margin: 0px; max-width: 598.5px; width: 598.5px; max-height: 598.5px; height: 598.5px; padding: 0px; transform: translate(0px, 0px);
+}
+.bgimages{
+  background-image: url(/assets/images/lintexbgx.webp);
+  background-size: cover;
+  border-radius: 10px;
+}
+.indiamdbg{
+  background-image: url(/assets/images/indiamdbg.webp);
+  background-size: cover;
+  border-radius: 10px;
+}
+.medicalimplants{
+  background-image: url(/assets/images/medicalimplants.webp);
+  background-size: cover;
+  border-radius: 10px;
+}
+.curewith3dimplants{
+  background-image: url(/assets/images/curewith3dimplants.webp);
+  background-size: cover;
+  border-radius: 10px;
+}
+.caretabwalabg{
+  background-image: url(/assets/images/caretabwalabg.webp);
+  background-size: cover;
+  border-radius: 10px;
+}
+.akiechef{
+  background-image: url(/assets/images/akiechef.webp);
+  background-size: cover;
+  border-radius: 10px;
+}
+.tumblesalonx{
+  background-image: url(/assets/images/tumblesalonx.webp);
+  background-size: cover;
+  border-radius: 10px;
+}
+.whowearex{
+     background-image: url(/assets/images/whowearex.webp);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+
+.textjustfy{text-align: justify;}
+
+.shdwala{
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 10px;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.boderx1{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 0px;
+    border-left: 5px solid #000;
+    border-left: 5px solid #e31e24;
+    border-right: 5px solid #e31e24;   
+}
+
+.boderx2{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 0px;
+    border-left: 5px solid #000;
+    border-left: 5px solid #e31e24;
+    border-right: 5px solid #e31e24;   
+}
+
+.boderx3{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 0px;
+    border-left: 5px solid #000;
+    border-left: 5px solid #e31e24;
+    border-right: 5px solid #e31e24;   
+}
+
+.ovefffk{overflow: hidden;}
 
 .galrm a{ width: 33.33%; float: left; padding: 5px;}
 @media (max-width: 767px) {

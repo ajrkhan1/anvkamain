@@ -6,12 +6,10 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Curewith3D - ANVKA</title>
-				<meta name="description" content="For sending DICOM Data Online" />
+				<title>Advanced Patient-Specific 3D Surgical Solutions</title>
+				<meta name="description" content="Discover patient-specific implants, guides, and virtual planning solutions designed to improve precision and patient outcomes." />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
-				<link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
-				<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
 			</Head>
 
             <div class="page-layout-v04">
@@ -28,10 +26,10 @@ export default function Home() {
                             </ul> */}
                             <div className="row">
                                 <div className="col-sm-8">
-                                    <h2 class="text_white">Unmatched Accuracy</h2>
-                                    {/* <p className="headrp">
-                                        CureWith3D, a healthcare-innovation company focused on creating customized, patient-specific 3D-printed surgical guides, orthopedic & dental implants, and anatomical models.
-                                    </p> */}
+                                    <h2 class="text_white">Curewith3D</h2>
+                                    <p className="headrp">
+                                        Personalized Precision for Every Surgery 
+                                    </p>
                                 </div>
 
                                 {/* <div className="col-sm-4">
@@ -46,30 +44,47 @@ export default function Home() {
                     </div>
                 </div>
 
-
+                <br></br><br></br><br></br><br></br><br></br><br></br>
                 <div class="main-content">
+
                     <div class="section-contact">
                         <div class="tf-container">
                             <div class="mb_48">
-                                <div class="row align-items-end">
-                                    <div class="col-lg-12">
-                                        <br/><br/><br/>
-                                        <h3 class="title text_primary title split-text effect-right">Curewith3D</h3>
-                                        <br></br>
-                                        <p>As healthcare innovation continued to evolve, a significant challenge became increasingly evident in operating rooms worldwide. During complex surgical procedures, surgeons often found that traditional implants and standard surgical tools could not always accommodate the unique anatomy of every patient. Each case required a level of precision and personalization that conventional solutions struggled to deliver consistently.</p>
-                                        <br></br>
-                                        <p>This challenge became the foundation for Curewith3D, an advanced healthcare innovation platform focused on patient-specific implants, customized surgical guides, anatomical models, and virtual surgery planning. By integrating cutting-edge engineering with modern medicine, Curewith3D empowers surgeons with highly accurate, customized solutions designed specifically for each patient’s anatomy.</p>
+                                <div class="row align-items">
+                                    <div class="col-sm-6 curewith3dimplants">
+                                        <div class="leftimage ">
+                                            {/* <img src="/assets/images/portfolio-item-2.jpg" alt="Lintex"/> */}
+                                        </div>
                                     </div>
-                                    <div class="col-lg-12">
-
-                                    </div>
+                                    <div class="col-sm-6 textjustfy">                                        
+                                        <div className="shdwala">                                          
+                                        <h3 class="title text_primary title split-text effect-right font24">Redefining Surgery Through 3D Innovation </h3>
+                                        <br></br>
+                                        <p>
+                                            As modern healthcare advances, the need for more personalized surgical solutions has become increasingly important. Traditional implants and surgical methods often cannot fully adapt to the unique anatomy of every patient, especially during complex procedures. Curewith3D was created to bridge this gap by combining advanced engineering, medical expertise, and 3D technology to deliver highly customized surgical solutions. 
+                                        </p>
+                                        <br></br>
+                                        <p>
+                                            Curewith3D focuses on patient-specific implants, customized surgical guides, anatomical models, and virtual surgery planning designed to improve surgical precision and clinical outcomes. Using detailed medical imaging and advanced digital planning, surgeons can better visualize procedures before entering the operating room, helping reduce surgical complexity and improve accuracy during treatment.
+                                        </p>
+                                        <br></br>
+                                        <p>
+                                            Every solution is carefully tailored to match the patient’s anatomy, enabling a more precise implant fit, streamlined procedures, and enhanced surgical confidence. From orthopedic and reconstructive surgeries to complex trauma and oncology cases, Curewith3D supports healthcare professionals with innovative technologies that bring personalization to the forefront of modern medicine.
+                                        </p>
+                                        <p>
+                                            By integrating healthcare with cutting-edge 3D capabilities, Curewith3D represents the future of patient-centric surgical innovation — where technology empowers better planning, greater precision, and improved patient outcomes. 
+                                        </p>
+                                        </div>
+                                    </div>                                    
                                 </div>
-                            </div>
+                            </div>                         
                         </div>
                     </div>
 
+                 
 
-                     <div class="section-about-3">
+
+                     {/* <div class="section-about-3">
                         <div class="tf-container">
                             <div class="heading-section-5 mb_48">
                                 <div class="row">
@@ -124,7 +139,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <br/><br/><br/><br/>
+                    <br/><br/><br/><br/> */}
 
                     <div class="section-cta tf-spacing-1">
                         <div class="tf-container">
@@ -132,7 +147,7 @@ export default function Home() {
                                 <div class="row align-items-center">
                                     <div class="col-lg-8">
                                         <div class="heading">
-                                            <h3 class="title split-text split-lines-rotation-x cwhite">Partner with Us for a Healthier Tomorrow</h3>
+                                            <h3 class="title split-text split-lines-rotation-x cwhite">Explore 3D Surgical Innovation</h3>
                                         </div>
                                     </div>
                                     <div class="col-lg-4">

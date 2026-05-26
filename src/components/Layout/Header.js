@@ -18,7 +18,7 @@ export default function Header() {
                                         </a>
                                     </li>
 
-                                    <li class=" text-menu"><a href="/about-us" class="link-no-action toggle splitting">
+                                    <li class=" text-menu"><a href="/our-story" class="link-no-action toggle splitting">
                                             <span class="text" data-splitting>Our Story</span>
                                         </a>
                                     </li>
@@ -109,7 +109,7 @@ export default function Header() {
                                         </a>
                                     </li>
 
-                                    <li class=" text-menu"><a href="/about-us" class="link-no-action toggle splitting">
+                                    <li class=" text-menu"><a href="/our-story" class="link-no-action toggle splitting">
                                             <span class="text" data-splitting>Our Story</span>
                                         </a>
                                     </li>
@@ -206,7 +206,7 @@ export default function Header() {
                         <a href="/" class="item-menu-mobile">HOME</a>
                     </li>
                     <li class="menu-item">
-                        <a href="/about-us" class="item-menu-mobile">OUR STORY</a>
+                        <a href="/our-story" class="item-menu-mobile">OUR STORY</a>
                     </li>
                     <li class="menu-item menu-item-has-children-mobile active">
                         <a href="#dropdown-menu-one" class="item-menu-mobile collapsed" data-bs-toggle="collapse"

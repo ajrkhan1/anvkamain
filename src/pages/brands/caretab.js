@@ -6,8 +6,8 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Curewith3D - ANVKA</title>
-				<meta name="description" content="For sending DICOM Data Online" />
+				<title>Advanced Home Healthcare Services in India</title>
+				<meta name="description" content="Get hospital-quality healthcare at home with doctor visits, nursing, ICU care, physiotherapy, diagnostics, and medical equipment support." />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 				<link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
@@ -28,10 +28,10 @@ export default function Home() {
                             </ul> */}
                             <div className="row">
                                 <div className="col-sm-8">
-                                    <h2 class="text_white">Your health partner for life</h2>
-                                    {/* <p className="headrp">
-                                        Care(T.A.B).ai envisions building a quality-driven, outcome-focused, and tech-enabled ecosystem for healthcare delivery beyond hospital walls.
-                                    </p> */}
+                                    <h2 class="text_white">CareTAB.ai</h2>
+                                    <p className="headrp">
+                                        Healthcare @Home, Simplified
+                                    </p>
                                 </div>
 
                                 {/* <div className="col-sm-4">
@@ -46,87 +46,41 @@ export default function Home() {
                     </div>
                 </div>
 
+                <br></br><br></br><br></br><br></br><br></br><br></br>
+                <div class="main-content">    
 
-                <div class="main-content">                    
-                    <div class="section-contact">
-                        <div class="tf-container">
+                    <div class="tf-container">
                             <div class="mb_48">
-                                <div class="row align-items-end">
-                                    <div class="col-lg-12">
-                                        <br/><br/><br/>
-                                        <h3 class="title text_primary title split-text effect-right">CareTAB.ai</h3>
-                                        <br></br>
-                                        <p>
-                                            Healthcare does not end when a patient leaves the hospital. Recovery, rehabilitation, chronic disease management, and elderly care often require continuous medical attention at home. For many families, finding trusted healthcare professionals who can deliver reliable and timely support becomes a major challenge. 
-                                        </p>
-                                        <br></br>
-                                        <p>
-                                            To bridge this gap, ANVKA introduced CareTAB.ai — an innovative home healthcare platform designed to deliver hospital-quality care directly to patients in the comfort of their homes. Combining advanced technology, AI-powered healthcare support, and professionally trained medical experts, CareTAB.ai ensures that patients receive continuous, compassionate, and personalized care whenever they need it. 
-                                        </p>
+                                <div class="row align-items">
+                                    <div class="col-sm-6 caretabwalabg">
+                                        <div class="leftimage ">
+                                            {/* <img src="/assets/images/portfolio-item-2.jpg" alt="Lintex"/> */}
+                                        </div>
                                     </div>
-                                     
+                                    <div class="col-sm-6 textjustfy">                                        
+                                        <div className="shdwala">                                          
+                                        <h3 class="title text_primary title split-text effect-right font24">Smart Healthcare, Delivered to Your Doorstep</h3>
+                                        <br></br>
+                                        <p>
+                                            CareTAB.ai is redefining home healthcare by bringing hospital-quality medical services directly to patients in the comfort of their homes. Designed to support patients beyond hospital walls, the platform combines advanced technology, AI-powered healthcare assistance, and experienced medical professionals to ensure seamless and dependable care at every stage of recovery.
+                                        </p>
+                                        <br></br>
+                                        <p>
+                                            From doctor consultations and nursing services to ICU at home, physiotherapy, diagnostics, and medical equipment support, CareTAB.ai offers a complete ecosystem of personalized healthcare solutions tailored to individual patient needs. Whether it is post-surgical recovery, elderly care, chronic disease management, or routine medical support, patients receive professional attention without the stress of frequent hospital visits. 
+                                        </p>
+                                        <br></br>
+                                        <p>
+                                            With a growing network of 300+ healthcare professionals and partnerships with leading hospitals, CareTAB.ai continues to make quality healthcare more accessible, convenient, and patient-centric. Trusted by over 10,200 happy clients, the platform is committed to delivering compassionate care, continuous monitoring, and complete peace of mind for families. 
+                                        </p>
+                                        <p>
+                                            By blending innovation with human care, CareTAB.ai is shaping the future of healthcare where quality treatment reaches patients anytime, anywhere. 
+                                        </p>
+                                        </div>
+                                    </div>                                    
                                 </div>
                             </div>                         
                         </div>
-                    </div>
 
-
-                     <div class="section-about-3">
-                        <div class="tf-container">
-                            <div class="heading-section-5 mb_48">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="">                                            
-                                            <h3 class="title split-text effect-left">Caring Healthcare You Can Trust</h3>
-                                        </div>
-                                    </div>
-                                   
-                                </div>
-                            </div>
-                            <div class="tf-grid-layout md-col-3 gap_30">
-                                <div class="portfolio-item style-2 hover-image-2">
-                                    <a href="#" class="img-style">
-                                        <img src="/assets/images/doctor-consultations.webp" alt="about-item"/>
-                                    </a>
-                                    <div class="content">
-                                        <a href="#" class="title mb_8 link h5">Doctor Consultations</a>
-                                        <p class="text_secondary mb_16">From tele-consultations to emergency visits, expert care is just one call away.</p>
-                                        <div>
-                                            <a href="https://caretab.ai/"
-                                                class="hover-underline-link text_primary-color text-button">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="portfolio-item style-2 hover-image-2">
-                                    <a href="#" class="img-style">
-                                        <img src="/assets/images/nursing-care.webp" alt="about-item"/>
-                                    </a>
-                                    <div class="content">
-                                        <a href="#" class="title mb_8 link h5">Nursing Care</a>
-                                        <p class="text_secondary mb_16">Short & long-term nursing care including post-op, palliative & respiratory care.</p>
-                                        <div>
-                                            <a href="https://caretab.ai/"
-                                                class="hover-underline-link text_primary-color text-button">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="portfolio-item style-2 hover-image-2">
-                                    <a href="#" class="img-style">
-                                        <img src="/assets/images/icu.webp" alt="about-item"/>
-                                    </a>
-                                    <div class="content">
-                                        <a href="#" class="title mb_8 link h5">ICU Setup at Home</a>
-                                        <p class="text_secondary mb_16">Complete intensive care environment setup with ventilators, monitors, & skilled staff.</p>
-                                        <div>
-                                            <a href="https://caretab.ai/"
-                                                class="hover-underline-link text_primary-color text-button">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br/><br/><br/><br/>
 
                     <div class="section-cta tf-spacing-1">
                         <div class="tf-container">
@@ -134,7 +88,7 @@ export default function Home() {
                                 <div class="row align-items-center">
                                     <div class="col-lg-8">
                                         <div class="heading">
-                                            <h3 class="title split-text split-lines-rotation-x cwhite">Partner with Us for a Healthier Tomorrow</h3>
+                                            <h3 class="title split-text split-lines-rotation-x cwhite">Start Your Homecare Journey</h3>
                                         </div>
                                     </div>
                                     <div class="col-lg-4">

@@ -6,8 +6,8 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>IndiaMD - ANVKA</title>
-				<meta name="description" content="For sending DICOM Data Online" />
+				<title>Nutritious Meals Crafted for Better Living</title>
+				<meta name="description" content="Fresh, balanced, and health-focused meals designed with nutrition, quality ingredients, and everyday wellness in mind." />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 				<link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
@@ -29,9 +29,9 @@ export default function Home() {
                             <div className="row">
                                 <div className="col-sm-8">
                                     <h2 class="text_white">AkieChef</h2>
-                                    {/* <p className="headrp">
-                                        CureWith3D, a healthcare-innovation company focused on creating customized, patient-specific 3D-printed surgical guides, orthopedic & dental implants, and anatomical models.
-                                    </p> */}
+                                    <p className="headrp">
+                                        Nourishing Lives Through Food
+                                    </p>
                                 </div>
 
                                 {/* <div className="col-sm-4">
@@ -46,35 +46,41 @@ export default function Home() {
                     </div>
                 </div>
 
-
-                <div class="main-content">                    
-                    <div class="section-contact">
+                <br></br><br></br><br></br><br></br><br></br><br></br>
+                <div class="main-content">
+                    
                         <div class="tf-container">
                             <div class="mb_48">
-                                <div class="row align-items-end">
-                                    <div class="col-lg-12">
-                                        <br/><br/><br/>
-                                        <h3 class="title text_primary title split-text effect-right">AkieChef</h3>
-                                        <br></br>
-                                        <p>
-                                            The journey of ANVKA has always been rooted in care, compassion, and the belief that healthcare extends beyond treatment alone. During the COVID-19 pandemic, hospitals across the country faced immense pressure, and patient attendants often spent countless hours outside hospital wards with limited access to proper meals and refreshments.
-                                        </p>
-                                        <br></br>
-                                        <p>
-                                            In those challenging times, simple acts of kindness made a meaningful difference. Food and snacks were distributed to attendants and families waiting outside hospitals, offering comfort and support when it was needed most. What began as a humanitarian initiative gradually evolved into a larger vision — the creation of AkieChef, a brand dedicated to delivering nutritious, convenient, and high-quality food solutions for healthcare environments and beyond. 
-                                        </p>
-                                        <br></br>
-                                        <p>
-                                            Today, AkieChef stands as a reflection of ANVKA’s commitment to holistic well-being, combining nutrition, quality, and accessibility into every meal served. 
-                                        </p>
-                                </div>
-                                    <div class="col-lg-12">
-                                        
+                                <div class="row align-items">
+                                    <div class="col-sm-6 akiechef">
+                                        <div class="leftimage ">
+                                            {/* <img src="/assets/images/portfolio-item-2.jpg" alt="Lintex"/> */}
+                                        </div>
                                     </div>
+                                    <div class="col-sm-6 textjustfy">                                        
+                                        <div className="shdwala">                                          
+                                        <h3 class="title text_primary title split-text effect-right font24">From Compassion to Everyday Wellness </h3>
+                                        <br></br>
+                                        <p>
+                                            AkieChef was born from a simple yet meaningful act of care during the COVID-19 pandemic, when food and snacks were distributed to patient attendants waiting outside overwhelmed hospitals. What began as humanitarian support gradually evolved into a vision for delivering nutritious, reliable, and high-quality food solutions designed around health and well-being. 
+                                        </p>
+                                        <br></br>
+                                        <p>
+                                            Today, AkieChef combines culinary expertise with nutritional precision to create meals that are wholesome, balanced, and convenient. Supported by a dedicated in-house dietetics department, every meal is thoughtfully prepared to align with health-focused dietary and clinical requirements while maintaining exceptional taste and quality.
+                                        </p>
+                                        <br></br>
+                                        <p>
+                                            With a strong focus on fresh ingredients, hygiene, and dependable meal availability, AkieChef serves healthcare environments while also expanding into everyday lifestyles. Whether for patients, caregivers, healthcare professionals, or individuals seeking healthier meal options, the brand is committed to making nutrition more accessible and enjoyable. 
+                                        </p>
+                                        <br></br>
+                                        <p>
+                                            More than just a food brand, AkieChef reflects ANVKA’s belief that true care goes beyond treatment — it extends to comfort, nourishment, and the everyday moments that support healthier living. 
+                                        </p>
+                                        </div>
+                                    </div>                                    
                                 </div>
                             </div>                         
                         </div>
-                    </div>
 
                     <div class="section-cta tf-spacing-1">
                         <div class="tf-container">
@@ -82,7 +88,7 @@ export default function Home() {
                                 <div class="row align-items-center">
                                     <div class="col-lg-8">
                                         <div class="heading">
-                                            <h3 class="title split-text split-lines-rotation-x cwhite">Partner with Us for a Healthier Tomorrow</h3>
+                                            <h3 class="title split-text split-lines-rotation-x cwhite">Discover AkieChef</h3>
                                         </div>
                                     </div>
                                     <div class="col-lg-4">

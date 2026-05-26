@@ -21,72 +21,69 @@ export default function Home() {
                     </div>
                     <div class="content">
                         <div class="tf-container">
-                            <ul class="tf-breadcrumb style-2 mb_16">
+                            {/* <ul class="tf-breadcrumb style-2 mb_16">
                                 <li class="text-label text_white lh-16"><a href="/index.html"
                                         class="link text_white">HOME</a>
                                 </li>
                                 <li class="text_white text-label lh-16">About Us</li>
-                            </ul>
-                            <h2 class="text_white">About Us</h2>
+                            </ul> */}
+                            <h1 class="text_white">About Us</h1>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="main-content">                    
+                <div class="main-content">
                    <div class="section-about tf-spacing-1">
-                        <div class="tf-container">
-                            <div class="box-about">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6">
-                                        <div class="heading-section style-default mb_28">
-                                            <div class="sub text-label text-uppercase split-text effect-up">About Anvka Healthcare</div>
+
+                    <div class="tf-container">
+                            <div class="mb_48">
+                                <div class="row align-items">
+
+                                    <div class="col-sm-6 textjustfy">
+                                        <div className="shdwala">
+                                        <div class="heading-section style-default">
                                             <h2 class="title split-text effect-right">Who We Are</h2>
                                         </div>
-                                        <div class="mb_28 wow fadeInUp">
-                                            <p class="mb_16 text-body-default">
-                                                At Anvka Healthcare, we are committed to delivering innovative and reliable healthcare solutions that improve lives and support medical excellence. With a strong focus on quality, trust, and advancement, we aim to provide modern healthcare products and services that meet the evolving needs of medical professionals and patients alike.</p>                                          
-                                        </div>
+
+                                        <br></br>
+                                        <p>
+                                            ANVKA is a growing ecosystem of ideas, innovation, and purpose-driven initiatives built around improving the healthcare environment and the lives connected to it. What began as a vision to create meaningful solutions has evolved into a network of brands and services that work across healthcare, technology, wellness, innovation, and community support.
+                                        </p>
+                                        <br></br>
+                                        <p>
+                                            At its core, ANVKA believes that healthcare is not limited to hospitals alone. It extends to the experiences of patients, the comfort of caregivers, the efficiency of healthcare professionals, and the support systems that surround them. With this understanding, ANVKA was created to build solutions that go beyond treatment and contribute to a more connected, compassionate, and human-centered ecosystem.
+                                        </p>
+                                        <br></br>
+                                        <p>
+                                            The name ANVKA represents the belief that every initiative should be nurtured with sincerity, purpose, and commitment—just like a family.
+                                        </p>
+                                        <p>
+                                           Over time, ANVKA has grown into a diverse collective of brands, each addressing a unique need while contributing to a shared vision. From healthcare innovation and medical technology to patient support, garments, wellness, and entrepreneurship, every initiative under ANVKA is designed to create a meaningful impact.
+                                        </p>
+
                                         <a href="/contact-us" class="tf-btn btn-hover-animate-2 wow fadeInUp"
                                             data-wow-delay="0.4s">
                                             <span>Get in Touch</span>
                                             <span></span>
                                         </a>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="wrap-content tf-grid-layout tf-col-2 gap_10">
-                                            <div
-                                                class="counter-item d-flex flex-column align-items-center justify-content-center bg-1">
-                                                <div class="counter h1"><span class="numberCounter" data-count="15"
-                                                        data-duration="700">0</span><span class="sub-counter">+</span>
-                                                </div>
-                                                <p class="sub-title text-body-2">Years of Experience </p>
-                                            </div>
-                                            <div
-                                                class="counter-item d-flex flex-column align-items-center justify-content-center bg-2">
-                                                <div class="counter h1"><span class="numberCounter" data-count="6"
-                                                        data-duration="700">0</span><span class="sub-counter">k+</span>
-                                                </div>
-                                                <p class="sub-title text-body-2">Happy Clients</p>
-                                            </div>
-                                            <div class="img-style">
-                                                <img width="308" height="308" src="/assets/images/about-1.jpg" alt=""/>
-                                            </div>
-                                            <div
-                                                class="counter-item d-flex flex-column align-items-center justify-content-center bg-3">
-                                                <div class="counter h1 text_white"><span class="numberCounter"
-                                                        data-count="120" data-duration="700">0</span><span
-                                                        class="sub-counter">+</span></div>
-                                                <p class="sub-title text-body-2 text_white">Professional Advisors</p>
-                                            </div>
                                         </div>
                                     </div>
+
+                                    <div class="col-sm-6 whowearex">
+                                        <div class="leftimage ">
+                                            {/* <img src="/assets/images/portfolio-item-2.jpg" alt="Lintex"/> */}
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
+
+
                     </div>
 
-                    {/* <div class="section-video">                        
+                    {/* <div class="section-video">
                         <div class="wrap-infiniteslide">
                             <div class="infiniteslide " data-clone="2" data-style="left">
                                 <div class="marquee-item ">

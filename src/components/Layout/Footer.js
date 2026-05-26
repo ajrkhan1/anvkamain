@@ -26,7 +26,10 @@ export default function Footer() {
                                             <div class="tf-collapse-content">
                                                 <ul class="footer-menu-list d-grid gap_12">
                                                     <li class="text-caption-1 text_white">
-                                                        <a href="/about-us" class="link">Our Story</a>
+                                                        <a href="/about-us" class="link">About Us</a>
+                                                    </li>
+                                                    <li class="text-caption-1 text_white">
+                                                        <a href="/our-story" class="link">Our Story</a>
                                                     </li>
                                                     <li class="text-caption-1 text_white">
                                                         <a href="#" class="link">Services</a>

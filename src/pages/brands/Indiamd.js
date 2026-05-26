@@ -6,8 +6,8 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>IndiaMD - ANVKA</title>
-				<meta name="description" content="For sending DICOM Data Online" />
+				<title>Affordable Medical Travel & Healthcare in India</title>
+				<meta name="Access trusted hospitals, expert doctors, and complete medical travel assistance in India with seamless end-to-end patient support." />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 				<link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
@@ -28,9 +28,9 @@ export default function Home() {
                             <div className="row">
                                 <div className="col-sm-8">
                                     <h2 class="text_white">IndiaMD</h2>
-                                    {/* <p className="headrp">
-                                        CureWith3D, a healthcare-innovation company focused on creating customized, patient-specific 3D-printed surgical guides, orthopedic & dental implants, and anatomical models.
-                                    </p> */}
+                                    <p className="headrp">
+                                        The Global Care Pathway
+                                    </p>
                                 </div>
 
                                 {/* <div className="col-sm-4">
@@ -45,91 +45,44 @@ export default function Home() {
                     </div>
                 </div>
 
-
-                <div class="main-content">                    
+<br></br><br></br><br></br><br></br><br></br><br></br>
+                <div class="main-content">
+                    
                     <div class="section-contact">
                         <div class="tf-container">
                             <div class="mb_48">
-                                <div class="row align-items-end">
-                                    <div class="col-lg-12">
-                                        <br/><br/><br/>
-                                        <h3 class="title text_primary title split-text effect-right">IndiaMD</h3>
-                                        <br></br>
-                                        <p>
-                                            As India continues to gain global recognition for its world-class healthcare infrastructure, advanced medical expertise, and affordable treatment solutions, the need for a trusted healthcare navigation partner has become more important than ever. IndiaMD was established to bridge this gap by offering a premium medical value travel experience for international patients seeking quality healthcare in India.
-                                        </p>
-                                        <br></br>
-                                        <p>Backed by the vision of making healthcare accessible beyond borders, IndiaMD simplifies the entire medical journey for patients and their families. From identifying the right hospital and specialist to managing travel logistics and post-treatment care, IndiaMD delivers a seamless, stress-free, and patient-centric experience. </p>
-                                        <br></br>
-                                        <p>
-                                            With a strong commitment to excellence, transparency, and personalized support, IndiaMD contributes to the larger aspiration of positioning India as a “Vishwa Chikitsalaya” — a global destination for trusted, affordable, and advanced medical care. 
-                                        </p>
-                                </div>
-                                    <div class="col-lg-12">
-                                        
+                                <div class="row align-items">
+                                    <div class="col-sm-6 indiamdbg">
+                                        <div class="leftimage ">
+                                            {/* <img src="/assets/images/portfolio-item-2.jpg" alt="Lintex"/> */}
+                                        </div>
                                     </div>
+                                    <div class="col-sm-6 textjustfy">                                        
+                                        <div className="shdwala">                                          
+                                        <h3 class="title text_primary title split-text effect-right font24">Premium Medical Value Travel Experience</h3>
+                                        <br></br>
+                                        <p>
+                                            IndiaMD was created with a vision to make quality healthcare in India more accessible, seamless, and trustworthy for international patients. As India continues to emerge as a global destination for advanced and affordable medical care, IndiaMD serves as a premium medical concierge platform that simplifies every step of the patient journey.
+                                        </p>
+                                        <br></br>
+                                        <p>
+                                            From treatment planning and hospital selection to travel coordination and post-treatment support, IndiaMD offers end-to-end assistance through a patient-first approach. The platform connects patients with trusted hospitals, experienced doctors, and customized treatment packages across multiple specialties, ensuring transparency, comfort, and confidence throughout the process. 
+                                        </p>
+                                        <br></br>
+                                        <p>
+                                            With app-enabled care and dedicated patient support, IndiaMD manages everything from medical visa guidance, accommodation, and airport transfers to follow-up consultations and recovery assistance. Every service is designed to reduce stress and help patients focus on what matters most — healing and recovery. 
+                                        </p>
+                                        <br></br>
+                                        <p>By combining healthcare expertise, technology, and personalized care coordination, IndiaMD is contributing to a larger vision of positioning India as a global hub for trusted medical excellence and compassionate healthcare delivery.</p>
+                                        </div>
+                                    </div>                                    
                                 </div>
                             </div>                         
                         </div>
                     </div>
 
 
-                     <div class="section-about-3">
-                        <div class="tf-container">
-                            <div class="heading-section-5 mb_48">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="">                                            
-                                            <h3 class="title split-text effect-left">India Medical Destination</h3>
-                                        </div>
-                                    </div>
-                                   
-                                </div>
-                            </div>
-                            <div class="tf-grid-layout md-col-3 gap_30">
-                                <div class="portfolio-item style-2 hover-image-2">
-                                    <a href="#" class="img-style">
-                                        <img src="/assets/images/world-class-healthcare.webp" alt="about-item"/>
-                                    </a>
-                                    <div class="content">
-                                        <a href="#" class="title mb_8 link h5">World-Class Healthcare at Affordable Cost</a>
-                                        <p class="text_secondary mb_16">India offers advanced medical treatments with internationally trained doctors and modern hospitals at significantly lower costs compared to many countries, making quality healthcare more accessible.</p>
-                                        <div>
-                                            <a href="#"
-                                                class="hover-underline-link text_primary-color text-button">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="portfolio-item style-2 hover-image-2">
-                                    <a href="#" class="img-style">
-                                        <img src="/assets/images/expert-doctors.webp" alt="about-item"/>
-                                    </a>
-                                    <div class="content">
-                                        <a href="#" class="title mb_8 link h5">Expert Doctors & Advanced Medical Technology</a>
-                                        <p class="text_secondary mb_16">India is known for highly experienced specialists across cardiology, oncology, orthopedics, IVF, organ transplants, and more, supported by cutting-edge medical infrastructure and accredited hospitals.</p>
-                                        <div>
-                                            <a href="#"
-                                                class="hover-underline-link text_primary-color text-button">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="portfolio-item style-2 hover-image-2">
-                                    <a href="#" class="img-style">
-                                        <img src="/assets/images/complete-healing-experience.webp" alt="about-item"/>
-                                    </a>
-                                    <div class="content">
-                                        <a href="#" class="title mb_8 link h5">Complete Healing Experience</a>
-                                        <p class="text_secondary mb_16">Beyond treatment, India combines medical care with wellness options like Ayurveda, Yoga, rehabilitation, and hospitality support, helping international patients recover comfortably.</p>
-                                        <div>
-                                            <a href="#"
-                                                class="hover-underline-link text_primary-color text-button">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br/><br/><br/><br/>
+          
 
                     <div class="section-cta tf-spacing-1">
                         <div class="tf-container">
@@ -137,7 +90,7 @@ export default function Home() {
                                 <div class="row align-items-center">
                                     <div class="col-lg-8">
                                         <div class="heading">
-                                            <h3 class="title split-text split-lines-rotation-x cwhite">Partner with Us for a Healthier Tomorrow</h3>
+                                            <h3 class="title split-text split-lines-rotation-x cwhite">Start Your Treatment Journey</h3>
                                         </div>
                                     </div>
                                     <div class="col-lg-4">
