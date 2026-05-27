@@ -13,6 +13,7 @@ export default function Home() {
         slidesToShow: 4,
         slidesToScroll: 2,
         initialSlide: 0,
+        autoplay:1000,
         responsive: [
             {
                 breakpoint: 1024,
