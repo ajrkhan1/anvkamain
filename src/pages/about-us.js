@@ -154,7 +154,7 @@ export default function Home() {
                                                     src="/assets/images/lintex.png" alt="service"/>
                                             </div>
                                             <div class="content">
-                                                <a href="service-detail.html"
+                                                <a target="_blank" href="https://lintex.in/"
                                                     class="fw-5 text_white title link mb_12 h5">LINTEX</a>
                                                 <div class="wrap">
                                                     <p class="font-3 text-body-default text_white desc mb_12">Smart uniforms designed for comfort and identity</p>
@@ -171,7 +171,7 @@ export default function Home() {
                                                     src="assets/images/3d.png" alt="service"/>
                                             </div>
                                             <div class="content">
-                                                <a href="service-detail.html"
+                                                <a target="_blank" href="https://www.curewith3d.com/"
                                                     class="fw-5 text_white title link mb_12 h5">Curewith3D</a>
                                                 <div class="wrap">
                                                     <p class="font-3 text-body-default text_white desc mb_12">Patient-specific 3D innovations enabling surgical precision</p>
@@ -188,7 +188,7 @@ export default function Home() {
                                                     src="assets/images/caretab.png" alt="service"/>
                                             </div>
                                             <div class="content">
-                                                <a href="service-detail.html"
+                                                <a target="_blank" href="https://caretab.ai/"
                                                     class="fw-5 text_white title link mb_12 h5">CareTAB</a>
                                                 <div class="wrap">
                                                     <p class="font-3 text-body-default text_white desc mb_12">Technology bringing hospital-level care to homes</p>
@@ -205,7 +205,7 @@ export default function Home() {
                                                     src="assets/images/tumble.png" alt="service"/>
                                             </div>
                                             <div class="content">
-                                                <a href="service-detail.html"
+                                                <a target="_blank" href="https://www.instagram.com/tumblesalon"
                                                     class="fw-5 text_white title link mb_12 h5">Tumble Salon</a>
                                                 <div class="wrap">
                                                     <p class="font-3 text-body-default text_white desc mb_12">Hygiene solutions that go beyond medical care</p>

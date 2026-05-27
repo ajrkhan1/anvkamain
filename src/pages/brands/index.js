@@ -50,20 +50,20 @@ export default function Home() {
                    
                     <div class="section-service-4 tf-spacing-1 sw-layout">
                         <div class="tf-container">
-                            <div class="heading-section style-1 mb_30">
+                            <div class="heading-section style-1 mb_40">
                                 <div class="row align-items-center">
-                                    <div class="col-lg-7 d-grid gap_16">
+                                    <div class="col-lg-7 d-grid gap_10">
                                         {/* <div class="sub text-label text-uppercase split-text effect-up">Our Brands
                                         </div> */}
-                                        <h2 class="title split-text effect-blur-fade">Our Verticals</h2>
+                                        <h3 class="title split-text effect-blur-fade">Our Verticals</h3>
                                     </div>
-                                    <div class="col-lg-5">
-                                        <a href="#"
+                                    {/* <div class="col-lg-5">
+                                        <a href="/brands"
                                             class="tf-btn btn-hover-animate-2 ms-lg-auto wow fadeInRight">
                                             <span>All Brands</span>
                                             <span></span>
                                         </a>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div class="swiper wow fadeInRight verticalbn" data-screen-xl="4" data-preview="3" data-tablet="3"
@@ -77,10 +77,10 @@ export default function Home() {
                                                     src="/assets/images/lintex.png" alt="service"/>
                                             </div>
                                             <div class="content">
-                                                <a href="service-detail.html"
-                                                    class="fw-5 text_white title link mb_12 h5">Lintex</a>
+                                                <a target="_blank" href="https://lintex.in/"
+                                                    class="fw-5 text_white title link mb_12 h5">LINTEX</a>
                                                 <div class="wrap">
-                                                    <p class="font-3 text-body-default text_white desc mb_12">LINTEX is a specialized uniform and fashion brand that designs high-quality, comfortable, and durable apparel.</p>
+                                                    <p class="font-3 text-body-default text_white desc mb_12">Smart uniforms designed for comfort and identity</p>
                                                     <a target="_blank" href="https://lintex.in/"
                                                         class="text-caption-1 text_primary-color fw-4 hover-underline-link">Explore</a>
                                                 </div>
@@ -94,10 +94,10 @@ export default function Home() {
                                                     src="assets/images/3d.png" alt="service"/>
                                             </div>
                                             <div class="content">
-                                                <a href="service-detail.html"
+                                                <a target="_blank" href="https://www.curewith3d.com/"
                                                     class="fw-5 text_white title link mb_12 h5">Curewith3D</a>
                                                 <div class="wrap">
-                                                    <p class="font-3 text-body-default text_white desc mb_12">Curewith3D is a healthcare innovation company specializing in customized, patient-specific 3D-printed...</p>
+                                                    <p class="font-3 text-body-default text_white desc mb_12">Patient-specific 3D innovations enabling surgical precision</p>
                                                     <a target="_blank" href="https://www.curewith3d.com/"
                                                         class="text-caption-1 text_primary-color fw-4 hover-underline-link">Explore</a>
                                                 </div>
@@ -111,10 +111,10 @@ export default function Home() {
                                                     src="assets/images/caretab.png" alt="service"/>
                                             </div>
                                             <div class="content">
-                                                <a href="service-detail.html"
+                                                <a target="_blank" href="https://caretab.ai/"
                                                     class="fw-5 text_white title link mb_12 h5">CareTAB</a>
                                                 <div class="wrap">
-                                                    <p class="font-3 text-body-default text_white desc mb_12">CareTAB.ai is building a quality-driven, outcome-focused, technology-enabled ecosystem for healthcare...</p>
+                                                    <p class="font-3 text-body-default text_white desc mb_12">Technology bringing hospital-level care to homes</p>
                                                     <a target="_blank" href="https://caretab.ai/"
                                                         class="text-caption-1 text_primary-color fw-4 hover-underline-link">Explore</a>
                                                 </div>
@@ -128,10 +128,10 @@ export default function Home() {
                                                     src="assets/images/tumble.png" alt="service"/>
                                             </div>
                                             <div class="content">
-                                                <a href="service-detail.html"
+                                                <a target="_blank" href="https://www.instagram.com/tumblesalon"
                                                     class="fw-5 text_white title link mb_12 h5">Tumble Salon</a>
                                                 <div class="wrap">
-                                                    <p class="font-3 text-body-default text_white desc mb_12">Tumble Salon reflects the philosophy of wellness beyond healthcare by offering professional grooming...</p>
+                                                    <p class="font-3 text-body-default text_white desc mb_12">Hygiene solutions that go beyond medical care</p>
                                                     <a target="_blank" href="https://www.instagram.com/tumblesalon"
                                                         class="text-caption-1 text_primary-color fw-4 hover-underline-link">Explore</a>
                                                 </div>
