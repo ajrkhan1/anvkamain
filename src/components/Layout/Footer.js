@@ -65,10 +65,7 @@ export default function Footer() {
                                                     </li>
                                                     <li class="text-caption-1 text_white">
                                                         <a href="/brands/curewith3d" class="link">Curewith3D</a>
-                                                    </li>
-                                                    <li class="text-caption-1 text_white">
-                                                        <a href="/brands/lintex" class="link">IndiaMD</a>
-                                                    </li>
+                                                    </li>                                           
                                                     <li class="text-caption-1 text_white">
                                                         <a href="/brands/Indiamd" class="link">IndiaMD</a>
                                                     </li>

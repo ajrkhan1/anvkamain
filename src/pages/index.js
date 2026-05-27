@@ -462,7 +462,7 @@ export default function Home() {
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide wow fadeInLeft">
                                     <div class="blog-item style-default hover-image-translate">
-                                        <a href="blog-detail.html" class="img-style mb_23">
+                                        <a href="#" class="img-style mb_23">
                                             <img loading="lazy" decoding="async" width="445" height="334"
                                                 src="/assets/images/blog-item-8.jpg" alt="blog"/>
                                             <div class="tag text-label">
@@ -479,7 +479,7 @@ export default function Home() {
                                                 <li class="text-caption-1">June 12, 2026</li>
                                             </ul>
                                             <h5 class="title line-clamp-2">
-                                                <a href="blog-detail.html" class=" link hover-line-text ">Launching Our
+                                                <a href="#" class=" link hover-line-text ">Launching Our
                                                     New Office in
                                                     Singapore</a>
                                             </h5>
@@ -488,7 +488,7 @@ export default function Home() {
                                 </div>
                                 <div class="swiper-slide wow fadeInLeft" data-wow-delay="0.2s">
                                     <div class="blog-item style-default hover-image-translate">
-                                        <a href="blog-detail.html" class="img-style mb_23">
+                                        <a href="#" class="img-style mb_23">
                                             <img loading="lazy" decoding="async" width="445" height="334"
                                                 src="/assets/images/blog-item-9.jpg" alt="blog"/>
                                             <div class="tag text-label">
@@ -505,7 +505,7 @@ export default function Home() {
                                                 <li class="text-caption-1">May 06, 2026</li>
                                             </ul>
                                             <h5 class="titl line-clamp-2e">
-                                                <a href="blog-detail.html" class="link hover-line-text ">CEO Talks
+                                                <a href="#" class="link hover-line-text ">CEO Talks
                                                     Innovation at Tech Summit 2026</a>
                                             </h5>
                                         </div>
@@ -513,7 +513,7 @@ export default function Home() {
                                 </div>
                                 <div class="swiper-slide wow fadeInLeft" data-wow-delay="0.4s">
                                     <div class="blog-item style-default hover-image-translate">
-                                        <a href="blog-detail.html" class="img-style mb_23">
+                                        <a href="#" class="img-style mb_23">
                                             <img loading="lazy" decoding="async" width="445" height="334"
                                                 src="/assets/images/blog-item-10.jpg" alt="blog"/>
                                             <div class="tag text-label">
@@ -530,7 +530,7 @@ export default function Home() {
                                                 <li class="text-caption-1">May 08, 2026</li>
                                             </ul>
                                             <h5 class="title line-clamp-2">
-                                                <a href="blog-detail.html" class=" link hover-line-text ">New Client
+                                                <a href="#" class=" link hover-line-text ">New Client
                                                     Onboarding Process Streamlined</a>
                                             </h5>
                                         </div>
@@ -538,7 +538,7 @@ export default function Home() {
                                 </div>
                                 <div class="swiper-slide wow fadeInLeft" data-wow-delay="0.6s">
                                     <div class="blog-item style-default hover-image-translate">
-                                        <a href="blog-detail.html" class="img-style mb_23">
+                                        <a href="#" class="img-style mb_23">
                                             <img loading="lazy" decoding="async" width="445" height="334"
                                                 src="/assets/images/blog-item-11.jpg" alt="blog"/>
                                             <div class="tag text-label">
@@ -555,7 +555,7 @@ export default function Home() {
                                                 <li class="text-caption-1">May 08, 2026</li>
                                             </ul>
                                             <h5 class="title line-clamp-2">
-                                                <a href="blog-detail.html" class=" link hover-line-text ">Partnering
+                                                <a href="#" class=" link hover-line-text ">Partnering
                                                     with GreenFuture to Promote Sustainability</a>
                                             </h5>
                                         </div>
