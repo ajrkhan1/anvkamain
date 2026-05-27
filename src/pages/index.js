@@ -7,11 +7,11 @@ export default function Home() {
 
     var settings = {
         dots: true,
-        arrows: true,
+        arrows: false,
         infinite: true,
         speed: 500,
         slidesToShow: 4,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         initialSlide: 0,
         responsive: [
             {

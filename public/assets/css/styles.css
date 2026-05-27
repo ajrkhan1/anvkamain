@@ -24090,6 +24090,17 @@ a.mapboxgl-ctrl-logo {
     font-size: 8px;
     line-height: 17px;
 }
+.slick-next:before, .slick-prev:before{
+      opacity: 1;
+    color: #e31e24;
+        font-size: 40px;
+}
+
+.slick-next, .slick-prev{
+      width: 40px;
+    height: 40px;
+}
+
 @media (max-width: 767px) {
   .tf-social a {height: 35px; width: 35px;}
   .videsl video{min-height: 400px !important;}
