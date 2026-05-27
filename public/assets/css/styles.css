@@ -24073,6 +24073,7 @@ a.mapboxgl-ctrl-logo {
     z-index: 999999999999999;
     background: linear-gradient(270deg, rgb(0 0 0) 0%, rgb(0 0 0) 50%, #e31e24 99.51%);
 }
+.axg{padding: 7px;}
 @media (max-width: 767px) {
   .tf-social a {height: 35px; width: 35px;}
   .videsl video{min-height: 400px !important;}
