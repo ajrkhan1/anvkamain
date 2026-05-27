@@ -43,7 +43,8 @@ export default function Home() {
                                         <h3 class="title split-text effect-right">Meet Our Leadership Team</h3>
                                         <p
                                             class="desc text-body-3 text_on-suface-1 mt_6 font-3 split-text split-lines-transform">
-                                            A diverse group of thinkers, builders, and leaders driving innovation and impact.</p>
+                                            A passionate team of experts focused on innovation, quality, and better healthcare solutions.
+                                            </p>
                                     </div>
                                     <div class="trust d-flex align-items-center gap_12 mb_32 wow fadeInUp"
                                         data-wow-delay="0.4s">
