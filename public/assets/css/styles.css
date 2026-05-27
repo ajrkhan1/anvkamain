@@ -24074,6 +24074,22 @@ a.mapboxgl-ctrl-logo {
     background: linear-gradient(270deg, rgb(0 0 0) 0%, rgb(0 0 0) 50%, #e31e24 99.51%);
 }
 .axg{padding: 7px;}
+.slick-dots li.slick-active button:before{
+      opacity: 1;
+    color: #e31e24;
+    border: 3px solid #e31e24;
+    border-radius: 50%;
+    font-size: 8px;
+    line-height: 17px;
+}
+.slick-dots li button:before{
+  opacity: 1;
+    color: #000000;
+    border: 3px solid #000000;
+    border-radius: 50%;
+    font-size: 8px;
+    line-height: 17px;
+}
 @media (max-width: 767px) {
   .tf-social a {height: 35px; width: 35px;}
   .videsl video{min-height: 400px !important;}
