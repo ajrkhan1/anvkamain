@@ -324,7 +324,7 @@ export default function Home() {
                                     </div>
                                 </div>
                                 <div
-                                    class="sw-dots style-3 sw-pagination-layout justify-content-center d-flex mt_24 d-xl-none">
+                                    class="sw-dots style-3 sw-pagination-layout justify-content-center d-flex mt_24">
                                 </div>
                             </div>
                         </div>
