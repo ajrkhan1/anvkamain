@@ -1,8 +1,46 @@
 import Head from "next/head";
 import React from "react";
+import Slider from "react-slick";
 
 
 export default function Home() {
+
+    var settings = {
+        dots: true,
+        arrows: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 2,
+        initialSlide: 0,
+        autoplay:1000,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    };
 
 	return (
 		<>
@@ -66,12 +104,12 @@ export default function Home() {
                                     </div> */}
                                 </div>
                             </div>
-                            <div class="swiper wow fadeInRight verticalbn" data-screen-xl="4" data-preview="3" data-tablet="3"
+                            <div class="wow fadeInRight verticalbn" data-screen-xl="4" data-preview="3" data-tablet="3"
                                 data-mobile="1" data-mobile-sm="2" data-space-lg="10" data-space-md="10"
                                 data-space="10">
-                                <div class="swiper-wrapper">
-
-                                    <div class="swiper-slide">
+                                <div class="swiper-wrapper1">
+                                    <Slider {...settings}>
+                                    <div class="swiper-slide axg">
                                         <div class="service-item style-1">
                                             <div class="img-style">
                                                 <img width="345" height="460" loading="lazy" decoding="async"
@@ -89,7 +127,7 @@ export default function Home() {
                                         </div>
                                     </div>
 
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slihde axg">
                                         <div class="service-item style-1">
                                             <div class="img-style">
                                                 <img width="345" height="460" loading="lazy" decoding="async"
@@ -107,7 +145,7 @@ export default function Home() {
                                         </div>
                                     </div>
 
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slhide axg">
                                         <div class="service-item style-1">
                                             <div class="img-style">
                                                 <img width="345" height="460" loading="lazy" decoding="async"
@@ -125,7 +163,7 @@ export default function Home() {
                                         </div>
                                     </div>
 
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slhide axg">
                                         <div class="service-item style-1">
                                             <div class="img-style">
                                                 <img width="345" height="460" loading="lazy" decoding="async"
@@ -143,7 +181,7 @@ export default function Home() {
                                         </div>
                                     </div>
 
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slihde axg">
                                         <div class="service-item style-1">
                                             <div class="img-style">
                                                 <img width="345" height="460" loading="lazy" decoding="async"
@@ -161,7 +199,7 @@ export default function Home() {
                                         </div>
                                     </div>
 
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slihde axg">
                                         <div class="service-item style-1">
                                             <div class="img-style">
                                                 <img width="345" height="460" loading="lazy" decoding="async"
@@ -179,7 +217,7 @@ export default function Home() {
                                         </div>
                                     </div>
 
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slhide axg">
                                         <div class="service-item style-1">
                                             <div class="img-style">
                                                 <img width="345" height="460" loading="lazy" decoding="async"
@@ -196,9 +234,11 @@ export default function Home() {
                                             </div>
                                         </div>
                                     </div>
+
+                                    </Slider>
                                 </div>
                                 <div
-                                    class="sw-dots style-3 sw-pagination-layout justify-content-center d-flex mt_24 d-xl-none">
+                                    class="sw-dots style-3 sw-pagination-layout justify-content-center d-flex mt_24">
                                 </div>
                             </div>
                         </div>
