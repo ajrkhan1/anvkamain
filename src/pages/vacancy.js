@@ -47,21 +47,58 @@ export default function Home() {
                 </div>
 
 
-                <div class="main-content">                    
+                <div class="main-content">
+                    <div class="section-about-1 tf-spacing-1">
+                        <div class="tf-container">
+                         
+                            <div class="heading-section mb_20">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-4 d-grid gap_16">                                        
+                                        <h2 class="title split-text effect-right">We're Currently Hiring</h2>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="right">
+                                            <p class="text-body-2 text_secondary mb_24 split-lines-transform pjustfy">
+                                                At ANVKA Healthcare, we are committed to quality, innovation, and excellence in healthcare. We are currently seeking passionate and dedicated professionals to join our growing team. If you are looking for a rewarding career in a dynamic work environment, ANVKA Healthcare offers opportunities for professional growth and continuous learning. Join us and become a part of a team dedicated to delivering better healthcare solutions and creating a positive impact in people’s lives.
+                                            </p>
+                                          
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            {/* <div class="wrap-counter tf-grid-layout lg-col-4 tf-col-2">
+                                <div class="counter-item">
+                                    <div class="counter h1 font-2"><span class="numberCounter" data-count="10"
+                                            data-duration="700">0</span><span class="sub-counter">+</span></div>
+                                    <p class="sub-title text-body-2 text_secondary">Years of Experience </p>
+                                </div>
+                                <div class="counter-item">
+                                    <div class="counter h1 font-2"><span class="numberCounter" data-count="250"
+                                            data-duration="700">10</span><span class="sub-counter">+</span></div>
+                                    <p class="sub-title text-body-2 text_secondary">Successful Projects</p>
+                                </div>
+                                <div class="counter-item">
+                                    <div class="counter h1 font-2"><span class="numberCounter" data-count="50"
+                                            data-duration="700">0</span><span class="sub-counter">+</span></div>
+                                    <p class="sub-title text-body-2 text_secondary">Corporate Clients</p>
+                                </div>
+                                <div class="counter-item">
+                                    <div class="counter h1 font-2"><span class="numberCounter" data-count="98"
+                                            data-duration="700">0</span><span class="sub-counter">%</span></div>
+                                    <p class="sub-title text-body-2 text_secondary">Client Satisfaction</p>
+                                </div>
+                            </div> */}
+                        </div>
+                    </div>
+
                     <div class="hiring ajh">
                             <div class="wrap-box tf-spacing-1">
                                 <div class="tf-container medium">
                                     <div class="row">
 
                                     
-                                <div class="content-inner">
-                                    <div class="heading d-flex align-items-center justify-content-between mb_44">
-                                        <h2 class="title text_white title title split-text effect-right">We're Currently
-                                            <br/>
-                                            Hiring
-                                        </h2>
-                                        <p class="text_white text-body-2 split-text split-lines-transform">We’re looking for passionate, curious, and driven individuals to join our growing team. Whether you’re a strategist, engineer, creative, or operator — if you’re ready to make real impact and grow alongside industry leaders, we’d love to hear from you.</p>
-                                    </div>
+                                <div class="content-inner">                                    
                                     <div class="wrap-box-number">
                                         <div class="tf-box-number">
                                             <div class="content">

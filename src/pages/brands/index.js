@@ -66,7 +66,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper wow fadeInRight" data-screen-xl="4" data-preview="3" data-tablet="3"
+                            <div class="swiper wow fadeInRight verticalbn" data-screen-xl="4" data-preview="3" data-tablet="3"
                                 data-mobile="1" data-mobile-sm="2" data-space-lg="10" data-space-md="10"
                                 data-space="10">
                                 <div class="swiper-wrapper">

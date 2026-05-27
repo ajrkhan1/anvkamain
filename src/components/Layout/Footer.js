@@ -20,7 +20,7 @@ export default function Footer() {
                                     <div class="footer-content footer-item d-flex justify-content-between"
                                         data-wow-delay="0.2s">                                        
                                         <div class="footer-col-block quick-link">
-                                            <div class="footer-heading  footer-heading-mobile text-uppercase text-label fw-5 text_primary-color mb_16">
+                                            <div class="footer-heading  footer-heading-mobile text-uppercase text-label fw-5 text_primary-color mb_16 font18x">
                                                 Quick Links
                                             </div>
                                             <div class="tf-collapse-content">
@@ -52,7 +52,7 @@ export default function Footer() {
                                             </div>
                                         </div>
                                         <div class="footer-col-block company">
-                                            <div class="footer-heading  footer-heading-mobile text-uppercase text-label fw-5 text_primary-color mb_16">
+                                            <div class="footer-heading  footer-heading-mobile text-uppercase text-label fw-5 text_primary-color mb_16 font18x">
                                                 OUR Brands
                                             </div>
                                             <div class="tf-collapse-content">
