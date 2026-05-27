@@ -2,6 +2,45 @@ import Head from "next/head";
 
 
 export default function Home() {
+    const registerUser = async event => {
+      event.preventDefault()
+
+      document.getElementById("submitbuttonform").value = "Submitting form...."
+
+      const xhttp = new XMLHttpRequest();
+      xhttp.onload = function () {
+         // console.log(this.responseText.status);
+      }
+    //   xhttp.open("Post", 'https://admin.caretab.ai/wp-json/contact-form-7/v1/contact-forms/6/feedback');
+      xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+      xhttp.onreadystatechange = function () {
+         if (xhttp.readyState == 4) {
+            var res = JSON.parse(xhttp.responseText);
+            console.log(res)
+            if (res.status == "mail_sent") {
+               document.getElementById("contactForm").reset();
+
+               document.getElementById("showlabel").innerHTML = "Your submission has been received and we will contact you soon";
+
+               document.getElementById("showlabel").style.display = "block";
+               window.setTimeout(function () {
+                   window.location.href = "/thankyou"
+               }, 10);
+
+            } else {
+               document.getElementById("showlabel").innerHTML = "There was a problem with the request.";
+               document.getElementById("showlabel").style.display = "block";
+
+            }
+         }
+      };
+      xhttp.send("your-name=" + event.target.name.value +
+            "&your-email=" + event.target.email.value +
+            "&phone=" + event.target.phone.value +
+            "&lastname=" + event.target.lname.value +
+            "&your-message=" + event.target.message.value)
+
+   }
 
 
 	return (
@@ -93,7 +132,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
-                                        <form class="form-contact">
+                                        <form class="form-contact" id="contactForm" onSubmit={registerUser}>
                                             <div class="heading mb_24">
                                                 <h4 class="mb_5">Get In Touch</h4>
                                                 <p class="text-body-default text_secondary">We'd love to hear from you!
@@ -103,38 +142,38 @@ export default function Home() {
                                             <div class="wrap mb_39">
                                                 <div class="tf-grid-layout md-col-2 gap_20  mb_20">
                                                     <fieldset class="">
-                                                        <input class="style-line-bottom" id="fisrtName" type="text"
-                                                            placeholder="First Name" name="text" tabindex="2" value=""
+                                                        <input class="style-line-bottom" type="text"
+                                                            placeholder="First Name" name="name" id="name" tabindex="2"
                                                             aria-required="true" required=""/>
                                                     </fieldset>
                                                     <fieldset class="">
-                                                        <input class="style-line-bottom" id="lastName" type="text"
-                                                            placeholder="Last Name" name="text" tabindex="2" value=""
+                                                        <input class="style-line-bottom" id="lname" name="lname" type="text"
+                                                            placeholder="Last Name"  tabindex="2"
                                                             aria-required="true" required=""/>
                                                     </fieldset>
                                                 </div>
                                                 <div class="tf-grid-layout md-col-2 gap_20 mb_20">
                                                     <fieldset class="">
                                                         <input class="style-line-bottom" id="email" type="email"
-                                                            placeholder="Email" name="email" tabindex="2" value=""
+                                                            placeholder="Email" name="email" tabindex="2"
                                                             aria-required="true" required=""/>
                                                     </fieldset>
                                                     <fieldset class="">
                                                         <input class="style-line-bottom" id="phone" type="number"
-                                                            placeholder="Phone Number" name="text" tabindex="2" value=""
+                                                            placeholder="Phone Number" name="phone" tabindex="2"
                                                             aria-required="true" required=""/>
                                                     </fieldset>
                                                 </div>
                                                 <fieldset>
-                                                    <textarea id="comment" class="style-line-bottom" rows="4"
+                                                    <textarea id="message" name="message" class="style-line-bottom" rows="4"
                                                         placeholder="Your Message" tabindex="2" aria-required="true"
                                                         required=""></textarea>
                                                 </fieldset>
                                             </div>
-                                            <button class="tf-btn btn-hover-animate-2 btn-bg-1 btn-px-28 w-full"
+                                            <button id="submitbuttonform" class="tf-btn btn-hover-animate-2 btn-bg-1 btn-px-28 w-full"
                                                 type="submit">
                                                 <span>Send Message</span>
-                                                <span class="bg-effect"></span>
+                                                <span id="showlabel" style={{ display: "none" }} class="bg-effect"></span>
                                             </button>
                                         </form>
                                     </div>

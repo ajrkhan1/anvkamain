@@ -147,11 +147,12 @@ export default function Home() {
                                 data-mobile="1" data-mobile-sm="2" data-space-lg="10" data-space-md="10"
                                 data-space="10">
                                 <div class="swiper-wrapper">
+
                                     <div class="swiper-slide">
                                         <div class="service-item style-1">
                                             <div class="img-style">
                                                 <img width="345" height="460" loading="lazy" decoding="async"
-                                                    src="/assets/images/lintex.png" alt="service"/>
+                                                    src="/assets/images/brands/Lintex.webp" alt="service"/>
                                             </div>
                                             <div class="content">
                                                 <a target="_blank" href="https://lintex.in/"
@@ -164,11 +165,30 @@ export default function Home() {
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="swiper-slide">
                                         <div class="service-item style-1">
                                             <div class="img-style">
                                                 <img width="345" height="460" loading="lazy" decoding="async"
-                                                    src="assets/images/3d.png" alt="service"/>
+                                                    src="/assets/images/brands/MedicalImplant.webp" alt="service"/>
+                                            </div>
+                                            <div class="content">
+                                                <a target="_blank" href="https://lintex.in/"
+                                                    class="fw-5 text_white title link mb_12 h5">Medical Implants</a>
+                                                <div class="wrap">
+                                                    <p class="font-3 text-body-default text_white desc mb_12">Access to globally trusted medical implants</p>
+                                                    <a target="_blank" href="#"
+                                                        class="text-caption-1 text_primary-color fw-4 hover-underline-link">Explore</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="service-item style-1">
+                                            <div class="img-style">
+                                                <img width="345" height="460" loading="lazy" decoding="async"
+                                                    src="assets/images/brands/Curewith3D.webp" alt="service"/>
                                             </div>
                                             <div class="content">
                                                 <a target="_blank" href="https://www.curewith3d.com/"
@@ -181,11 +201,30 @@ export default function Home() {
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="swiper-slide">
                                         <div class="service-item style-1">
                                             <div class="img-style">
                                                 <img width="345" height="460" loading="lazy" decoding="async"
-                                                    src="assets/images/caretab.png" alt="service"/>
+                                                    src="assets/images/brands/IndiaMD.webp" alt="service"/>
+                                            </div>
+                                            <div class="content">
+                                                <a target="_blank" href="#"
+                                                    class="fw-5 text_white title link mb_12 h5">IndiaMD</a>
+                                                <div class="wrap">
+                                                    <p class="font-3 text-body-default text_white desc mb_12">Seamless healthcare access for international patients</p>
+                                                    <a target="_blank" href="#"
+                                                        class="text-caption-1 text_primary-color fw-4 hover-underline-link">Explore</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="service-item style-1">
+                                            <div class="img-style">
+                                                <img width="345" height="460" loading="lazy" decoding="async"
+                                                    src="assets/images/brands/CareTAB.webp" alt="service"/>
                                             </div>
                                             <div class="content">
                                                 <a target="_blank" href="https://caretab.ai/"
@@ -198,11 +237,30 @@ export default function Home() {
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="swiper-slide">
                                         <div class="service-item style-1">
                                             <div class="img-style">
                                                 <img width="345" height="460" loading="lazy" decoding="async"
-                                                    src="assets/images/tumble.png" alt="service"/>
+                                                    src="assets/images/brands/Akiechef.webp" alt="service"/>
+                                            </div>
+                                            <div class="content">
+                                                <a target="_blank" href="#"
+                                                    class="fw-5 text_white title link mb_12 h5">AkieChef</a>
+                                                <div class="wrap">
+                                                    <p class="font-3 text-body-default text_white desc mb_12">Nutrition designed for healing and recovery </p>
+                                                    <a target="_blank" href="#"
+                                                        class="text-caption-1 text_primary-color fw-4 hover-underline-link">Explore</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="service-item style-1">
+                                            <div class="img-style">
+                                                <img width="345" height="460" loading="lazy" decoding="async"
+                                                    src="assets/images/brands/Tumble.webp" alt="service"/>
                                             </div>
                                             <div class="content">
                                                 <a target="_blank" href="https://www.instagram.com/tumblesalon"
