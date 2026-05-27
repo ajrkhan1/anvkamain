@@ -58,10 +58,10 @@ export default function Footer() {
                                             <div class="tf-collapse-content">
                                                 <ul class="footer-menu-list d-grid gap_12">
                                                     <li class="text-caption-1 text_white">
-                                                        <a href="/brands/lintex" class="link">Lintex</a>
+                                                        <a href="/brands/lintex" class="link">LINTEX</a>
                                                     </li>
                                                     <li class="text-caption-1 text_white">
-                                                        <a href="/brands/medical-implats" class="link">MEDICAL IMPLANTS</a>
+                                                        <a href="/brands/medical-implats" class="link">Medical Implants</a>
                                                     </li>
                                                     <li class="text-caption-1 text_white">
                                                         <a href="/brands/curewith3d" class="link">Curewith3D</a>

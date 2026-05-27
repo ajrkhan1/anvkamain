@@ -23953,7 +23953,7 @@ a.mapboxgl-ctrl-logo {
   z-index: 999999999999999;
     background: #ffffff;
 }
-.font24{font-size: 24px;}
+.font24{font-size: 24px; line-height: 33px;}
 
 .leftimg{
   order: 0; place-self: auto; grid-area: auto; z-index: auto; float: none; flex-shrink: 1; display: inline-block; margin: 0px; inset: auto; position: relative; flex-basis: auto; overflow: visible; box-sizing: border-box; width: 599px; height: 599px; padding: 0px;
@@ -24004,7 +24004,7 @@ a.mapboxgl-ctrl-logo {
 }
 
 
-.textjustfy{text-align: justify;}
+.textjustfy p{text-align: justify;}
 
 .shdwala{
       box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;

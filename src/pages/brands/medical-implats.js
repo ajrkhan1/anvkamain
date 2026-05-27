@@ -28,7 +28,7 @@ export default function Home() {
                             </ul> */}
                             <div className="row">
                                 <div className="col-sm-8">
-                                    <h2 class="text_white">MEDICAL IMPLANTS</h2>
+                                    <h2 class="text_white">Medical Implants</h2>
                                     <p className="headrp">
                                         Advancing Orthopedic Care Globally
                                     </p>
@@ -59,7 +59,7 @@ export default function Home() {
                                     </div>
                                     <div class="col-sm-6 textjustfy">                                        
                                         <div className="shdwala">                                          
-                                        <h3 class="title text_primary title split-text effect-right font24">Advanced Implant Solutions for Modern Healthcare </h3>
+                                        <h3 class="title text_primary title split-text effect-right font24">Advanced Implant Solutions for Modern Healthcare </h3>                                        
                                         <br></br>
                                         <p>
                                             ANVKA’s Medical Implants division is dedicated to strengthening healthcare delivery by bringing globally trusted implant technologies to hospitals and surgeons across India. Through partnerships with leading international implant manufacturers, we ensure access to advanced, reliable, and high-quality medical solutions that support better surgical outcomes and improved patient recovery.

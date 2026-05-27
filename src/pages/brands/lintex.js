@@ -58,7 +58,7 @@ export default function Home() {
                                             {/* <img src="/assets/images/portfolio-item-2.jpg" alt="Lintex"/> */}
                                         </div>
                                     </div>
-                                    <div class="col-sm-6 textjustfyx">                                        
+                                    <div class="col-sm-6 textjustfy">                                        
                                         <div className="shdwala">
                                             <h3 class="title text_primary title split-text effect-right font24">Redefining Uniforms with Comfort & Functionality</h3>
                                         <br></br>

@@ -21,12 +21,12 @@ export default function Home() {
                     </div>
                     <div class="content">
                         <div class="tf-container">
-                            <ul class="tf-breadcrumb style-2 mb_16">
+                            {/* <ul class="tf-breadcrumb style-2 mb_16">
                                 <li class="text-label text_white lh-16"><a href="/index.html"
                                         class="link text_white">HOME</a>
                                 </li>
                                 <li class="text_white text-label lh-16">Contact Us</li>
-                            </ul>
+                            </ul> */}
                             <h2 class="text_white">Contact Us</h2>
                         </div>
                     </div>
