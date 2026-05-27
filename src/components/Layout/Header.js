@@ -226,6 +226,7 @@ export default function Header() {
                             <ul class="sub-mobile ">
                                 <li class="menu-item"><a href="/about-us">About Us</a></li>                              
                                 <li class="menu-item"><a href="/our-story">Our Story</a></li>
+                                <li class="menu-item"><a href="/our-team">Our Team</a></li>
                                
                             </ul>
                         </div>
