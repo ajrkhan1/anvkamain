@@ -9,7 +9,7 @@ export default function Footer() {
                             <div class="row">
                                 <div class="col-lg-4 col-md-6">
                                     <div class="footer-about">
-                                        <a href="index.html" class="footer-logo site-logo mb_19">
+                                        <a href="/" class="footer-logo site-logo mb_19">
                                             <img src="/assets/images/logo/anvka-png.png" alt="logo" class="main-logo"/>
                                         </a>
                                         <p class="text-caption-1 text_white">At ANVKA Healthcare, we stand at the intersection of innovation and customer-centricity. We continuously push boundaries, leveraging technology and sustainable practices to meet your evolving needs.
