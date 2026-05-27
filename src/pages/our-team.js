@@ -15,7 +15,7 @@ export default function Home() {
 
             <div class="page-layout-v04">
                     <div class="img-style">
-                        <img class="img-cover" width="1920" height="720" loading="eager" decoding="async" src="/assets/images/ours.webp" alt="page-title"/>
+                        <img class="img-cover" width="1920" height="720" loading="eager" decoding="async" src="/assets/images/teamb.webp" alt="page-title"/>
                     </div>
                     <div class="content">
                         <div class="tf-container">
