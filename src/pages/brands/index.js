@@ -116,11 +116,11 @@ export default function Home() {
                                                     src="/assets/images/brands/Lintex.webp" alt="service"/>
                                             </div>
                                             <div class="content">
-                                                <a target="_blank" href="https://lintex.in/"
+                                                <a href="/brands/lintex/"
                                                     class="fw-5 text_white title link mb_12 h5">LINTEX</a>
                                                 <div class="wrap">
                                                     <p class="font-3 text-body-default text_white desc mb_12">Smart uniforms designed for comfort and identity</p>
-                                                    <a target="_blank" href="https://lintex.in/"
+                                                    <a href="/brands/lintex"
                                                         class="text-caption-1 text_primary-color fw-4 hover-underline-link">Explore</a>
                                                 </div>
                                             </div>
@@ -134,11 +134,11 @@ export default function Home() {
                                                     src="/assets/images/brands/MedicalImplant.webp" alt="service"/>
                                             </div>
                                             <div class="content">
-                                                <a target="_blank" href="https://lintex.in/"
+                                                <a href="/brands/medical-implats"
                                                     class="fw-5 text_white title link mb_12 h5">Medical Implants</a>
                                                 <div class="wrap">
                                                     <p class="font-3 text-body-default text_white desc mb_12">Access to globally trusted medical implants</p>
-                                                    <a target="_blank" href="#"
+                                                    <a href="/brands/medical-implats"
                                                         class="text-caption-1 text_primary-color fw-4 hover-underline-link">Explore</a>
                                                 </div>
                                             </div>
@@ -152,11 +152,11 @@ export default function Home() {
                                                     src="assets/images/brands/Curewith3D.webp" alt="service"/>
                                             </div>
                                             <div class="content">
-                                                <a target="_blank" href="https://www.curewith3d.com/"
+                                                <a href="/brands/curewith3d"
                                                     class="fw-5 text_white title link mb_12 h5">Curewith3D</a>
                                                 <div class="wrap">
                                                     <p class="font-3 text-body-default text_white desc mb_12">Patient-specific 3D innovations enabling surgical precision</p>
-                                                    <a target="_blank" href="https://www.curewith3d.com/"
+                                                    <a href="/brands/curewith3d"
                                                         class="text-caption-1 text_primary-color fw-4 hover-underline-link">Explore</a>
                                                 </div>
                                             </div>
@@ -170,11 +170,11 @@ export default function Home() {
                                                     src="assets/images/brands/IndiaMD.webp" alt="service"/>
                                             </div>
                                             <div class="content">
-                                                <a target="_blank" href="#"
+                                                <a href="/brands/Indiamd"
                                                     class="fw-5 text_white title link mb_12 h5">IndiaMD</a>
                                                 <div class="wrap">
                                                     <p class="font-3 text-body-default text_white desc mb_12">Seamless healthcare access for international patients</p>
-                                                    <a target="_blank" href="#"
+                                                    <a href="/brands/Indiamd"
                                                         class="text-caption-1 text_primary-color fw-4 hover-underline-link">Explore</a>
                                                 </div>
                                             </div>
@@ -188,11 +188,11 @@ export default function Home() {
                                                     src="assets/images/brands/CareTAB.webp" alt="service"/>
                                             </div>
                                             <div class="content">
-                                                <a target="_blank" href="https://caretab.ai/"
+                                                <a href="/brands/caretab"
                                                     class="fw-5 text_white title link mb_12 h5">CareTAB</a>
                                                 <div class="wrap">
                                                     <p class="font-3 text-body-default text_white desc mb_12">Technology bringing hospital-level care to homes</p>
-                                                    <a target="_blank" href="https://caretab.ai/"
+                                                    <a href="/brands/caretab"
                                                         class="text-caption-1 text_primary-color fw-4 hover-underline-link">Explore</a>
                                                 </div>
                                             </div>
@@ -206,11 +206,11 @@ export default function Home() {
                                                     src="assets/images/brands/Akiechef.webp" alt="service"/>
                                             </div>
                                             <div class="content">
-                                                <a target="_blank" href="#"
+                                                <a href="/brands/akiechef"
                                                     class="fw-5 text_white title link mb_12 h5">AkieChef</a>
                                                 <div class="wrap">
                                                     <p class="font-3 text-body-default text_white desc mb_12">Nutrition designed for healing and recovery </p>
-                                                    <a target="_blank" href="#"
+                                                    <a href="/brands/akiechef"
                                                         class="text-caption-1 text_primary-color fw-4 hover-underline-link">Explore</a>
                                                 </div>
                                             </div>
@@ -224,11 +224,11 @@ export default function Home() {
                                                     src="assets/images/brands/Tumble.webp" alt="service"/>
                                             </div>
                                             <div class="content">
-                                                <a target="_blank" href="https://www.instagram.com/tumblesalon"
+                                                <a href="/brands/tumble-salon"
                                                     class="fw-5 text_white title link mb_12 h5">Tumble Salon</a>
                                                 <div class="wrap">
                                                     <p class="font-3 text-body-default text_white desc mb_12">Hygiene solutions that go beyond medical care</p>
-                                                    <a target="_blank" href="https://www.instagram.com/tumblesalon"
+                                                    <a href="/brands/tumble-salon"
                                                         class="text-caption-1 text_primary-color fw-4 hover-underline-link">Explore</a>
                                                 </div>
                                             </div>
