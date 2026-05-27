@@ -17,11 +17,17 @@ export default function Header() {
                                             <span class="text" data-splitting>Home</span>
                                         </a>
                                     </li>
-
-                                    <li class=" text-menu"><a href="/our-story" class="link-no-action toggle splitting">
-                                            <span class="text" data-splitting>Our Story</span>
+                                    
+                                    <li class="has-child text-menu"><a href="#" class="link-no-action toggle splitting">
+                                            <span class="text" data-splitting>ABOUT</span>
                                         </a>
+                                        <ul class="submenu">
+                                            <li><a href="/about-us">About Us</a></li>                              
+                                            <li><a href="/our-story">Our Story</a></li>
+                                            <li><a href="/our-team">Our Team</a></li>
+                                        </ul>
                                     </li>
+
                                     <li class="has-child text-menu"><a href="/brands" class="link-no-action toggle splitting">
                                             <span class="text" data-splitting>All Verticals</span>
                                         </a>
@@ -109,10 +115,16 @@ export default function Header() {
                                         </a>
                                     </li>
 
-                                    <li class=" text-menu"><a href="/our-story" class="link-no-action toggle splitting">
-                                            <span class="text" data-splitting>Our Story</span>
+                                    <li class="has-child text-menu"><a href="#" class="link-no-action toggle splitting">
+                                            <span class="text" data-splitting>ABOUT</span>
                                         </a>
+                                        <ul class="submenu">
+                                            <li><a href="/about-us">About Us</a></li>                              
+                                            <li><a href="/our-story">Our Story</a></li>
+                                            <li><a href="/our-team">Our Team</a></li>
+                                        </ul>
                                     </li>
+                                    
                                     <li class="has-child text-menu"><a href="/brands" class="link-no-action toggle splitting">
                                             <span class="text" data-splitting>All Verticals</span>
                                         </a>
@@ -204,10 +216,21 @@ export default function Header() {
                 <ul id="menu-mobile-menu" class="style-1">
                     <li class="menu-item">
                         <a href="/" class="item-menu-mobile">HOME</a>
+                    </li>                   
+                    <li class="menu-item menu-item-has-children-mobile">
+                        <a href="#dropdown-menu-two" class="item-menu-mobile collapsed" data-bs-toggle="collapse"
+                            aria-expanded="true" aria-controls="dropdown-menu-two">
+                            ABOUT
+                        </a>
+                        <div id="dropdown-menu-two" class="collapse" data-bs-parent="#menu-mobile-menu">
+                            <ul class="sub-mobile ">
+                                <li class="menu-item"><a href="/about-us">About Us</a></li>                              
+                                <li class="menu-item"><a href="/our-story">Our Story</a></li>
+                               
+                            </ul>
+                        </div>
                     </li>
-                    <li class="menu-item">
-                        <a href="/our-story" class="item-menu-mobile">OUR STORY</a>
-                    </li>
+
                     <li class="menu-item menu-item-has-children-mobile active">
                         <a href="#dropdown-menu-one" class="item-menu-mobile collapsed" data-bs-toggle="collapse"
                             aria-expanded="true" aria-controls="dropdown-menu-one">
@@ -232,7 +255,7 @@ export default function Header() {
                         </a>
                         <div id="dropdown-menu-two" class="collapse" data-bs-parent="#menu-mobile-menu">
                             <ul class="sub-mobile ">
-                                <li class="menu-item"><a href="#">Culture</a></li>                              
+                                <li class="menu-item"><a href="/culture">Culture</a></li>                              
                                 <li class="menu-item"><a href="/vacancy">Vacancy</a></li>
                                
                             </ul>
