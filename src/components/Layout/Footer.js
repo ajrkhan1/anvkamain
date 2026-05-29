@@ -86,17 +86,17 @@ export default function Footer() {
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="footer-contact">
-                                        <div class="info mb_24">
-                                            <div class="footer-heading  footer-heading-mobile text-uppercase text-label fw-5 text_primary-color mb_16 font18x">
+                                        <div class="info mb_24">                                            
+                                            <div class="footer-heading  footer-heading-mobile text-uppercase text-label fw-5 text_primary-color mb_18 font18x">
+                                                Registered Office
+                                            </div>
+                                            <p class="text-body-default text_white mb_7">M-14, Khasra No 99/24, M Block Raja Puri, Uttam Nagar, New Delhi – 110059</p>
+                                            <br></br>
+                                            <div class="footer-heading  footer-heading-mobile text-uppercase text-label fw-5 text_primary-color mb_5 font18x">
                                                 Corporate Office
                                             </div>
                                             <p class="text-body-default text_white mb_7">Plot No. 231, Phase IV, Udyog Vihar, Sector 18, Gurugram, Haryana 122001
                                             </p>
-                                            <br></br>
-                                            <div class="footer-heading  footer-heading-mobile text-uppercase text-label fw-5 text_primary-color mb_5 font18x">
-                                                Registered Office
-                                            </div>
-                                            <p class="text-body-default text_white mb_7">M-14, Khasra No 99/24, M Block Raja Puri, Uttam Nagar, New Delhi – 110059</p>
                                             <a href="#" class="h4 text_white fw-6 link mb_12 d-block">+91-92055 59801</a>
                                             <a href="mailto:reachus@anvka.com"
                                                 class="text-body-default hover-underline-link text_primary-color link">reachus@anvka.com</a>
