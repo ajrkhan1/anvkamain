@@ -14855,7 +14855,7 @@ a.mapboxgl-ctrl-logo {
 }
 .service-item.style-1 .img-style img {
       width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     min-height: 364px;
 }
 .service-item.style-1 .title {
