@@ -105,8 +105,18 @@ export default function Home() {
                                                         <i class="icon-MapPin"></i>
                                                     </div>
                                                     <div class="content">
-                                                        <div class="text-caption-1 text_secondary mb_4">Address:</div>
+                                                        <div class="text-caption-1 text_secondary mb_4">Corporate Office:</div>
                                                         <p class="h6">Plot No. 231, Phase IV, Udyog Vihar, Sector 18, Gurugram, Haryana 122001</p>
+                                                    </div>                                                   
+                                                </li>
+
+                                                <li>
+                                                    <div class="icon">
+                                                        <i class="icon-MapPin"></i>
+                                                    </div>                                                    
+                                                    <div class="content">
+                                                        <div class="text-caption-1 text_secondary mb_4">Registered Office:</div>
+                                                        <p class="h6">M-14, Khasra No 99/24, M Block Raja Puri, Uttam Nagar, New Delhi – 110059</p>
                                                     </div>
                                                 </li>
                                                 <li>
