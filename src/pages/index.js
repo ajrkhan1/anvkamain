@@ -879,8 +879,8 @@ export default function Home() {
                     <div class="section-insights-1 sw-layout tf-spacing-1 pt-0">
                         <div class="heading-section style-default text-center mb_47">
                             <br></br><br></br><br></br>
-                            <div class="sub text-label text-uppercase split-text effect-up">News & Insights</div>
-                            <h3 class="title split-text effect-right">Latest News & Insights</h3>
+                            <div class="sub text-label text-uppercase split-text effect-up">Video</div>
+                            <h3 class="title split-text effect-right">Video Sections</h3>
                         </div>
                         <div class="swiper" data-preview="3" data-screen-xl="4" data-tablet="2" data-mobile="1"
                             data-mobile-sm="2" data-space-lg="20" data-space-md="20" data-space="15">

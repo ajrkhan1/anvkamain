@@ -3875,6 +3875,7 @@ a:focus, a:hover {
 }
 #menu-mobile-menu .sub-mobile .menu-item {
   font-weight: 500;
+      border-bottom: 1px solid #e9e9e9;
 }
 #menu-mobile-menu .sub-mobile .menu-item a {
   padding: 10px 0;
@@ -24103,8 +24104,8 @@ a.mapboxgl-ctrl-logo {
 
 .bannelogo{width: 400px;}
 
-.navigation li a img{height: 40px; width: auto;}
-.navigation li{text-align: center;}
+.menulogo li a img{height: 40px; width: auto;}
+.menulogo li{text-align: center;}
 
 @media (max-width: 767px) {
   .tf-social a {height: 35px; width: 35px;}

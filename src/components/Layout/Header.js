@@ -31,7 +31,7 @@ export default function Header() {
                                     <li class="has-child text-menu"><a href="/brands" class="link-no-action toggle splitting">
                                             <span class="text" data-splitting>Our Brands</span>
                                         </a>
-                                        <ul class="submenu">
+                                        <ul class="submenu menulogo">
                                             <li><a href="/brands/lintex"><img width="100%" src="/assets/images/mlogo/lintex.webp"/></a></li>
                                             <li><a href="/brands/medical-implats"><img width="100%" src="/assets/images/mlogo/medical.webp"/></a></li>
                                             <li><a href="/brands/curewith3d"><img width="100%" src="/assets/images/mlogo/cure.webp"/></a></li>
@@ -128,7 +128,7 @@ export default function Header() {
                                     <li class="has-child text-menu"><a href="/brands" class="link-no-action toggle splitting">
                                             <span class="text" data-splitting>Our Brands</span>
                                         </a>
-                                        <ul class="submenu">
+                                        <ul class="submenu menulogo">
                                             <li><a href="/brands/lintex"><img width="100%" src="/assets/images/mlogo/lintex.webp"/></a></li>
                                             <li><a href="/brands/medical-implats"><img width="100%" src="/assets/images/mlogo/medical.webp"/></a></li>
                                             <li><a href="/brands/curewith3d"><img width="100%" src="/assets/images/mlogo/cure.webp"/></a></li>
@@ -204,7 +204,7 @@ export default function Header() {
         <div class="offcanvas-header top-nav-mobile">
             <div class="offcanvas-title">
                 <a href="/" class="site-logo">
-                    <img src="./assets/images/logo/logoanv.png" alt="logo" class="main-logo" width="193" height="44"/>
+                    <img src="/assets/images/logo/logoanv.png" alt="logo" class="main-logo" width="193" height="44"/>
                 </a>
             </div>
             <div data-bs-dismiss="offcanvas" class="btn-close-menu">
@@ -238,7 +238,7 @@ export default function Header() {
                             OUR BRANDS
                         </a>
                         <div id="dropdown-menu-one" class="collapse" data-bs-parent="#menu-mobile-menu">
-                            <ul class="sub-mobile">
+                            <ul class="sub-mobile menulogo">
                                 <li class="menu-item"><a href="/brands/lintex"><img width="100%" src="/assets/images/mlogo/lintex.webp"/></a></li>
                                 <li class="menu-item"><a href="/brands/medical-implats"><img width="100%" src="/assets/images/mlogo/medical.webp"/></a></li>
                                 <li class="menu-item"><a href="/brands/curewith3d"><img width="100%" src="/assets/images/mlogo/cure.webp"/></a></li>
