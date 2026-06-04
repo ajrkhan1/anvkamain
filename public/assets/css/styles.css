@@ -24128,6 +24128,20 @@ body::before {
 .changelogo .done{display: block;}
 .done{display: none;}
 
+.card-team.style-1 .info{
+      -webkit-transition: all 0.3s ease-in-out 150ms;
+      opacity: 0;
+}
+.card-team.style-1:hover .info{
+    visibility: visible;
+    -khtml-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    -webkit-transform: translate(0px, 0px);
+}
+
 @media (max-width: 767px) {
   .tf-container{max-width: 100%;}
   .tf-social a {height: 35px; width: 35px;}
