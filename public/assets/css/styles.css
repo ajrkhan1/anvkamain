@@ -3621,7 +3621,7 @@ a:focus, a:hover {
 .navigation .submenu li a {
   display: inline-block;
   width: 100%;
-  padding: 7px 12px;
+  padding: 10px 12px;
   color: var(--Text-primary);
 }
 .navigation .submenu li.current-item > a, .navigation .submenu li:hover > a {
@@ -24102,6 +24102,9 @@ a.mapboxgl-ctrl-logo {
 }
 
 .bannelogo{width: 400px;}
+
+.navigation li a img{height: 40px; width: auto;}
+.navigation li{text-align: center;}
 
 @media (max-width: 767px) {
   .tf-social a {height: 35px; width: 35px;}
