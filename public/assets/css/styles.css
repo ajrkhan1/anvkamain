@@ -24102,7 +24102,7 @@ a.mapboxgl-ctrl-logo {
     height: 40px;
 }
 
-.bannelogo{width: 400px;}
+.bannelogo{width: 340px;}
 
 .menulogo li a img{height: 40px; width: auto;}
 .menulogo li{text-align: center;}
@@ -24110,4 +24110,5 @@ a.mapboxgl-ctrl-logo {
 @media (max-width: 767px) {
   .tf-social a {height: 35px; width: 35px;}
   .videsl video{min-height: 400px !important;}
+  .bannelogo{width: 150px;}
 }
