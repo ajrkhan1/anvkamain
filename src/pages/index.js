@@ -1,9 +1,20 @@
+"use client";
+
 import Head from "next/head";
 import React from "react";
 import Slider from "react-slick";
+import { useEffect } from "react";
 
 
 export default function Home() {
+
+      useEffect(() => {
+    document.body.classList.add("changelogo");
+
+    return () => {
+      document.body.classList.remove("changelogo");
+    };
+  }, []);
 
     var settings = {
         dots: true,

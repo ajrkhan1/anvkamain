@@ -24107,8 +24107,31 @@ a.mapboxgl-ctrl-logo {
 .menulogo li a img{height: 40px; width: auto;}
 .menulogo li{text-align: center;}
 
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%; /* image width */
+  height: 100vh;
+
+  background:url('/assets/images/anvkaa.png');
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.changelogo .dnone{display: none;}
+.changelogo .done{display: block;}
+.done{display: none;}
+
 @media (max-width: 767px) {
+  .tf-container{max-width: 100%;}
   .tf-social a {height: 35px; width: 35px;}
   .videsl video{min-height: 400px !important;}
   .bannelogo{width: 150px;}
+  
 }

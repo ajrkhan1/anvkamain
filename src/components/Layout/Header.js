@@ -105,7 +105,8 @@ export default function Header() {
         <header class="header style-3 trasp">
                         <div class="header-inner">
                             <a href="/" reloadDocument class="site-logo">
-                                <img class="logo_header" alt="logo" width="200" height="52" src="/assets/images/logo.png"/>
+                                <img class="logo_header dnone" alt="logo" width="200" height="52" src="/assets/images/logo.png"/>
+                                <img class="logo_header done" alt="logo" width="200" height="52" src="/assets/images/logo/anvka-png.png"/>
                             </a>
                             <nav class="main-menu">
                                 <ul class="navigation ">
