@@ -12432,7 +12432,7 @@ form textarea.style-line-bottom:focus {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(270deg, rgba(24, 71, 120, 0) 0%, rgb(0 0 0 / 34%) 50%, #6e6e6e 99.51%);
+      background: linear-gradient(270deg, rgb(0 0 0 / 40%) 0%, rgb(0 0 0 / 50%) 50%, #ffffff 99.51%);
   pointer-events: none;
 }
 .page-layout-v04 .img-style {
