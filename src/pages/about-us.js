@@ -170,7 +170,7 @@ export default function Home() {
                                     <div class="col-lg-7 d-grid gap_10">
                                         {/* <div class="sub text-label text-uppercase split-text effect-up">Our Brands
                                         </div> */}
-                                        <h3 class="title split-text effect-blur-fade">Our Verticals</h3>
+                                        <h3 class="title split-text effect-blur-fade">Our Brands</h3>
                                     </div>
                                     {/* <div class="col-lg-5">
                                         <a href="/brands"

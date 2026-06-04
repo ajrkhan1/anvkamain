@@ -26,10 +26,10 @@ export default function Home() {
                             </ul> */}
                             <div className="row">
                                 <div className="col-sm-8">
-                                    <h2 class="text_white">Curewith3D</h2>
-                                    <p className="headrp">
+                                    <h2 class="text_white"><img className="bannelogo" src="/assets/images/mlogo/cure.webp"/></h2>
+                                    {/* <p className="headrp">
                                         Personalized Precision for Every Surgery 
-                                    </p>
+                                    </p> */}
                                 </div>
 
                                 {/* <div className="col-sm-4">

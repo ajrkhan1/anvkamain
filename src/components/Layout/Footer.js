@@ -53,7 +53,7 @@ export default function Footer() {
                                         </div>
                                         <div class="footer-col-block company">
                                             <div class="footer-heading  footer-heading-mobile text-uppercase text-label fw-5 text_primary-color mb_16 font18x">
-                                                OUR Brands
+                                                Our Brands
                                             </div>
                                             <div class="tf-collapse-content">
                                                 <ul class="footer-menu-list d-grid gap_12">

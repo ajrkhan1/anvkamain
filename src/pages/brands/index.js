@@ -63,7 +63,7 @@ export default function Home() {
                         <div class="tf-container">
                             <div class="row align-items-center">
                                 <div class="col-lg-8">
-                                    <h1 class="title text_white split-text effect-right">Our Verticals</h1>
+                                    <h1 class="title text_white split-text effect-right">Our Brands</h1>
                                     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                                 </div>
                                 {/* <div class="col-lg-6">
@@ -93,7 +93,7 @@ export default function Home() {
                                     <div class="col-lg-7 d-grid gap_10">
                                         {/* <div class="sub text-label text-uppercase split-text effect-up">Our Brands
                                         </div> */}
-                                        <h3 class="title split-text effect-blur-fade">Our Verticals</h3>
+                                        <h3 class="title split-text effect-blur-fade">Our Brands</h3>
                                     </div>
                                     {/* <div class="col-lg-5">
                                         <a href="/brands"

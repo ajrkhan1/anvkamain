@@ -28,10 +28,10 @@ export default function Home() {
                             </ul> */}
                             <div className="row">
                                 <div className="col-sm-8">
-                                    <h1 class="text_white">LINTEX</h1>
-                                    <p className="headrp">
+                                    <h1 class="text_white"><img className="bannelogo" src="/assets/images/mlogo/lintex.webp"/></h1>
+                                    {/* <p className="headrp">
                                         Purpose-Driven Professional Wear 
-                                    </p>
+                                    </p> */}
                                 </div>
 
                                 {/* <div className="col-sm-4">

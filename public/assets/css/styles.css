@@ -12431,7 +12431,7 @@ form textarea.style-line-bottom:focus {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(270deg, rgba(24, 71, 120, 0) 0%, rgba(24, 71, 120, 0.5) 50%, #184778 99.51%);
+  background: linear-gradient(270deg, rgba(24, 71, 120, 0) 0%, rgb(0 0 0 / 34%) 50%, #6e6e6e 99.51%);
   pointer-events: none;
 }
 .page-layout-v04 .img-style {
@@ -23937,7 +23937,7 @@ a.mapboxgl-ctrl-logo {
     color: #2b2a29;
 }
 .submenu li a{font-size: 13px;}
-.submenu li a:hover{background-color: #e31e24; color: #fff !important;}
+.submenu li a:hover{background-color: #f5f5f5; color: #fff !important;}
 
 .ajh h2{
   color: #2b2a29;

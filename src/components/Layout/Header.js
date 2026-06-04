@@ -29,16 +29,17 @@ export default function Header() {
                                     </li>
 
                                     <li class="has-child text-menu"><a href="/brands" class="link-no-action toggle splitting">
-                                            <span class="text" data-splitting>All Verticals</span>
+                                            <span class="text" data-splitting>Our Brands</span>
                                         </a>
                                         <ul class="submenu">
-                                            <li><Link href="/brands/lintex">Lintex</Link></li>
-                                            <li><a href="/brands/medical-implats">Medical Implats</a></li>
-                                            <li><a href="/brands/curewith3d">Curewith3D</a></li>
-                                            <li><a href="/brands/Indiamd">IndiaMD</a></li>
-                                            <li><a href="/brands/caretab">CareTAB</a></li>
-                                            <li><a href="/brands/akiechef">AkieChef</a></li>
-                                            <li><a href="/brands/tumble-salon">Tumble</a></li>
+                                            <li><a href="/brands/lintex"><img width="100%" src="/assets/images/mlogo/lintex.webp"/></a></li>
+                                            <li><a href="/brands/medical-implats"><img width="100%" src="/assets/images/mlogo/medical.webp"/></a></li>
+                                            <li><a href="/brands/curewith3d"><img width="100%" src="/assets/images/mlogo/cure.webp"/></a></li>
+                                            <li><a href="/brands/Indiamd"><img width="100%" src="/assets/images/mlogo/indiamd.webp"/></a></li>
+                                            <li><a href="/brands/caretab"><img width="100%" src="/assets/images/mlogo/caretab.webp"/></a></li>
+                                            <li><a href="/brands/akiechef"><img width="100%" src="/assets/images/mlogo/ake.webp"/></a></li>
+                                            <li><a href="/brands/tumble-salon"><img width="100%" src="/assets/images/mlogo/tumble.webp"/></a></li>
+                                            <li><a target="_blank" href="https://azureinnolabs.com/"><img width="100%" src="/assets/images/mlogo/azureinno.webp"/></a></li>
                                         </ul>
                                     </li>
 
@@ -64,7 +65,6 @@ export default function Header() {
                                         </a>
                                         <ul class="submenu">
                                             <li><a target="_blank" href="https://anvkafoundation.com/">ANVKA Foundation</a></li>
-                                            <li><a target="_blank" href="https://azureinnolabs.com/">Azure Innovation Labs</a></li>
                                         </ul>
                                     </li>
                             </ul>
@@ -126,16 +126,17 @@ export default function Header() {
                                     </li>
                                     
                                     <li class="has-child text-menu"><a href="/brands" class="link-no-action toggle splitting">
-                                            <span class="text" data-splitting>All Verticals</span>
+                                            <span class="text" data-splitting>Our Brands</span>
                                         </a>
                                         <ul class="submenu">
-                                            <li><Link href="/brands/lintex">LINTEX </Link></li>
-                                            <li><a href="/brands/medical-implats">Medical Implats</a></li>
-                                            <li><a href="/brands/curewith3d">Curewith3D</a></li>
-                                            <li><a href="/brands/Indiamd">IndiaMD</a></li>
-                                            <li><a href="/brands/caretab">CareTAB</a></li>
-                                            <li><a href="/brands/akiechef">AkieChef</a></li>                                       
-                                            <li><a href="/brands/tumble-salon">Tumble</a></li>
+                                            <li><a href="/brands/lintex"><img width="100%" src="/assets/images/mlogo/lintex.webp"/></a></li>
+                                            <li><a href="/brands/medical-implats"><img width="100%" src="/assets/images/mlogo/medical.webp"/></a></li>
+                                            <li><a href="/brands/curewith3d"><img width="100%" src="/assets/images/mlogo/cure.webp"/></a></li>
+                                            <li><a href="/brands/Indiamd"><img width="100%" src="/assets/images/mlogo/indiamd.webp"/></a></li>
+                                            <li><a href="/brands/caretab"><img width="100%" src="/assets/images/mlogo/caretab.webp"/></a></li>
+                                            <li><a href="/brands/akiechef"><img width="100%" src="/assets/images/mlogo/ake.webp"/></a></li>
+                                            <li><a href="/brands/tumble-salon"><img width="100%" src="/assets/images/mlogo/tumble.webp"/></a></li>
+                                            <li><a target="_blank" href="https://azureinnolabs.com/"><img width="100%" src="/assets/images/mlogo/azureinno.webp"/></a></li>
                                         </ul>
                                     </li>
 
@@ -161,7 +162,6 @@ export default function Header() {
                                         </a>
                                         <ul class="submenu">
                                             <li><a target="_blank" href="https://anvkafoundation.com/">ANVKA Foundation</a></li>
-                                            <li><a target="_blank" href="https://azureinnolabs.com/">Azure Innovation Labs</a></li>
                                         </ul>
                                     </li>
                             </ul>
@@ -235,17 +235,18 @@ export default function Header() {
                     <li class="menu-item menu-item-has-children-mobile active">
                         <a href="#dropdown-menu-one" class="item-menu-mobile collapsed" data-bs-toggle="collapse"
                             aria-expanded="true" aria-controls="dropdown-menu-one">
-                            ALL VERTICALS
+                            OUR BRANDS
                         </a>
                         <div id="dropdown-menu-one" class="collapse" data-bs-parent="#menu-mobile-menu">
-                            <ul class="sub-mobile">                               
-                                <li class="menu-item"><a href="/brands/lintex">Linte</a></li>
-                                <li class="menu-item"><a href="/brands/curewith3d">Curewith3D</a></li>                                
-                                <li class="menu-item"><a href="/brands/medical-implats">Medical Implats</a></li>
-                                <li class="menu-item"><a href="/brands/Indiamd">IndiaMD</a></li>
-                                <li class="menu-item"><a href="/brands/caretab">CareTAB</a></li>
-                                <li class="menu-item"><a href="/brands/akiechef">AkieChef</a></li>                                
-                                <li class="menu-item"><a href="/brands/tumble-salon">Tumble</a></li>
+                            <ul class="sub-mobile">
+                                <li class="menu-item"><a href="/brands/lintex"><img width="100%" src="/assets/images/mlogo/lintex.webp"/></a></li>
+                                <li class="menu-item"><a href="/brands/medical-implats"><img width="100%" src="/assets/images/mlogo/medical.webp"/></a></li>
+                                <li class="menu-item"><a href="/brands/curewith3d"><img width="100%" src="/assets/images/mlogo/cure.webp"/></a></li>
+                                <li class="menu-item"><a href="/brands/Indiamd"><img width="100%" src="/assets/images/mlogo/indiamd.webp"/></a></li>
+                                <li class="menu-item"><a href="/brands/caretab"><img width="100%" src="/assets/images/mlogo/caretab.webp"/></a></li>
+                                <li class="menu-item"><a href="/brands/akiechef"><img width="100%" src="/assets/images/mlogo/ake.webp"/></a></li>
+                                <li class="menu-item"><a href="/brands/tumble-salon"><img width="100%" src="/assets/images/mlogo/tumble.webp"/></a></li>
+                                <li class="menu-item"><a target="_blank" href="https://azureinnolabs.com/"><img width="100%" src="/assets/images/mlogo/azureinno.webp"/></a></li>
                             </ul>
                         </div>
                     </li>
@@ -281,8 +282,7 @@ export default function Header() {
                         </a>
                         <div id="dropdown-menu-four" class="collapse" data-bs-parent="#menu-mobile-menu">
                             <ul class="sub-mobile">
-                                <li class="menu-item"><a target="_blank" href="https://anvkafoundation.com/">Anvka Foundation</a></li>
-                                <li class="menu-item"><a target="_blank" href="https://azureinnolabs.com/">Azure Innovation Labs</a></li>
+                                <li class="menu-item"><a target="_blank" href="https://anvkafoundation.com/">Anvka Foundation</a></li>                                
                             </ul>
                         </div>
                     </li>                    

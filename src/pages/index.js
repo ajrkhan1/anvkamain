@@ -42,6 +42,15 @@ export default function Home() {
         ]
     };
 
+    const videos = [
+  "VIDEO_ID_1",
+  "VIDEO_ID_2",
+  "VIDEO_ID_3",
+  "VIDEO_ID_4",
+  "VIDEO_ID_5",
+  "VIDEO_ID_6",
+];
+
 
 	return (
 		<>
@@ -220,7 +229,7 @@ export default function Home() {
                                     <div class="col-lg-7 d-grid gap_10">
                                         {/* <div class="sub text-label text-uppercase split-text effect-up">Our Brands
                                         </div> */}
-                                        <h3 class="title split-text effect-blur-fade">Our Verticals</h3>
+                                        <h3 class="title split-text effect-blur-fade">Our Brands</h3>
                                     </div>
                                     {/* <div class="col-lg-5">
                                         <a href="/brands"
@@ -866,6 +875,116 @@ export default function Home() {
                             </div>
                         </div>
                     </div> */}
+
+                    <div class="section-insights-1 sw-layout tf-spacing-1 pt-0">
+                        <div class="heading-section style-default text-center mb_47">
+                            <br></br><br></br><br></br>
+                            <div class="sub text-label text-uppercase split-text effect-up">News & Insights</div>
+                            <h3 class="title split-text effect-right">Latest News & Insights</h3>
+                        </div>
+                        <div class="swiper" data-preview="3" data-screen-xl="4" data-tablet="2" data-mobile="1"
+                            data-mobile-sm="2" data-space-lg="20" data-space-md="20" data-space="15">
+                            <div class="swiper-wrapper">
+
+                               
+                                <div class="swiper-slide wow fadeInLeft">
+                                    <div class="blog-item style-default hover-image-translate">
+                                        <iframe
+                                        height="250"
+                                        width="100%"
+                                            src="https://www.youtube.com/embed/WMnNMMqK6ig?si=9s-Ye7fZNdJBa_vO"
+                                            title="YouTube video player"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+                                        </iframe>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide wow fadeInLeft">
+                                    <div class="blog-item style-default hover-image-translate">
+                                        <iframe
+                                        height="250"
+                                        width="100%"
+                                            src="https://www.youtube.com/embed/WMnNMMqK6ig?si=9s-Ye7fZNdJBa_vO"
+                                            title="YouTube video player"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+                                        </iframe>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide wow fadeInLeft">
+                                    <div class="blog-item style-default hover-image-translate">
+                                        <iframe
+                                        height="250"
+                                        width="100%"
+                                            src="https://www.youtube.com/embed/WMnNMMqK6ig?si=9s-Ye7fZNdJBa_vO"
+                                            title="YouTube video player"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+                                        </iframe>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide wow fadeInLeft">
+                                    <div class="blog-item style-default hover-image-translate">
+                                        <iframe
+                                        height="250"
+                                        width="100%"
+                                            src="https://www.youtube.com/embed/WMnNMMqK6ig?si=9s-Ye7fZNdJBa_vO"
+                                            title="YouTube video player"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+                                        </iframe>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide wow fadeInLeft">
+                                    <div class="blog-item style-default hover-image-translate">
+                                        <iframe
+                                        height="250"
+                                        width="100%"
+                                            src="https://www.youtube.com/embed/WMnNMMqK6ig?si=9s-Ye7fZNdJBa_vO"
+                                            title="YouTube video player"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+                                        </iframe>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide wow fadeInLeft">
+                                    <div class="blog-item style-default hover-image-translate">
+                                        <iframe
+                                        height="250"
+                                        width="100%"
+                                            src="https://www.youtube.com/embed/WMnNMMqK6ig?si=9s-Ye7fZNdJBa_vO"
+                                            title="YouTube video player"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+                                        </iframe>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide wow fadeInLeft">
+                                    <div class="blog-item style-default hover-image-translate">
+                                        <iframe
+                                        height="250"
+                                        width="100%"
+                                            src="https://www.youtube.com/embed/WMnNMMqK6ig?si=9s-Ye7fZNdJBa_vO"
+                                            title="YouTube video player"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+                                        </iframe>
+                                    </div>
+                                </div>  
+           
+                            
+                            
+                            </div>
+                            <div class="sw-dots style-1 sw-pagination-layout text-center mt_24">
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
 		 

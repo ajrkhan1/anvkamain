@@ -28,10 +28,10 @@ export default function Home() {
                             </ul> */}
                             <div className="row">
                                 <div className="col-sm-8">
-                                    <h2 class="text_white">Tumble Salon </h2>
-                                    <p className="headrp">
+                                    <h2 class="text_white"><img className="bannelogo" src="/assets/images/mlogo/tumble.webp"/></h2>
+                                    {/* <p className="headrp">
                                         Style. Care. Confidence. Everyday.
-                                    </p>
+                                    </p> */}
                                 </div>
 
                                 {/* <div className="col-sm-4">

@@ -28,10 +28,10 @@ export default function Home() {
                             </ul> */}
                             <div className="row">
                                 <div className="col-sm-8">
-                                    <h2 class="text_white">CareTAB.ai</h2>
-                                    <p className="headrp">
+                                    <h2 class="text_white"><img className="bannelogo" src="/assets/images/mlogo/caretab.webp"/></h2>
+                                    {/* <p className="headrp">
                                         Healthcare @Home, Simplified
-                                    </p>
+                                    </p> */}
                                 </div>
 
                                 {/* <div className="col-sm-4">

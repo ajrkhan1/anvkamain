@@ -28,10 +28,10 @@ export default function Home() {
                             </ul> */}
                             <div className="row">
                                 <div className="col-sm-8">
-                                    <h2 class="text_white">AkieChef</h2>
-                                    <p className="headrp">
+                                    <h2 class="text_white"><img className="bannelogo" src="/assets/images/mlogo/ake.webp"/></h2>
+                                    {/* <p className="headrp">
                                         Nourishing Lives Through Food
-                                    </p>
+                                    </p> */}
                                 </div>
 
                                 {/* <div className="col-sm-4">

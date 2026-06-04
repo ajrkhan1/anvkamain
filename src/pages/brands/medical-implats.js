@@ -28,10 +28,10 @@ export default function Home() {
                             </ul> */}
                             <div className="row">
                                 <div className="col-sm-8">
-                                    <h2 class="text_white">Medical Implants</h2>
-                                    <p className="headrp">
+                                    <h2 class="text_white"><img className="bannelogo" src="/assets/images/mlogo/medical.webp"/></h2>
+                                    {/* <p className="headrp">
                                         Advancing Orthopedic Care Globally
-                                    </p>
+                                    </p> */}
                                 </div>
 
                                 {/* <div className="col-sm-4">
