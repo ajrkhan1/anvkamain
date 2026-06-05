@@ -1,9 +1,19 @@
+"use client";
+import { useEffect } from "react";
 import Head from "next/head";
 import React from "react";
 import Slider from "react-slick";
 
 
 export default function Home() {
+
+    useEffect(() => {
+        document.body.classList.add("changelogo");
+    
+        return () => {
+          document.body.classList.remove("changelogo");
+        };
+      }, []);
 
     var settings = {
         dots: true,
@@ -63,8 +73,8 @@ export default function Home() {
                         <div class="tf-container">
                             <div class="row align-items-center">
                                 <div class="col-lg-8">
-                                    <h1 class="title text_white split-text effect-right">Our Brands</h1>
-                                    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                                    <h1 class="title text_white split-text effect-right newcolorx">Our Brands</h1>
+                                   
                                 </div>
                                 {/* <div class="col-lg-6">
                                     <div class="right">

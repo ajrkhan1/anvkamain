@@ -30,11 +30,10 @@ export default function Footer() {
                                                     </li>
                                                     <li class="text-caption-1 text_white">
                                                         <a href="/our-story" class="link">Our Story</a>
-                                                    </li>                                              
-                                                  
-                                                    <li class="text-caption-1 text_white">
-                                                        <a href="/news" class="link">News & Media</a>
                                                     </li>
+                                                    <li class="text-caption-1 text_white">
+                                                        <a href="/our-team" class="link">Our Team</a>
+                                                    </li> 
                                                     <li class="text-caption-1 text_white">
                                                         <a href="/culture" class="link">Culture</a>
                                                     </li>
@@ -43,6 +42,9 @@ export default function Footer() {
                                                     </li>
                                                     
                                                     <li class="text-caption-1 text_white">
+                                                        <a href="/news" class="link">News & Media</a>
+                                                    </li>
+                                                     <li class="text-caption-1 text_white">
                                                         <a href="/news" class="link">News & Media</a>
                                                     </li>
                                                     <li class="text-caption-1 text_white">
@@ -78,7 +80,9 @@ export default function Footer() {
                                                     <li class="text-caption-1 text_white">
                                                         <a href="/brands/tumble-salon" class="link">Tumble Salon</a>
                                                     </li>
-                                                    
+                                                    <li class="text-caption-1 text_white">
+                                                        <a target='_blank' href="https://azureinnolabs.com/" class="link">Azure Innovation Labs</a>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>

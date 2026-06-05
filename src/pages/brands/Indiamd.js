@@ -27,10 +27,10 @@ export default function Home() {
                             </ul> */}
                             <div className="row">
                                 <div className="col-sm-8">
-                                    <h2 class="text_white">IndiaMD</h2>
-                                    <p className="headrp">
+                                    <h2 class="text_white newcolorx">IndiaMD</h2>
+                                    {/* <p className="headrp">
                                         The Global Care Pathway
-                                    </p>
+                                    </p> */}
                                 </div>
 
                                 {/* <div className="col-sm-4">
@@ -47,7 +47,7 @@ export default function Home() {
 
                  <br></br><br></br><br></br><br></br><br></br><br></br>
                 <div class="main-content">
-                    
+
                     <div class="section-contact">
                         <div class="tf-container">
                             <div class="mb_48">
@@ -57,8 +57,8 @@ export default function Home() {
                                             {/* <img src="/assets/images/portfolio-item-2.jpg" alt="Lintex"/> */}
                                         </div>
                                     </div>
-                                    <div class="col-sm-6 textjustfy">                                        
-                                        <div className="shdwala">                                          
+                                    <div class="col-sm-6 textjustfy">
+                                        <div className="shdwala">
                                         <h3 class="title text_primary title split-text effect-right font24">Premium Medical Value Travel Experience</h3>
                                         <br></br>
                                         <p>
@@ -66,23 +66,23 @@ export default function Home() {
                                         </p>
                                         <br></br>
                                         <p>
-                                            From treatment planning and hospital selection to travel coordination and post-treatment support, IndiaMD offers end-to-end assistance through a patient-first approach. The platform connects patients with trusted hospitals, experienced doctors, and customized treatment packages across multiple specialties, ensuring transparency, comfort, and confidence throughout the process. 
+                                            From treatment planning and hospital selection to travel coordination and post-treatment support, IndiaMD offers end-to-end assistance through a patient-first approach. The platform connects patients with trusted hospitals, experienced doctors, and customized treatment packages across multiple specialties, ensuring transparency, comfort, and confidence throughout the process.
                                         </p>
                                         <br></br>
                                         <p>
-                                            With app-enabled care and dedicated patient support, IndiaMD manages everything from medical visa guidance, accommodation, and airport transfers to follow-up consultations and recovery assistance. Every service is designed to reduce stress and help patients focus on what matters most — healing and recovery. 
+                                            With app-enabled care and dedicated patient support, IndiaMD manages everything from medical visa guidance, accommodation, and airport transfers to follow-up consultations and recovery assistance. Every service is designed to reduce stress and help patients focus on what matters most — healing and recovery.
                                         </p>
                                         <br></br>
                                         <p>By combining healthcare expertise, technology, and personalized care coordination, IndiaMD is contributing to a larger vision of positioning India as a global hub for trusted medical excellence and compassionate healthcare delivery.</p>
                                         </div>
-                                    </div>                                    
+                                    </div>
                                 </div>
-                            </div>                         
+                            </div>
                         </div>
                     </div>
 
 
-          
+
 
                     <div class="section-cta tf-spacing-1">
                         <div class="tf-container">
@@ -94,12 +94,12 @@ export default function Home() {
                                         </div>
                                     </div>
                                     <div class="col-lg-4">
-                                        <div class="content">                                           
+                                        <div class="content">
                                             <div class="wrap-btn d-flex gap_20 flex-wrap wow fadeInUp btnflotright">
                                                 <a target="" href="#" class="tf-btn btn-hover-animate-2 btn-bg-secondary">
                                                     <span>Visit Our Website</span>
                                                     <span></span>
-                                                </a>                                             
+                                                </a>
                                             </div>
                                         </div>
                                     </div>

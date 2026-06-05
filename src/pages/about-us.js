@@ -65,7 +65,7 @@ export default function Home() {
                                 </li>
                                 <li class="text_white text-label lh-16">About Us</li>
                             </ul> */}
-                            <h1 class="text_white">About Us</h1>
+                            <h1 class="text_white newcolorx">About Us</h1>
                         </div>
                     </div>
                 </div>

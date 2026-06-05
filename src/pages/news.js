@@ -28,7 +28,7 @@ export default function Home() {
                             </ul> */}
                             <div className="row">
                                 <div className="col-sm-8">
-                                    <h2 class="text_white">News & Media</h2>
+                                    <h2 class="text_white newcolorx">News & Media</h2>
                                     {/* <p className="headrp">
                                         CureWith3D, a healthcare-innovation company focused on creating customized, patient-specific 3D-printed surgical guides, orthopedic & dental implants, and anatomical models.
                                     </p> */}

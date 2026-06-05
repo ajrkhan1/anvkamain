@@ -21,7 +21,7 @@
   --Bg-dark-2: #0F191C;
   --Placehover: #c1c1c1;
 }
-h1, h2, h3, h4, h5, h6, p{color: #2b2a29;}
+h1, h2, h3, h4, h5, h6, p, a{color: #2b2a29;}
 .sub{color: #2b2a29;}
 
 /*---------- Reset css styles ----------- */
@@ -13899,7 +13899,6 @@ a.mapboxgl-ctrl-logo {
   color: transparent;
   -webkit-text-stroke: 1px var(--Primary);
   display: inline-block;
-  opacity: 0.2;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -24152,7 +24151,8 @@ body::before {
 color: #fff;
 }
 .YoutubeSlider-module__ssiYaq__center{box-shadow: 0 28px 80px #ffffff00 !important; }
-
+.jobsss .heading .title {color: #2b2a29;}
+.newcolorx{color: #e31e24;}
 @media (max-width: 767px) {
   .tf-container{max-width: 100%;}
   .tf-social a {height: 35px; width: 35px;}
