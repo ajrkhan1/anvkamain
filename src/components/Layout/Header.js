@@ -32,14 +32,14 @@ export default function Header() {
                                             <span class="text" data-splitting>Our Brands</span>
                                         </a>
                                         <ul class="submenu menulogo">
-                                            <li><a href="/brands/lintex"><img width="100%" src="/assets/images/mlogo/lintex.webp"/></a></li>
-                                            <li><a href="/brands/medical-implats"><img width="100%" src="/assets/images/mlogo/medical.webp"/></a></li>
-                                            <li><a href="/brands/curewith3d"><img width="100%" src="/assets/images/mlogo/cure.webp"/></a></li>
-                                            <li><a href="/brands/Indiamd"><img width="100%" src="/assets/images/mlogo/indiamd.webp"/></a></li>
-                                            <li><a href="/brands/caretab"><img width="100%" src="/assets/images/mlogo/caretab.webp"/></a></li>
-                                            <li><a href="/brands/akiechef"><img width="100%" src="/assets/images/mlogo/ake.webp"/></a></li>
-                                            <li><a href="/brands/tumble-salon"><img width="100%" src="/assets/images/mlogo/tumble.webp"/></a></li>
-                                            <li><a target="_blank" href="https://azureinnolabs.com/"><img width="100%" src="/assets/images/mlogo/azureinno.webp"/></a></li>
+                                            <li><a href="/brands/lintex"><img width="100%" src="/assets/images/logo2/lin1.webp"/></a></li>
+                                            <li><a href="/brands/medical-implats"><img width="100%" src="/assets/images/logo2/med1.webp"/></a></li>
+                                            <li><a href="/brands/curewith3d"><img width="100%" src="/assets/images/logo2/cure1.webp"/></a></li>
+                                            <li><a href="/brands/Indiamd"><img width="100%" src="/assets/images/logo2/ind1.webp"/></a></li>
+                                            <li><a href="/brands/caretab"><img width="100%" src="/assets/images/logo2/care1.webp"/></a></li>
+                                            <li><a href="/brands/akiechef"><img width="100%" src="/assets/images/logo2/ake1.webp"/></a></li>
+                                            <li><a href="/brands/tumble-salon"><img width="100%" src="/assets/images/logo2/tum1.webp"/></a></li>
+                                            <li><a target="_blank" href="https://azureinnolabs.com/"><img width="100%" src="/assets/images/logo2/lab1.webp"/></a></li>
                                         </ul>
                                     </li>
 
@@ -130,14 +130,14 @@ export default function Header() {
                                             <span class="text" data-splitting>Our Brands</span>
                                         </a>
                                         <ul class="submenu menulogo">
-                                            <li><a href="/brands/lintex"><img width="100%" src="/assets/images/mlogo/lintex.webp"/></a></li>
-                                            <li><a href="/brands/medical-implats"><img width="100%" src="/assets/images/mlogo/medical.webp"/></a></li>
-                                            <li><a href="/brands/curewith3d"><img width="100%" src="/assets/images/mlogo/cure.webp"/></a></li>
-                                            <li><a href="/brands/Indiamd"><img width="100%" src="/assets/images/mlogo/indiamd.webp"/></a></li>
-                                            <li><a href="/brands/caretab"><img width="100%" src="/assets/images/mlogo/caretab.webp"/></a></li>
-                                            <li><a href="/brands/akiechef"><img width="100%" src="/assets/images/mlogo/ake.webp"/></a></li>
-                                            <li><a href="/brands/tumble-salon"><img width="100%" src="/assets/images/mlogo/tumble.webp"/></a></li>
-                                            <li><a target="_blank" href="https://azureinnolabs.com/"><img width="100%" src="/assets/images/mlogo/azureinno.webp"/></a></li>
+                                            <li><a href="/brands/lintex"><img width="100%" src="/assets/images/logo2/lin1.webp"/></a></li>
+                                            <li><a href="/brands/medical-implats"><img width="100%" src="/assets/images/logo2/med1.webp"/></a></li>
+                                            <li><a href="/brands/curewith3d"><img width="100%" src="/assets/images/logo2/cure1.webp"/></a></li>
+                                            <li><a href="/brands/Indiamd"><img width="100%" src="/assets/images/logo2/ind1.webp"/></a></li>
+                                            <li><a href="/brands/caretab"><img width="100%" src="/assets/images/logo2/care1.webp"/></a></li>
+                                            <li><a href="/brands/akiechef"><img width="100%" src="/assets/images/logo2/ake1.webp"/></a></li>
+                                            <li><a href="/brands/tumble-salon"><img width="100%" src="/assets/images/logo2/tum1.webp"/></a></li>
+                                            <li><a target="_blank" href="https://azureinnolabs.com/"><img width="100%" src="/assets/images/logo2/lab1.webp"/></a></li>
                                         </ul>
                                     </li>
 
@@ -240,14 +240,14 @@ export default function Header() {
                         </a>
                         <div id="dropdown-menu-one" class="collapse" data-bs-parent="#menu-mobile-menu">
                             <ul class="sub-mobile menulogo">
-                                <li class="menu-item"><a href="/brands/lintex"><img width="100%" src="/assets/images/mlogo/lintex.webp"/></a></li>
-                                <li class="menu-item"><a href="/brands/medical-implats"><img width="100%" src="/assets/images/mlogo/medical.webp"/></a></li>
-                                <li class="menu-item"><a href="/brands/curewith3d"><img width="100%" src="/assets/images/mlogo/cure.webp"/></a></li>
-                                <li class="menu-item"><a href="/brands/Indiamd"><img width="100%" src="/assets/images/mlogo/indiamd.webp"/></a></li>
-                                <li class="menu-item"><a href="/brands/caretab"><img width="100%" src="/assets/images/mlogo/caretab.webp"/></a></li>
-                                <li class="menu-item"><a href="/brands/akiechef"><img width="100%" src="/assets/images/mlogo/ake.webp"/></a></li>
-                                <li class="menu-item"><a href="/brands/tumble-salon"><img width="100%" src="/assets/images/mlogo/tumble.webp"/></a></li>
-                                <li class="menu-item"><a target="_blank" href="https://azureinnolabs.com/"><img width="100%" src="/assets/images/mlogo/azureinno.webp"/></a></li>
+                                <li class="menu-item"><a href="/brands/lintex"><img width="100%" src="/assets/images/logo2/lin1.webp"/></a></li>
+                                <li class="menu-item"><a href="/brands/medical-implats"><img width="100%" src="/assets/images/logo2/med1.webp"/></a></li>
+                                <li class="menu-item"><a href="/brands/curewith3d"><img width="100%" src="/assets/images/logo2/cure1.webp"/></a></li>
+                                <li class="menu-item"><a href="/brands/Indiamd"><img width="100%" src="/assets/images/logo2/ind1.webp"/></a></li>
+                                <li class="menu-item"><a href="/brands/caretab"><img width="100%" src="/assets/images/logo2/care1.webp"/></a></li>
+                                <li class="menu-item"><a href="/brands/akiechef"><img width="100%" src="/assets/images/logo2/ake1.webp"/></a></li>
+                                <li class="menu-item"><a href="/brands/tumble-salon"><img width="100%" src="/assets/images/logo2/tum1.webp"/></a></li>
+                                <li class="menu-item"><a target="_blank" href="https://azureinnolabs.com/"><img width="100%" src="/assets/images/logo2/lab1.webp"/></a></li>
                             </ul>
                         </div>
                     </li>
