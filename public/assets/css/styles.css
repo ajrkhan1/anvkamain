@@ -12429,6 +12429,7 @@ form textarea.style-line-bottom:focus {
 
 .page-layout-v04 {
   position: relative;
+  opacity: 0.8;
 }
 .page-layout-v04::after {
   content: "";
