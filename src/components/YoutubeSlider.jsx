@@ -4,11 +4,11 @@ import styles from './YoutubeSlider.module.css'
 
 // Sirf YouTube video ID daalo (URL ka last part)
 const videos = [
-  { id: 'WMnNMMqK6ig', title: 'Video 1' },
-  { id: 'dQw4w9WgXcQ', title: 'Video 2' },
-  { id: '9bZkp7q19f0', title: 'Video 3' },
-  { id: 'kJQP7kiw5Fk', title: 'Video 4' },
-  { id: 'hT_nvWreIhg', title: 'Video 5' },
+  { id: '3Ohn8swWT6k', title: 'Video 1' },
+  { id: 'rNzhJQwYMW4', title: 'Video 2' },
+  { id: '3Ohn8swWT6k', title: 'Video 3' },
+  { id: 'rNzhJQwYMW4', title: 'Video 4' },
+  { id: '3Ohn8swWT6k', title: 'Video 5' },
 ]
 
 const POS = ['farLeft', 'left', 'center', 'right', 'farRight']
