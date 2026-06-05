@@ -4,6 +4,7 @@ import Head from "next/head";
 import React from "react";
 import Slider from "react-slick";
 import { useEffect } from "react";
+import YoutubeSlider from '@/components/YoutubeSlider'
 
 
 export default function Home() {
@@ -52,15 +53,6 @@ export default function Home() {
             }
         ]
     };
-
-    const videos = [
-  "VIDEO_ID_1",
-  "VIDEO_ID_2",
-  "VIDEO_ID_3",
-  "VIDEO_ID_4",
-  "VIDEO_ID_5",
-  "VIDEO_ID_6",
-];
 
 
 	return (
@@ -686,317 +678,25 @@ export default function Home() {
                         </div>
                     </div>
                   
-                    {/* <div class="section-request">
-                        <div class="thumbs overflow-hidden">
-                            <img data-speed="0.8" data-lag="0" loading="eager" decoding="async" width="1920"
-                                height="975" src="/assets/images/banner-request.jpg" alt="request"/>
-                        </div>
-                        <div class="box-request">
-                            <div class="tf-container">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6">
-                                        <div class="box-left">
-                                            <h2 class="text_white mb_36 split-text effect-blur-fade">Get Your Free
-                                                Insurance
-                                                Quote Today</h2>
-                                            <p class="text_white text-body-default split-text split-lines-rotation-x">
-                                                Fill
-                                                out
-                                                the quick form our experts will
-                                                contact
-                                                you to find the best
-                                                coverage
-                                                for your needs. No pressure, no hidden fees. Just honest advice.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <form class="form-request">
-                                            <div class="heading mb_24 text-center mb_32">
-                                                <h5 class="mb_8 ">Let’s Talk Or Ask Us Anything</h5>
-                                                <p class="text-body-default text_secondary">Fill out the form and
-                                                    we’ll be
-                                                    in
-                                                    touch
-                                                    soon.</p>
-                                            </div>
-                                            <div class="wrap d-grid gap_8 mb_32">
-                                                <fieldset class="">
-                                                    <input class="" id="Name" type="text" placeholder="Full name"
-                                                        name="text" tabindex="2" value="" aria-required="true"
-                                                        required=""/>
-                                                </fieldset>
-                                                <fieldset class="">
-                                                    <input class="" id="email" type="email" placeholder="Email address"
-                                                        name="email" tabindex="2" value="" aria-required="true"
-                                                        required=""/>
-                                                </fieldset>
-                                                <fieldset class="">
-                                                    <input class="" id="phone" type="number" placeholder="Phone Number"
-                                                        name="text" tabindex="2" value="" aria-required="true"
-                                                        required=""/>
-                                                </fieldset>
-
-                                                <fieldset>
-                                                    <textarea id="comment" class="" rows="4"
-                                                        placeholder="How can we help you?" tabindex="2"
-                                                        aria-required="true" required=""></textarea>
-                                                </fieldset>
-                                            </div>
-                                            <button class="tf-btn btn-hover-animate-2  btn-bg-1 btn-px-24"
-                                                type="submit">
-                                                <span>Submit Request</span>
-                                                <span class="bg-effect"></span>
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
+                    
                     
                     
 
-                     {/* <div class="section-faqs-1 tf-spacing-1">
+                     <div class="section-faqs-1 tf-spacing-1">
                         <div class="tf-container">
                             <div class="row">
-                                <div class="col-lg-6">
+                                <div class="col-lg-12">
                                     <div class="heading-section style-default">
-                                        <div class="sub text-label text-uppercase lh-20 split-text effect-up">FAQs</div>
-                                        <h2 class="title split-text effect-blur-fade">Frequently Asked Questions</h2>
-                                        <p
-                                            class="desc text-body-default text_secondary split-text split-lines-transform">
-                                            Subscribe to get the latest company
-                                            news, expert
-                                            insights, and industry
-                                            trends delivered straight to your inbox — no spam, just value.</p>
+                                       <div class="heading-section style-default text-center mb_47">
+                                            <br/>                                    
+                                            <h3 class="title split-text effect-right">The ANVKA Collective</h3>
+                                        </div>
+                                        <YoutubeSlider />
                                     </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <ul class="accordion-wrap d-grid gap_16" id="accordion-faq">
-                                        <li class="accordion-item style-2 action_click wow fadeInRight"
-                                            data-wow-delay=".1s">
-                                            <a href="#accordion-faq-1" class="accordion-title action "
-                                                data-bs-toggle="collapse" aria-expanded="true"
-                                                aria-controls="accordion-faq-1">
-                                                <div class="heading">
-                                                    <h5 class="title text-capitalize">
-                                                        Q1: What types of insurance do you offer?
-                                                    </h5>
-                                                    <span class="icon"></span>
-                                                </div>
-                                            </a>
-                                            <div id="accordion-faq-1" class="collapse show"
-                                                data-bs-parent="#accordion-faq">
-                                                <div class="accordion-faqs-content">
-                                                    <p class="text-body-default text_secondary">
-                                                        Simply fill out our online form or contact us directly — we’ll
-                                                        send you
-                                                        a personalized quote within 24 hours.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="accordion-item style-2 action_click wow fadeInRight"
-                                            data-wow-delay=".2s">
-                                            <a href="#accordion-faq-2" class="accordion-title action  collapsed"
-                                                data-bs-toggle="collapse" aria-expanded="false"
-                                                aria-controls="accordion-faq-2">
-                                                <div class="heading">
-                                                    <h5 class="title text-capitalize">
-                                                        Q2: How do I get a quote?</h5>
-                                                    <span class="icon"></span>
-                                                </div>
-                                            </a>
-                                            <div id="accordion-faq-2" class="collapse" data-bs-parent="#accordion-faq">
-                                                <div class="accordion-faqs-content">
-                                                    <p class="text-body-default text_secondary">
-                                                        Simply fill out our online form or contact us directly — we’ll
-                                                        send you
-                                                        a personalized quote within 24 hours.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="accordion-item style-2 action_click wow fadeInRight"
-                                            data-wow-delay=".3s">
-                                            <a href="#accordion-faq-3" class="accordion-title action  collapsed"
-                                                data-bs-toggle="collapse" aria-expanded="false"
-                                                aria-controls="accordion-faq-3">
-                                                <div class="heading">
-                                                    <h5 class="title text-capitalize">
-                                                        Q3: Is there a free consultation before I buy a plan?</h5>
-                                                    <span class="icon"></span>
-                                                </div>
-                                            </a>
-                                            <div id="accordion-faq-3" class="collapse" data-bs-parent="#accordion-faq">
-                                                <div class="accordion-faqs-content">
-                                                    <p class="text-body-default text_secondary">
-                                                        Simply fill out our online form or contact us directly — we’ll
-                                                        send you
-                                                        a personalized quote within 24 hours.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="accordion-item style-2 action_click wow fadeInRight"
-                                            data-wow-delay=".4s">
-                                            <a href="#accordion-faq-4" class="accordion-title action  collapsed"
-                                                data-bs-toggle="collapse" aria-expanded="false"
-                                                aria-controls="accordion-faq-4">
-                                                <div class="heading">
-                                                    <h5 class="title text-capitalize">
-                                                        Q4: Can I customize my insurance plan?</h5>
-                                                    <span class="icon"></span>
-                                                </div>
-                                            </a>
-                                            <div id="accordion-faq-4" class="collapse" data-bs-parent="#accordion-faq">
-                                                <div class="accordion-faqs-content">
-                                                    <p class="text-body-default text_secondary">
-                                                        Simply fill out our online form or contact us directly — we’ll
-                                                        send you
-                                                        a personalized quote within 24 hours.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="accordion-item style-2 action_click wow fadeInRight"
-                                            data-wow-delay=".5s">
-                                            <a href="#accordion-faq-5" class="accordion-title action  collapsed"
-                                                data-bs-toggle="collapse" aria-expanded="false"
-                                                aria-controls="accordion-faq-5">
-                                                <div class="heading">
-                                                    <h5 class="title text-capitalize">
-                                                        Q5: What if I want to cancel my policy?
-                                                    </h5>
-                                                    <span class="icon"></span>
-                                                </div>
-                                            </a>
-                                            <div id="accordion-faq-5" class="collapse" data-bs-parent="#accordion-faq">
-                                                <div class="accordion-faqs-content">
-                                                    <p class="text-body-default text_secondary">
-                                                        Simply fill out our online form or contact us directly — we’ll
-                                                        send you
-                                                        a personalized quote within 24 hours.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
-
-                    <div class="section-insights-1 sw-layout tf-spacing-1 pt-0">
-                        <div class="heading-section style-default text-center mb_47">
-                            <br></br><br></br><br></br>
-                            <div class="sub text-label text-uppercase split-text effect-up">Video</div>
-                            <h3 class="title split-text effect-right">Video Sections</h3>
-                        </div>
-                        <div class="swiper" data-preview="3" data-screen-xl="4" data-tablet="2" data-mobile="1"
-                            data-mobile-sm="2" data-space-lg="20" data-space-md="20" data-space="15">
-                            <div class="swiper-wrapper">
-
-                               
-                                <div class="swiper-slide wow fadeInLeft">
-                                    <div class="blog-item style-default hover-image-translate">
-                                        <iframe
-                                        height="250"
-                                        width="100%"
-                                            src="https://www.youtube.com/embed/WMnNMMqK6ig?si=9s-Ye7fZNdJBa_vO"
-                                            title="YouTube video player"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-                                        </iframe>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide wow fadeInLeft">
-                                    <div class="blog-item style-default hover-image-translate">
-                                        <iframe
-                                        height="250"
-                                        width="100%"
-                                            src="https://www.youtube.com/embed/WMnNMMqK6ig?si=9s-Ye7fZNdJBa_vO"
-                                            title="YouTube video player"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-                                        </iframe>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide wow fadeInLeft">
-                                    <div class="blog-item style-default hover-image-translate">
-                                        <iframe
-                                        height="250"
-                                        width="100%"
-                                            src="https://www.youtube.com/embed/WMnNMMqK6ig?si=9s-Ye7fZNdJBa_vO"
-                                            title="YouTube video player"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-                                        </iframe>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide wow fadeInLeft">
-                                    <div class="blog-item style-default hover-image-translate">
-                                        <iframe
-                                        height="250"
-                                        width="100%"
-                                            src="https://www.youtube.com/embed/WMnNMMqK6ig?si=9s-Ye7fZNdJBa_vO"
-                                            title="YouTube video player"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-                                        </iframe>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide wow fadeInLeft">
-                                    <div class="blog-item style-default hover-image-translate">
-                                        <iframe
-                                        height="250"
-                                        width="100%"
-                                            src="https://www.youtube.com/embed/WMnNMMqK6ig?si=9s-Ye7fZNdJBa_vO"
-                                            title="YouTube video player"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-                                        </iframe>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide wow fadeInLeft">
-                                    <div class="blog-item style-default hover-image-translate">
-                                        <iframe
-                                        height="250"
-                                        width="100%"
-                                            src="https://www.youtube.com/embed/WMnNMMqK6ig?si=9s-Ye7fZNdJBa_vO"
-                                            title="YouTube video player"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-                                        </iframe>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide wow fadeInLeft">
-                                    <div class="blog-item style-default hover-image-translate">
-                                        <iframe
-                                        height="250"
-                                        width="100%"
-                                            src="https://www.youtube.com/embed/WMnNMMqK6ig?si=9s-Ye7fZNdJBa_vO"
-                                            title="YouTube video player"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-                                        </iframe>
-                                    </div>
-                                </div>  
-           
-                            
-                            
-                            </div>
-                            <div class="sw-dots style-1 sw-pagination-layout text-center mt_24">
+                                </div>                          
                             </div>
                         </div>
                     </div>
-
                 </div>
 		 
 		   

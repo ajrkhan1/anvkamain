@@ -1778,6 +1778,7 @@ a:focus, a:hover {
 
 .swiper-slide {
   height: auto !important;
+   
 }
 
 @media (max-width: 575px) {
@@ -10292,6 +10293,7 @@ form textarea.style-line-bottom:focus {
 }
 .section-testimonial-11 .wrap-nav .swiper-slide {
   width: auto !important;
+    
 }
 .section-testimonial-11 .wrap-nav .thumbs-pagi {
   overflow: hidden;
@@ -24141,6 +24143,15 @@ body::before {
     -ms-transform: translate(0px, 0px);
     -webkit-transform: translate(0px, 0px);
 }
+
+.YoutubeSlider-module__ssiYaq__navBtn{
+    background: #f5f8f4 !important;
+    border: 1.5px solid #f5f8f4 !important;
+}
+.YoutubeSlider-module__ssiYaq__navBtn:hover i{
+color: #fff;
+}
+.YoutubeSlider-module__ssiYaq__center{box-shadow: 0 28px 80px #ffffff00 !important; }
 
 @media (max-width: 767px) {
   .tf-container{max-width: 100%;}
