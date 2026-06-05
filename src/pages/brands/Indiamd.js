@@ -27,7 +27,7 @@ export default function Home() {
                             </ul> */}
                             <div className="row">
                                 <div className="col-sm-8">
-                                    <h2 class="text_white newcolorx">IndiaMD</h2>
+                                    <h2 class="text_white newcolorx"><img className="bannelogo" src="/assets/images/mlogo/indiamd.webp"/></h2>
                                     {/* <p className="headrp">
                                         The Global Care Pathway
                                     </p> */}
