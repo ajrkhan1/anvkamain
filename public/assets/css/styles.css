@@ -2172,7 +2172,7 @@ a:focus, a:hover {
 }
 .tf-social a:hover {
   background-color: var(--Primary);
-  color: var(--Text-primary);
+  color: #fff;
   border-color: var(--Primary) !important;
 }
 .tf-social.style-2 a {
