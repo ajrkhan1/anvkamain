@@ -96,6 +96,7 @@ export default function Home() {
                                         <p>
                                             The name ANVKA represents the belief that every initiative should be nurtured with sincerity, purpose, and commitment—just like a family.
                                         </p>
+                                        <br></br>
                                         <p>
                                            Over time, ANVKA has grown into a diverse collective of brands, each addressing a unique need while contributing to a shared vision. From healthcare innovation and medical technology to patient support, garments, wellness, and entrepreneurship, every initiative under ANVKA is designed to create a meaningful impact.
                                         </p>

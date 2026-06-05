@@ -51,8 +51,8 @@ export default function Home() {
                                 <div class="col-lg-6 stack-element">
                                     <div class="stack-content-wrap textjustfy">
 
-                                        <div class="element boderx1">
-                                            <div class="portfolio-item cursor-wrapper">
+                                        <div class="element boderx1 backnone">
+                                            <div class="portfolio-item cursor-wrapper backnone">
                                                 <br/>
                                                 <p>
                                                     In many ways, ANVKA can be seen as the atmosphere around hospitals. It focuses on the adjacent pathways through which healthcare reaches people, creating solutions that improve accessibility, patient support, innovation, and everyday healthcare experiences. Through its various initiatives and brands, ANVKA works to bridge gaps within healthcare delivery and make services more connected, efficient, and patient-centric. 
@@ -75,12 +75,6 @@ export default function Home() {
                                                     Over the years, ANVKA has evolved into a diverse and dynamic ecosystem of brands and initiatives. Every milestone in its journey reflects the same purpose that inspired its beginning — to create meaningful and lasting impact. Through innovation, participation in global exhibitions, knowledge-sharing platforms, and social initiatives, ANVKA continues to expand its reach and strengthen its contribution to society. 
                                                 </p>
                                                 <br></br>
-                                            </div>
-                                        </div>
-
-                                        <div class="element boderx2">
-                                            <div class="portfolio-item cursor-wrapper">
-                                                <br/>
                                                 <p>
                                                     ANVKA was founded with a simple yet meaningful vision — to create solutions that bring value to people’s lives and contribute positively to society. Over time, this vision evolved into a growing ecosystem of brands and initiatives that work together with a shared purpose: building impactful, innovative, and people-centric solutions around healthcare and related services. 
                                                 </p>
@@ -100,11 +94,6 @@ export default function Home() {
                                                 <p>
                                                     ANVKA was envisioned as this surrounding ecosystem — the supportive network that strengthens healthcare beyond hospital walls.
                                                 </p>
-                                            </div>
-                                        </div>
-
-                                        <div class="element boderx3">
-                                            <div class="portfolio-item cursor-wrapper">
                                                 <br/>
                                                 <p>
                                                     Like every growing organization, ANVKA’s journey came with challenges. Establishing trust, building new ventures, and transforming ideas into reality required patience, dedication, and resilience. However, these challenges became learning experiences that helped shape the organization’s identity and values. 

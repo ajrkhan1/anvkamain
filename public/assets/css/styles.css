@@ -17066,7 +17066,7 @@ a.mapboxgl-ctrl-logo {
   }
 }
 .section-about .tf-btn {
-  margin-top: 40px;
+  margin-top: 18px;
 }
 @media (max-width: 767px) {
   .section-about .tf-btn {
@@ -24028,7 +24028,8 @@ a.mapboxgl-ctrl-logo {
     padding-top: 0px;
     border-left: 5px solid #000;
     border-left: 5px solid #e31e24;
-    border-right: 5px solid #e31e24;   
+    border-right: 5px solid #e31e24;
+    background-color: #fff;
 }
 
 .boderx2{
@@ -24155,6 +24156,8 @@ color: #fff;
 .newcolorx{color: #e31e24;}
 .contactinfo .h6{color: #2b2a29;}
 .contactinfo .icon i{color: #2b2a29;}
+
+.backnone{background: #00000000 !important;}
 @media (max-width: 767px) {
   .tf-container{max-width: 100%;}
   .tf-social a {height: 35px; width: 35px;}

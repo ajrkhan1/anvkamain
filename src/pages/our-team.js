@@ -10,7 +10,7 @@ export default function Home() {
 				<title>Our Team - ANVKA</title>
 				<meta name="description" content="Our Team" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
-				<link rel="icon" href="/favicon.ico" />				
+				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
             <div class="page-layout-v04">
@@ -19,12 +19,6 @@ export default function Home() {
                     </div>
                     <div class="content">
                         <div class="tf-container">
-                            {/* <ul class="tf-breadcrumb style-2 mb_16">
-                                <li class="text-label text_white lh-16"><a href="/index.html"
-                                        class="link text_white">HOME</a>
-                                </li>
-                                <li class="text_white text-label lh-16">About Us</li>
-                            </ul> */}
                             <h1 class="text_white newcolorx">Our Team</h1>
                         </div>
                     </div>
@@ -46,7 +40,7 @@ export default function Home() {
                                             A passionate team of experts focused on innovation, quality, and better healthcare solutions.
                                             </p>
                                     </div>
-                                    <div class="trust d-flex align-items-center gap_12 mb_32 wow fadeInUp"
+                                    {/* <div class="trust d-flex align-items-center gap_12 mb_32 wow fadeInUp"
                                         data-wow-delay="0.4s">
                                         <div class="group">
                                             <img width="48" height="48"
@@ -57,11 +51,11 @@ export default function Home() {
                                                 src="/assets/images/avatar/group-avatar-4-1.jpg" alt="avatar"/>
                                         </div>
                                         <p class="text-caption-1 text_primary">Trusted by 50k+ users</p>
-                                    </div>
-                                    <a href="/vacancy" class="tf-btn btn-hover-animate-2 wow fadeInUp " data-wow-delay="0.6s">
+                                    </div> */}
+                                    {/* <a href="/vacancy" class="tf-btn btn-hover-animate-2 wow fadeInUp " data-wow-delay="0.6s">
                                         <span>Join Our Team</span>
                                         <span></span>
-                                    </a>
+                                    </a> */}
                                 </div>
                                 <div class="card-team style-1">
                                     <div class="img-style">
@@ -177,8 +171,8 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                    </div>                   
-                    
+                    </div>
+
                 </div>
 
 		</>
