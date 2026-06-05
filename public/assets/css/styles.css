@@ -18703,8 +18703,9 @@ a.mapboxgl-ctrl-logo {
 }
 
 .section-service-4 {
-  background-color: var(--Bg-light);
+    background-color: #f5f8f436;
 }
+
 .section-service-4 .tf-grid-layout {
   gap: 30px 10px;
 }
@@ -20201,7 +20202,7 @@ a.mapboxgl-ctrl-logo {
 }
 
 .section-faqs-1 {
-  background-color: var(--Bg-light);
+  background-color: #f5f8f433;
 }
 .section-faqs-1 .heading-section {
   gap: 12px;

@@ -67,7 +67,7 @@ export default function Home() {
 			</Head>
 
             <div class="hero-banner-3 parallax-container overflow-hidden">
-                    <div class="parallax-video videsl">
+                    <div class="parallax-video videsl" style={{ opacity: 0.8}}>
                         <video className="thumbs-video video-inner" autoPlay muted loop playsInline>
                             <source src="/assets/images/vix1.mp4" type="video/mp4"/>
                         </video>
