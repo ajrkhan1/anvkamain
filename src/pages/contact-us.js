@@ -89,7 +89,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="box-contact">
+                            <div class="box-contact contactinfo">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="box-info rounded-16">
