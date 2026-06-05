@@ -15957,7 +15957,7 @@ a.mapboxgl-ctrl-logo {
 }
 
 .box-contact .box-info {
-  background-color: var(--Bg-light);
+ background-color: #f9f9f97a;
   padding: 40px 15px;
 }
 @media (min-width: 992px) {
