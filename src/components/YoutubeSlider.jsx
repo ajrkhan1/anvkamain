@@ -4,11 +4,11 @@ import styles from './YoutubeSlider.module.css'
 
 // Sirf YouTube video ID daalo (URL ka last part)
 const videos = [
-  { id: '3Ohn8swWT6k', title: 'Video 1' },
-  { id: 'rNzhJQwYMW4', title: 'Video 2' },
-  { id: '3Ohn8swWT6k', title: 'Video 3' },
+  { id: 'rNzhJQwYMW4', title: 'Video 1' },
+  { id: '3Ohn8swWT6k', title: 'Video 2' },  
   { id: 'rNzhJQwYMW4', title: 'Video 4' },
-  { id: '3Ohn8swWT6k', title: 'Video 5' },
+  { id: '3Ohn8swWT6k', title: 'Video 3' },
+  { id: 'rNzhJQwYMW4', title: 'Video 5' },
 ]
 
 const POS = ['farLeft', 'left', 'center', 'right', 'farRight']
@@ -44,15 +44,15 @@ export default function YoutubeSlider() {
                 if (pos === 'right' || pos === 'farRight') goTo(cur + 1)
               }}
             >
-              <iframe
-                src={`https://www.youtube.com/embed/${v.id}`}
-                title={v.title}
-                height="400"
-                width="100%"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-              />
+             <iframe
+                  src={`https://www.youtube.com/embed/${v.id}?autoplay=1&mute=1&loop=1&playlist=${v.id}`}
+                  title={v.title}
+                  height="400"
+                  width="100%"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                />
             </div>
           )
         })}
