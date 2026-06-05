@@ -4029,8 +4029,8 @@ a:focus, a:hover {
   row-gap: 24px;
 }
 .footer.style-default .footer-body {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
 @media (max-width: 991px) {
   .footer.style-default .footer-body {

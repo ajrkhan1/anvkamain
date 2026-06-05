@@ -15,6 +15,20 @@ export default function Footer() {
                                         <p class="text-caption-1 text_white">At ANVKA Healthcare, we stand at the intersection of innovation and customer-centricity. We continuously push boundaries, leveraging technology and sustainable practices to meet your evolving needs.
                                         </p>
                                     </div>
+                                    <div>
+                                    <br></br>
+                                    <br></br>
+                                    <br></br>
+                                    <div class="footer-heading  footer-heading-mobile text-uppercase text-label fw-5 text_primary-color mb_16 font18x">
+                                            Follow Us:
+                                    </div>
+                                    <ul class="tf-social">
+                                        <li><a target='_blank' href="https://www.linkedin.com/company/anvkahealthcare/" class="icon-LinkedinLogo"></a></li>
+                                        <li><a target='_blank' href="https://www.facebook.com/anvkahealthcarec" class="icon-FaceBook-2"></a></li>
+                                        <li><a target='_blank' href="https://www.instagram.com/anvkahealthcare/" class="icon-instagram-logo"></a></li>
+                                        
+                                    </ul>
+                                </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <div class="footer-content footer-item d-flex justify-content-between"
@@ -104,19 +118,7 @@ export default function Footer() {
                                             <a href="#" class="h4 text_white fw-6 link mb_12 d-block">+91-92055 59801</a>
                                             <a href="mailto:reachus@anvka.com"
                                                 class="text-body-default hover-underline-link text_primary-color link">reachus@anvka.com</a>
-                                        </div>
-                                        <div>
-                                            <div
-                                                class="text-label fw-5 text-uppercase text_white mb_12 letter-spacing-1">
-                                                Follow
-                                                Us:</div>
-                                            <ul class="tf-social">
-                                                <li><a target='_blank' href="https://www.linkedin.com/company/anvkahealthcare/" class="icon-LinkedinLogo"></a></li>
-                                                <li><a target='_blank' href="https://www.facebook.com/anvkahealthcarec" class="icon-FaceBook-2"></a></li>
-                                                <li><a target='_blank' href="https://www.instagram.com/anvkahealthcare/" class="icon-instagram-logo"></a></li>
-                                                
-                                            </ul>
-                                        </div>
+                                        </div>                                        
                                     </div>
                                 </div>
                             </div>
@@ -125,8 +127,7 @@ export default function Footer() {
                     <div class="footer-bottom">
                         <div
                             class="wrap-footer-bottom tf-container medium text-center align-items-center">
-                            <p class="text_white text-caption-1">©2026 <a href="#" class="text_white link">ANVKA.</a>
-                                All Rights Reserved.</p>
+                            <p class="text_white text-caption-1">©2026 <a href="#" class="text_white link">ANVKA.</a> All Rights Reserved.</p>
                             {/* <ul class="wrap">
                                 <li><a href="#" class="text-caption-1 link text_white">Terms Of Services</a></li>
                                 <li><a href="#" class="text-caption-1 link text_white">Privacy Policy</a></li>                                
