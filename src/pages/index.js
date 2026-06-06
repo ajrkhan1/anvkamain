@@ -390,7 +390,7 @@ export default function Home() {
                         </div> 
 
                         <div>
-                            <img width="100%" height="400px" src="/assets/images/ANVKAJOURNEY.webp" alt="service"/>
+                            <img width="100%" src="/assets/images/ANVKAJOURNEY.webp" alt="service"/>
                         </div>                       
                     </div>
 
