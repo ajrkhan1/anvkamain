@@ -31,7 +31,7 @@ export default function Header() {
                                     <li class="has-child text-menu"><a href="/brands" class="link-no-action toggle splitting">
                                             <span class="text" data-splitting>Our Brands</span>
                                         </a>
-                                        <ul class="submenu menulogo">
+                                        <ul class="submenu menulogo logomenu align-items-center">
                                             <li><a href="/brands/lintex"><img width="100%" src="/assets/images/logo2/lin1.webp"/></a></li>
                                             <li><a href="/brands/medical-implats"><img width="100%" src="/assets/images/logo2/med1.webp"/></a></li>
                                             <li><a href="/brands/curewith3d"><img width="100%" src="/assets/images/logo2/cure1.webp"/></a></li>
@@ -129,13 +129,13 @@ export default function Header() {
                                     <li class="has-child text-menu"><a href="/brands" class="link-no-action toggle splitting">
                                             <span class="text" data-splitting>Our Brands</span>
                                         </a>
-                                        <ul class="submenu menulogo">
+                                        <ul class="submenu menulogo logomenu">
                                             <li><a href="/brands/lintex"><img width="100%" src="/assets/images/logo2/lin1.webp"/></a></li>
                                             <li><a href="/brands/medical-implats"><img width="100%" src="/assets/images/logo2/med1.webp"/></a></li>
                                             <li><a href="/brands/curewith3d"><img width="100%" src="/assets/images/logo2/cure1.webp"/></a></li>
                                             <li><a href="/brands/Indiamd"><img width="100%" src="/assets/images/logo2/ind1.webp"/></a></li>
                                             <li><a href="/brands/caretab"><img width="100%" src="/assets/images/logo2/care1.webp"/></a></li>
-                                            <li><a href="/brands/akiechef"><img width="100%" src="/assets/images/logo2/ake1.webp"/></a></li>
+                                            <li><a href="/brands/akiechef"><img  width="100%" src="/assets/images/logo2/ake1.webp"/></a></li>
                                             <li><a href="/brands/tumble-salon"><img width="100%" src="/assets/images/logo2/tum1.webp"/></a></li>
                                             <li><a target="_blank" href="https://azureinnolabs.com/"><img width="100%" src="/assets/images/logo2/lab1.webp"/></a></li>
                                         </ul>
@@ -239,7 +239,7 @@ export default function Header() {
                             OUR BRANDS
                         </a>
                         <div id="dropdown-menu-one" class="collapse" data-bs-parent="#menu-mobile-menu">
-                            <ul class="sub-mobile menulogo">
+                            <ul class="sub-mobile menulogo logomenu">
                                 <li class="menu-item"><a href="/brands/lintex"><img width="100%" src="/assets/images/logo2/lin1.webp"/></a></li>
                                 <li class="menu-item"><a href="/brands/medical-implats"><img width="100%" src="/assets/images/logo2/med1.webp"/></a></li>
                                 <li class="menu-item"><a href="/brands/curewith3d"><img width="100%" src="/assets/images/logo2/cure1.webp"/></a></li>

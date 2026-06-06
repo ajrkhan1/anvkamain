@@ -24116,8 +24116,9 @@ a.mapboxgl-ctrl-logo {
 
 .bannelogo{width: 340px;}
 
-.menulogo li a img{height: 40px; width: auto;}
-.menulogo li{text-align: center;}
+.menulogo li a img{ width: auto; vertical-align: text-top;}
+.menulogo li{text-align: center; height: 68px;}
+.menulogo li a {height: 68px; padding: 0px 0px 0px 16px !important; display: flex !important; justify-content: flex-start; align-items: center;}
 
 body::before {
   content: "";
@@ -24168,6 +24169,14 @@ color: #fff;
 .contactinfo .icon i{color: #2b2a29;}
 
 .backnone{background: #00000000 !important;}
+
+.logomenu{border-radius: 0px; border: none !important;}
+.logomenu li{
+  border: 1px solid #797a7c;
+    border-bottom: 0px solid #797a7c;
+    text-align: left;
+    height: 70px;
+}
 @media (max-width: 767px) {
   .tf-container{max-width: 100%;}
   .tf-social a {height: 35px; width: 35px;}
