@@ -42,30 +42,28 @@ export default function Home() {
                                     {/* <p className="headrp">
                                         CureWith3D, a healthcare-innovation company focused on creating customized, patient-specific 3D-printed surgical guides, orthopedic & dental implants, and anatomical models.
                                     </p> */}
-                                </div>                              
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="main-content">                    
+                <div class="main-content">
                     <div class="hiring ajh">
                             <div class="wrap-box tf-spacing-1">
                                 <div class="tf-container">
-                                    <div class="row">                                    
+                                    <div class="row">
                                         <div class="content-inner galrm">
                                             <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
-									
+
                                                 <a href="/assets/images/culture/c1.webp">
                                                     <img alt="img1" className="dds" src="/assets/images/culture/c1.webp" />
                                                 </a>
                                                 <a href="/assets/images/culture/c2.webp">
                                                     <img alt="img1" className="dds" src="/assets/images/culture/c2.webp" />
                                                 </a>
-                                                <a href="/assets/images/culture/c3.webp">
-                                                    <img alt="img1" className="dds" src="/assets/images/culture/c3.webp" />
-                                                </a>
+
                                                 <a href="/assets/images/culture/c4.webp">
                                                     <img alt="img1" className="dds" src="/assets/images/culture/c4.webp" />
                                                 </a>
@@ -90,23 +88,19 @@ export default function Home() {
                                                 <a href="/assets/images/culture/c12.webp">
                                                     <img alt="img1" className="dds" src="/assets/images/culture/c12.webp" />
                                                 </a>
-                                              
-                                                <a href="/assets/images/culture/c14.webp">
-                                                    <img alt="img1" className="dds" src="/assets/images/culture/c14.webp" />
-                                                </a>
-                                                <a href="/assets/images/culture/c15.webp">
+                                                {/* <a href="/assets/images/culture/c15.webp">
                                                     <img alt="img1" className="dds" src="/assets/images/culture/c15.webp" />
-                                                </a>
-                                                <a href="/assets/images/culture/c16.webp">
+                                                </a> */}
+                                                {/* <a href="/assets/images/culture/c16.webp">
                                                     <img alt="img1" className="dds" src="/assets/images/culture/c16.webp" />
-                                                </a>
+                                                </a> */}
                                                 <a href="/assets/images/culture/c17.webp">
                                                     <img alt="img1" className="dds" src="/assets/images/culture/c17.webp" />
                                                 </a>
                                                 <a href="/assets/images/culture/c18.webp">
                                                     <img alt="img1" className="dds" src="/assets/images/culture/c18.webp" />
                                                 </a>
-                                               
+
                                                 <a href="/assets/images/culture/c20.webp">
                                                     <img alt="img1" className="dds" src="/assets/images/culture/c20.webp" />
                                                 </a>
@@ -125,21 +119,8 @@ export default function Home() {
                                                 <a href="/assets/images/culture/c25.webp">
                                                     <img alt="img1" className="dds" src="/assets/images/culture/c25.webp" />
                                                 </a>
-                                                <a href="/assets/images/culture/c26.webp">
-                                                    <img alt="img1" className="dds" src="/assets/images/culture/c26.webp" />
-                                                </a>
-                                                <a href="/assets/images/culture/c27.webp">
-                                                    <img alt="img1" className="dds" src="/assets/images/culture/c27.webp" />
-                                                </a>
-                                                <a href="/assets/images/culture/c28.webp">
-                                                    <img alt="img1" className="dds" src="/assets/images/culture/c28.webp" />
-                                                </a>
-                                                <a href="/assets/images/culture/c29.webp">
-                                                    <img alt="img1" className="dds" src="/assets/images/culture/c29.webp" />
-                                                </a>
-                                                <a href="/assets/images/culture/c30.webp">
-                                                    <img alt="img1" className="dds" src="/assets/images/culture/c30.webp" />
-                                                </a>                                              
+
+
                                             </LightGallery>
                                         </div>
                                     </div>
