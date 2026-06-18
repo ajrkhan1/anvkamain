@@ -109,14 +109,6 @@ export default function Home() {
                     </div>
                 </div>
 
-<div className="product-card">
-  <img src="/assets/images/logo/anvka-png.png" alt="Product" />
-
-  <div className="tags">
-    <span>New</span>
-  </div>
-</div>
-
                 <div class="main-content">
 
                    
