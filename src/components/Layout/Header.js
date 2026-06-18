@@ -32,14 +32,14 @@ export default function Header() {
                                             <span class="text" data-splitting>Our Brands</span>
                                         </a>
                                         <ul class="submenu menulogo logomenu align-items-center">
-                                            <li><a href="/brands/lintex"><img width="100%" src="/assets/images/logo2/lin1.webp"/></a></li>
-                                            <li><a href="/brands/medical-implats"><img width="100%" title="Medical Implants" src="/assets/images/logo2/med1.webp"/></a></li>
-                                            <li><a href="/brands/curewith3d"><img width="100%" src="/assets/images/logo2/cure1.webp"/></a></li>
-                                            <li><a href="/brands/Indiamd"><img width="100%" src="/assets/images/logo2/ind1.webp"/></a></li>
-                                            <li><a href="/brands/caretab"><img width="100%" src="/assets/images/logo2/care1.webp"/></a></li>
-                                            <li><a href="/brands/akiechef"><img width="100%" src="/assets/images/logo2/ake1.webp"/></a></li>
-                                            <li><a href="/brands/tumble-salon"><img width="100%" src="/assets/images/logo2/tum1.webp"/></a></li>
-                                            <li><a target="_blank" href="https://azureinnolabs.com/"><img width="100%" src="/assets/images/logo2/lab1.webp"/></a></li>
+                                            <li><a title="Purpose-Driven Apparel" href="/brands/lintex"><img width="100%" src="/assets/images/logo2/lin1.webp"/></a></li>
+                                            <li><a title="Trusted Surgical Implants" href="/brands/medical-implats"><img width="100%" src="/assets/images/logo2/med1.webp"/></a></li>
+                                            <li><a title="Personalized Medical Innovation" href="/brands/curewith3d"><img width="100%" src="/assets/images/logo2/cure1.webp"/></a></li>
+                                            <li><a title="Global Patient Facilitation" href="/brands/Indiamd"><img width="100%" src="/assets/images/logo2/ind1.webp"/></a></li>
+                                            <li><a title="Home Healthcare Solutions" href="/brands/caretab"><img width="100%" src="/assets/images/logo2/care1.webp"/></a></li>
+                                            <li><a title="Nutrition & Food Solutions" href="/brands/akiechef"><img width="100%" src="/assets/images/logo2/ake1.webp"/></a></li>
+                                            <li><a title="Wellness & Grooming Services" href="/brands/tumble-salon"><img width="100%" src="/assets/images/logo2/tum1.webp"/></a></li>
+                                            <li><a title="Ideas Into Innovation" target="_blank" href="https://azureinnolabs.com/"><img width="100%" src="/assets/images/logo2/lab1.webp"/></a></li>
                                         </ul>
                                     </li>
 
@@ -130,14 +130,14 @@ export default function Header() {
                                             <span class="text" data-splitting>Our Brands</span>
                                         </a>
                                         <ul class="submenu menulogo logomenu">
-                                            <li><a href="/brands/lintex"><img width="100%" src="/assets/images/logo2/lin1.webp"/></a></li>
-                                            <li><a href="/brands/medical-implats"><img width="100%" src="/assets/images/logo2/med1.webp"/></a></li>
-                                            <li><a href="/brands/curewith3d"><img width="100%" src="/assets/images/logo2/cure1.webp"/></a></li>
-                                            <li><a href="/brands/Indiamd"><img width="100%" src="/assets/images/logo2/ind1.webp"/></a></li>
-                                            <li><a href="/brands/caretab"><img width="100%" src="/assets/images/logo2/care1.webp"/></a></li>
-                                            <li><a href="/brands/akiechef"><img  width="100%" src="/assets/images/logo2/ake1.webp"/></a></li>
-                                            <li><a href="/brands/tumble-salon"><img width="100%" src="/assets/images/logo2/tum1.webp"/></a></li>
-                                            <li><a target="_blank" href="https://azureinnolabs.com/"><img width="100%" src="/assets/images/logo2/lab1.webp"/></a></li>
+                                            <li><a title="Purpose-Driven Apparel" href="/brands/lintex"><img width="100%" src="/assets/images/logo2/lin1.webp"/></a></li>
+                                            <li><a title="Trusted Surgical Implants" href="/brands/medical-implats"><img width="100%" src="/assets/images/logo2/med1.webp"/></a></li>
+                                            <li><a title="Personalized Medical Innovation" href="/brands/curewith3d"><img width="100%" src="/assets/images/logo2/cure1.webp"/></a></li>
+                                            <li><a title="Global Patient Facilitation" href="/brands/Indiamd"><img width="100%" src="/assets/images/logo2/ind1.webp"/></a></li>
+                                            <li><a title="Home Healthcare Solutions" href="/brands/caretab"><img width="100%" src="/assets/images/logo2/care1.webp"/></a></li>
+                                            <li><a title="Nutrition & Food Solutions" href="/brands/akiechef"><img width="100%" src="/assets/images/logo2/ake1.webp"/></a></li>
+                                            <li><a title="Wellness & Grooming Services" href="/brands/tumble-salon"><img width="100%" src="/assets/images/logo2/tum1.webp"/></a></li>
+                                            <li><a title="Ideas Into Innovation" target="_blank" href="https://azureinnolabs.com/"><img width="100%" src="/assets/images/logo2/lab1.webp"/></a></li>
                                         </ul>
                                     </li>
 
@@ -240,14 +240,14 @@ export default function Header() {
                         </a>
                         <div id="dropdown-menu-one" class="collapse" data-bs-parent="#menu-mobile-menu">
                             <ul class="sub-mobile menulogo logomenu">
-                                <li class="menu-item"><a href="/brands/lintex"><img width="100%" src="/assets/images/logo2/lin1.webp"/></a></li>
-                                <li class="menu-item"><a href="/brands/medical-implats"><img width="100%" src="/assets/images/logo2/med1.webp"/></a></li>
-                                <li class="menu-item"><a href="/brands/curewith3d"><img width="100%" src="/assets/images/logo2/cure1.webp"/></a></li>
-                                <li class="menu-item"><a href="/brands/Indiamd"><img width="100%" src="/assets/images/logo2/ind1.webp"/></a></li>
-                                <li class="menu-item"><a href="/brands/caretab"><img width="100%" src="/assets/images/logo2/care1.webp"/></a></li>
-                                <li class="menu-item"><a href="/brands/akiechef"><img width="100%" src="/assets/images/logo2/ake1.webp"/></a></li>
-                                <li class="menu-item"><a href="/brands/tumble-salon"><img width="100%" src="/assets/images/logo2/tum1.webp"/></a></li>
-                                <li class="menu-item"><a target="_blank" href="https://azureinnolabs.com/"><img width="100%" src="/assets/images/logo2/lab1.webp"/></a></li>
+                                <li class="menu-item"><a title="Purpose-Driven Apparel" href="/brands/lintex"><img width="100%" src="/assets/images/logo2/lin1.webp"/></a></li>
+                                <li class="menu-item"><a title="Trusted Surgical Implants" href="/brands/medical-implats"><img width="100%" src="/assets/images/logo2/med1.webp"/></a></li>
+                                <li class="menu-item"><a title="Personalized Medical Innovation" href="/brands/curewith3d"><img width="100%" src="/assets/images/logo2/cure1.webp"/></a></li>
+                                <li class="menu-item"><a title="Global Patient Facilitation" href="/brands/Indiamd"><img width="100%" src="/assets/images/logo2/ind1.webp"/></a></li>
+                                <li class="menu-item"><a title="Home Healthcare Solutions" href="/brands/caretab"><img width="100%" src="/assets/images/logo2/care1.webp"/></a></li>
+                                <li class="menu-item"><a title="Nutrition & Food Solutions" href="/brands/akiechef"><img width="100%" src="/assets/images/logo2/ake1.webp"/></a></li>
+                                <li class="menu-item"><a title="Wellness & Grooming Services" href="/brands/tumble-salon"><img width="100%" src="/assets/images/logo2/tum1.webp"/></a></li>
+                                <li class="menu-item"><a title="Ideas Into Innovation" target="_blank" href="https://azureinnolabs.com/"><img width="100%" src="/assets/images/logo2/lab1.webp"/></a></li>
                             </ul>
                         </div>
                     </li>
