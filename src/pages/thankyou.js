@@ -28,13 +28,16 @@ export default function Thankyou() {
 
     
 
- <div class="page-layout-v04">
+                <div class="page-layout-v04">
                     <div class="img-style">
                         <img class="img-cover" width="1920" height="780" loading="eager" decoding="async" src="/assets/images/th.webp" alt="page-title"/>
                     </div>
                     <div class="content">
-                        <div class="tf-container">
-                            <h1 class="text_white newcolorx"></h1>
+                        <div class="tf-container align-items-center text-center">
+                            <h1 class="text_white newcolorx">Thank you</h1>
+                            <p style={{color:"#fff"}}>We appreciate your trust in us. Our team will contact you soon to discuss your loved one's recovery plan.<br/>
+                            Your family's well-being is our top priority now.<br/>
+                            Don’t wait for a callback — book your slot immediately</p>
                         </div>
                     </div>
                 </div>
