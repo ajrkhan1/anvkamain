@@ -32,9 +32,7 @@ export default function Header() {
                                             <span class="text" data-splitting>Our Brands</span>
                                         </a>
                                         <ul class="submenu menulogo logomenu align-items-center">
-                                            <li><a href="/brands/lintex" className="product-card"><img width="100%" src="/assets/images/logo2/lin1.webp"/><div className="tags">
-    <span>Lintex</span>
-  </div></a></li>
+                                            <li><a href="/brands/lintex"><img width="100%" src="/assets/images/logo2/lin1.webp"/></a></li>
                                             <li><a href="/brands/medical-implats"><img width="100%" title="Medical Implants" src="/assets/images/logo2/med1.webp"/></a></li>
                                             <li><a href="/brands/curewith3d"><img width="100%" src="/assets/images/logo2/cure1.webp"/></a></li>
                                             <li><a href="/brands/Indiamd"><img width="100%" src="/assets/images/logo2/ind1.webp"/></a></li>
