@@ -19,22 +19,26 @@ export default function Footer() {
                                     <br></br>
                                     <br></br>
                                     <br></br>
-                                    <div class="footer-heading  footer-heading-mobile text-uppercase text-label fw-5 text_primary-color mb_16 font18x">
+                                    
+                                   <div className='footer-col-block footer-content'>
+                                     <div class="footer-heading footer-heading-mobile text-uppercase text-label fw-5 text_primary-color mb_16 font18x">
                                             Follow Us:
                                     </div>
+                                     <div class="tf-collapse-content">
                                     <ul class="tf-social">
                                         <li><a target='_blank' href="https://www.linkedin.com/company/anvkahealthcare/" class="icon-LinkedinLogo"></a></li>
                                         <li><a target='_blank' href="https://www.facebook.com/anvkahealthcarec" class="icon-FaceBook-2"></a></li>
                                         <li><a target='_blank' href="https://www.instagram.com/anvkahealthcare/" class="icon-instagram-logo"></a></li>
-                                        
                                     </ul>
+                                    </div>
+                                   </div>
                                 </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <div class="footer-content footer-item d-flex justify-content-between"
                                         data-wow-delay="0.2s">                                        
                                         <div class="footer-col-block quick-link">
-                                            <div class="footer-heading  footer-heading-mobile text-uppercase text-label fw-5 text_primary-color mb_16 font18x">
+                                            <div class="footer-heading footer-heading-mobile text-uppercase text-label fw-5 text_primary-color mb_16 font18x">
                                                 Quick Links
                                             </div>
                                             <div class="tf-collapse-content">
@@ -68,7 +72,7 @@ export default function Footer() {
                                             </div>
                                         </div>
                                         <div class="footer-col-block company">
-                                            <div class="footer-heading  footer-heading-mobile text-uppercase text-label fw-5 text_primary-color mb_16 font18x">
+                                            <div class="footer-heading footer-heading-mobile text-uppercase text-label fw-5 text_primary-color mb_16 font18x">
                                                 Our Brands
                                             </div>
                                             <div class="tf-collapse-content">

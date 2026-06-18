@@ -24021,6 +24021,13 @@ a.mapboxgl-ctrl-logo {
   opacity: 0.8;
 }
 
+.thx{
+     background-image: url(/assets/images/th.webp);
+  background-size: cover;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
 
 .textjustfy p{text-align: justify;}
 
@@ -24177,6 +24184,42 @@ color: #fff;
     text-align: left;
     height: 70px;
 }
+
+
+
+.product-card {
+  position: relative;
+  display: inline-block;
+}
+.product-card img {
+  display: block;
+  width: 100%;
+}
+
+.tags {
+  position: absolute;
+  top: 15px;
+  right:5px;
+  display: flex;
+  gap: 8px;
+  
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+
+.product-card:hover .tags {
+  opacity: 1;
+  visibility: visible;
+}
+
+.tags span {
+  color: #e31e24;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
 @media (max-width: 767px) {
   .tf-container{max-width: 100%;}
   .tf-social a {height: 35px; width: 35px;}
@@ -24184,3 +24227,6 @@ color: #fff;
   .bannelogo{width: 150px;}
   
 }
+
+
+

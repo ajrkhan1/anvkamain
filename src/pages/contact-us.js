@@ -2,45 +2,46 @@ import Head from "next/head";
 
 
 export default function Home() {
-    const registerUser = async event => {
-      event.preventDefault()
+   
+        const registerUser = async event => {
+        event.preventDefault()
 
-      document.getElementById("submitbuttonform").value = "Submitting form...."
+        document.getElementById("submitbuttonform").value = "Submitting form...."
 
-      const xhttp = new XMLHttpRequest();
-      xhttp.onload = function () {
-         // console.log(this.responseText.status);
-      }
-    //   xhttp.open("Post", 'https://admin.caretab.ai/wp-json/contact-form-7/v1/contact-forms/6/feedback');
-      xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
-      xhttp.onreadystatechange = function () {
-         if (xhttp.readyState == 4) {
-            var res = JSON.parse(xhttp.responseText);
-            console.log(res)
-            if (res.status == "mail_sent") {
-               document.getElementById("contactForm").reset();
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            // console.log(this.responseText.status);
+        }
+        xhttp.open("Post", 'https://woocommerce-1457894-6495841.cloudwaysapps.com/wp-json/contact-form-7/v1/contact-forms/13/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                var res = JSON.parse(xhttp.responseText);
+                console.log(res)
+                if (res.status == "mail_sent") {
+                    document.getElementById("contactForm").reset();
 
-               document.getElementById("showlabel").innerHTML = "Your submission has been received and we will contact you soon";
+                    document.getElementById("showlabel").innerHTML = "Your submission has been received and we will contact you soon";
 
-               document.getElementById("showlabel").style.display = "block";
-               window.setTimeout(function () {
-                   window.location.href = "/thankyou"
-               }, 10);
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function () {
+                        window.location.href = "/thankyou"
+                    }, 10);
 
-            } else {
-               document.getElementById("showlabel").innerHTML = "There was a problem with the request.";
-               document.getElementById("showlabel").style.display = "block";
+                } else {
+                    document.getElementById("showlabel").innerHTML = "There was a problem with the request.";
+                    document.getElementById("showlabel").style.display = "block";
 
+                }
             }
-         }
-      };
-      xhttp.send("your-name=" + event.target.name.value +
+        };
+        xhttp.send("your-name=" + event.target.name.value +
             "&your-email=" + event.target.email.value +
             "&phone=" + event.target.phone.value +
-            "&lastname=" + event.target.lname.value +
+            "&lastn=" + event.target.lastn.value +
             "&your-message=" + event.target.message.value)
 
-   }
+    }
 
 
 	return (
@@ -156,7 +157,7 @@ export default function Home() {
                                                             aria-required="true" required=""/>
                                                     </fieldset>
                                                     <fieldset class="">
-                                                        <input class="style-line-bottom" id="lname" name="lname" type="text"
+                                                        <input class="style-line-bottom" id="lastn" name="lastn" type="text"
                                                             placeholder="Last Name"  tabindex="2"
                                                             aria-required="true" required=""/>
                                                     </fieldset>
