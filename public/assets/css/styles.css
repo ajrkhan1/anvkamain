@@ -24220,6 +24220,8 @@ color: #fff;
   font-size: 12px;
 }
 
+.post-detail p{text-align: justify;}
+
 @media (max-width: 767px) {
   .tf-container{max-width: 100%;}
   .tf-social a {height: 35px; width: 35px;}

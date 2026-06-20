@@ -26,7 +26,7 @@ export default function Home() {
                     document.getElementById("showlabel").style.display = "block";
                     window.setTimeout(function () {
                         window.location.href = "/thankyou"
-                    }, 10);
+                    }, 1500);
 
                 } else {
                     document.getElementById("showlabel").innerHTML = "There was a problem with the request.";
@@ -182,9 +182,10 @@ export default function Home() {
                                             </div>
                                             <button id="submitbuttonform" class="tf-btn btn-hover-animate-2 btn-bg-1 btn-px-28 w-full"
                                                 type="submit">
-                                                <span>Send Message</span>
-                                                <span id="showlabel" style={{ display: "none" }} class="bg-effect"></span>
+                                                <span>Send Message</span>                                                
                                             </button>
+                                            <br></br>
+                                            <span id="showlabel" style={{ display: "none", fontSize:'16px', textAlign:'center'}} class="bg-effect"></span>
                                         </form>
                                     </div>
                                 </div>
