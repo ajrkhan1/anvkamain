@@ -48,7 +48,7 @@ const SingleBlog = () => {
                                 </li>
                                 <li class="text_white text-label lh-16">About Us</li>
                             </ul> */}
-                            <h1 class="text_white newcolorx">Building A Human-Centered Organization</h1>
+                     
                         </div>
                     </div>
                 </div>
@@ -56,23 +56,19 @@ const SingleBlog = () => {
 
                         <div class="tf-container ">
                             <div class="row">
-                                <div class="col-md-2 md-hide fixed-thumb-wrap">
-                                    <ul class="tf-social style-2 flex-column fixed-thumb">   
+                                <div class="col-md-2">
+                                    {/* <ul class="tf-social style-2 flex-column fixed-thumb">   
                                       <li><a href="https://www.linkedin.com/company/anvkahealthcare/" class="icon-LinkedinLogo"></a></li>
                                       <li><a href="https://www.facebook.com/anvkahealthcarec" class="icon-FaceBook-2"></a></li>
                                       <li><a href="https://www.instagram.com/anvkahealthcare/" class="icon-instagram-logo"></a></li>                                        
-                                    </ul>
+                                    </ul> */}
                                 </div>
                                 <div class="col-xl-8 col-md-10">
                                     <div class="content-inner">
                                         <div class="post-detail">
                                             <div class="heading-title mb_40">
                                                
-                                                {/* <h3 class="title text-capitalize mb_16">Inside the Enterprise: How We
-                                                    Align
-                                                    People, Process, and
-                                                    Purpose
-                                                </h3> */}
+                                                <h3 class="title text-capitalize mb_16">Building A Human-Centered Organization</h3>
                                                 <ul class="meta">
                                                     <li>
                                                         <div class="text-caption-1 text_secondary mb_4">Author</div>

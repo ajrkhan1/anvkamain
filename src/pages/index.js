@@ -676,9 +676,6 @@ export default function Home() {
                         </div>
                     </div>
                   
-                    
-                    
-                    
 
                      <div class="section-faqs-1 tf-spacing-1">
                         <div class="tf-container">
