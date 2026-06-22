@@ -1,13 +1,106 @@
 "use client";
 
 import Head from "next/head";
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Slider from "react-slick";
-import { useEffect } from "react";
 import YoutubeSlider from '@/components/YoutubeSlider'
 
+export async function getServerSideProps() {
+  try {
+    const res = await fetch(
+      "https://woocommerce-1457894-6495841.cloudwaysapps.com/wp-json/wp/v2/posts?_embed&categories_exclude=52505&per_page=6&page=1",
+      {
+        headers: {
+          Accept: "application/json",
+          "User-Agent": "Next.js Server",
+        },
+      }
+    )
 
-export default function Home() {
+    const posts = await res.json()
+
+    return {
+      props: {
+        initialPosts: posts || [],
+        totalPages:
+          Number(res.headers.get("X-WP-TotalPages")) || 1,
+      },
+    }
+  } catch (error) {
+    return {
+      props: {
+        initialPosts: [],
+        totalPages: 1,
+      },
+    }
+  }
+}
+
+
+export default function Home({
+  initialPosts,
+  totalPages,
+}) {
+
+    const [posts, setPosts] = useState(initialPosts)
+  const [page, setPage] = useState(1)
+  const [loading, setLoading] = useState(false)
+
+  const loadMoreRef = useRef(null)
+
+  /* =========================
+     LOAD MORE POSTS
+  ========================= */
+  const loadMorePosts = async () => {
+    if (loading || page >= totalPages) return
+
+    try {
+      setLoading(true)
+
+      const nextPage = page + 1
+
+      const res = await fetch(
+        `https://woocommerce-1457894-6495841.cloudwaysapps.com//wp-json/wp/v2/posts?_embed&categories_exclude=52505&per_page=6&page=${nextPage}`
+      )
+
+      const newPosts = await res.json()
+
+      setPosts((prev) => [...prev, ...newPosts])
+
+      setPage(nextPage)
+    } catch (error) {
+      console.log("Load More Error:", error)
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  /* =========================
+     INTERSECTION OBSERVER
+  ========================= */
+  useEffect(() => {
+    if (!loadMoreRef.current) return
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          loadMorePosts()
+        }
+      },
+      {
+        rootMargin: "300px",
+      }
+    )
+
+    observer.observe(loadMoreRef.current)
+
+    return () => observer.disconnect()
+  }, [page, loading])
+
+    
+    const [selectedService, setSelectedService] = useState(''); // Initial empty selection
+
+
 
       useEffect(() => {
     document.body.classList.add("changelogo");
@@ -569,37 +662,13 @@ export default function Home() {
                         <div class="swiper" data-preview="3" data-screen-xl="4" data-tablet="2" data-mobile="1"
                             data-mobile-sm="2" data-space-lg="20" data-space-md="20" data-space="15">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide wow fadeInLeft">
-                                    <div class="blog-item style-default hover-image-translate">
-                                        <a href="/news/details" class="img-style mb_23">
-                                            <img loading="lazy" decoding="async" width="445" height="334"
-                                                src="/assets/images/blog-item-8.jpg" alt="blog"/>
-                                            <div class="tag text-label">
-                                                Innovation & Tech
-                                            </div>
-                                        </a>
-                                        <div class="content">
-                                            <ul class="meta-post mb_12 font-3">
-                                                <li class="text-caption-1 ">
-                                                    <div>
-                                                        by <a href="#" class="link">Monu Singh</a>
-                                                    </div>
-                                                </li>
-                                                <li class="text-caption-1">June 12, 2026</li>
-                                            </ul>
-                                            <h5 class="title line-clamp-2">
-                                                <a href="/news/details" class=" link hover-line-text ">Launching Our
-                                                    New Office in
-                                                    Singapore</a>
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>
+                               
+                                {posts?.map((post) => (
                                 <div class="swiper-slide wow fadeInLeft" data-wow-delay="0.2s">
                                     <div class="blog-item style-default hover-image-translate">
-                                        <a href="/news/details" class="img-style mb_23">
+                                        <a  href={`/news/${post.slug}`} class="img-style mb_23">
                                             <img loading="lazy" decoding="async" width="445" height="334"
-                                                src="/assets/images/blog-item-9.jpg" alt="blog"/>
+                                                src={post?.yoast_head_json?.og_image?.[0]?.url} alt="blog"/>
                                             <div class="tag text-label">
                                                 Culture & People
                                             </div>
@@ -608,68 +677,25 @@ export default function Home() {
                                             <ul class="meta-post mb_12 font-3">
                                                 <li class="text-caption-1 ">
                                                     <div>
-                                                        by <a href="#" class="link">Balla Yadav</a>
+                                                        by <a href="#" class="link">{post.yoast_head_json.author}</a>
                                                     </div>
                                                 </li>
-                                                <li class="text-caption-1">May 06, 2026</li>
+                                                <li class="text-caption-1">{new Date(
+                                  post.date
+                                ).toLocaleDateString("en-US", {
+                                  month: "long",
+                                  day: "2-digit",
+                                  year: "numeric",
+                                })}</li>
                                             </ul>
                                             <h5 class="titl line-clamp-2e">
-                                                <a href="/news/details" class="link hover-line-text ">CEO Talks
-                                                    Innovation at Tech Summit 2026</a>
+                                                <a  href={`/news/${post.slug}`} class="link hover-line-text ">{post.title.rendered}</a>
                                             </h5>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide wow fadeInLeft" data-wow-delay="0.4s">
-                                    <div class="blog-item style-default hover-image-translate">
-                                        <a href="/news/details" class="img-style mb_23">
-                                            <img loading="lazy" decoding="async" width="445" height="334"
-                                                src="/assets/images/blog-item-10.jpg" alt="blog"/>
-                                            <div class="tag text-label">
-                                                Press Releases
-                                            </div>
-                                        </a>
-                                        <div class="content">
-                                            <ul class="meta-post mb_12 font-3">
-                                                <li class="text-caption-1 ">
-                                                    <div>
-                                                        by <a href="#" class="link">Nishu Neggi</a>
-                                                    </div>
-                                                </li>
-                                                <li class="text-caption-1">May 08, 2026</li>
-                                            </ul>
-                                            <h5 class="title line-clamp-2">
-                                                <a href="/news/details" class=" link hover-line-text ">New Client
-                                                    Onboarding Process Streamlined</a>
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide wow fadeInLeft" data-wow-delay="0.6s">
-                                    <div class="blog-item style-default hover-image-translate">
-                                        <a href="/news/details" class="img-style mb_23">
-                                            <img loading="lazy" decoding="async" width="445" height="334"
-                                                src="/assets/images/blog-item-11.jpg" alt="blog"/>
-                                            <div class="tag text-label">
-                                                Case Studies
-                                            </div>
-                                        </a>
-                                        <div class="content">
-                                            <ul class="meta-post mb_12 font-3">
-                                                <li class="text-caption-1 ">
-                                                    <div>
-                                                        by <a href="#" class="link">Vijay Kumar</a>
-                                                    </div>
-                                                </li>
-                                                <li class="text-caption-1">May 08, 2026</li>
-                                            </ul>
-                                            <h5 class="title line-clamp-2">
-                                                <a href="/news/details" class=" link hover-line-text ">Partnering
-                                                    with GreenFuture to Promote Sustainability</a>
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>
+                                ))}
+                               
                             </div>
                             <div class="sw-dots style-1 sw-pagination-layout text-center mt_24">
                             </div>

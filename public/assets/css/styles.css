@@ -24221,7 +24221,7 @@ color: #fff;
 }
 
 .post-detail p{text-align: justify;}
-
+.wp-block-gallery .wp-block-image{width: 33.33%; float: left; display: inline-block; padding: 7px;}
 @media (max-width: 767px) {
   .tf-container{max-width: 100%;}
   .tf-social a {height: 35px; width: 35px;}
