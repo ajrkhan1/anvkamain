@@ -87,7 +87,7 @@ export default function Footer() {
                                                         <a href="/brands/curewith3d" class="link">Curewith3D</a>
                                                     </li>                                           
                                                     <li class="text-caption-1 text_white">
-                                                        <a href="/brands/Indiamd" class="link">IndiaMD</a>
+                                                        <a href="/brands/indiamd" class="link">IndiaMD</a>
                                                     </li>
                                                     <li class="text-caption-1 text_white">
                                                         <a href="/brands/caretab" class="link">CareTAB.ai</a>

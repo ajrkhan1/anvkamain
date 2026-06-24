@@ -35,7 +35,7 @@ export default function Header() {
                                             <li><a title="Purpose-Driven Apparel" href="/brands/lintex"><img width="100%" src="/assets/images/logo2/lin1.webp"/></a></li>
                                             <li><a title="Trusted Surgical Implants" href="/brands/medical-implats"><img width="100%" src="/assets/images/logo2/med1.webp"/></a></li>
                                             <li><a title="Personalized Medical Innovation" href="/brands/curewith3d"><img width="100%" src="/assets/images/logo2/cure1.webp"/></a></li>
-                                            <li><a title="Global Patient Facilitation" href="/brands/Indiamd"><img width="100%" src="/assets/images/logo2/ind1.webp"/></a></li>
+                                            <li><a title="Global Patient Facilitation" href="/brands/indiamd"><img width="100%" src="/assets/images/logo2/ind1.webp"/></a></li>
                                             <li><a title="Home Healthcare Solutions" href="/brands/caretab"><img width="100%" src="/assets/images/logo2/care1.webp"/></a></li>
                                             <li><a title="Nutrition & Food Solutions" href="/brands/akiechef"><img width="100%" src="/assets/images/logo2/ake1.webp"/></a></li>
                                             <li><a title="Wellness & Grooming Services" href="/brands/tumble-salon"><img width="100%" src="/assets/images/logo2/tum1.webp"/></a></li>
@@ -133,7 +133,7 @@ export default function Header() {
                                             <li><a title="Purpose-Driven Apparel" href="/brands/lintex"><img width="100%" src="/assets/images/logo2/lin1.webp"/></a></li>
                                             <li><a title="Trusted Surgical Implants" href="/brands/medical-implats"><img width="100%" src="/assets/images/logo2/med1.webp"/></a></li>
                                             <li><a title="Personalized Medical Innovation" href="/brands/curewith3d"><img width="100%" src="/assets/images/logo2/cure1.webp"/></a></li>
-                                            <li><a title="Global Patient Facilitation" href="/brands/Indiamd"><img width="100%" src="/assets/images/logo2/ind1.webp"/></a></li>
+                                            <li><a title="Global Patient Facilitation" href="/brands/indiamd"><img width="100%" src="/assets/images/logo2/ind1.webp"/></a></li>
                                             <li><a title="Home Healthcare Solutions" href="/brands/caretab"><img width="100%" src="/assets/images/logo2/care1.webp"/></a></li>
                                             <li><a title="Nutrition & Food Solutions" href="/brands/akiechef"><img width="100%" src="/assets/images/logo2/ake1.webp"/></a></li>
                                             <li><a title="Wellness & Grooming Services" href="/brands/tumble-salon"><img width="100%" src="/assets/images/logo2/tum1.webp"/></a></li>
@@ -243,7 +243,7 @@ export default function Header() {
                                 <li class="menu-item"><a title="Purpose-Driven Apparel" href="/brands/lintex"><img width="100%" src="/assets/images/logo2/lin1.webp"/></a></li>
                                 <li class="menu-item"><a title="Trusted Surgical Implants" href="/brands/medical-implats"><img width="100%" src="/assets/images/logo2/med1.webp"/></a></li>
                                 <li class="menu-item"><a title="Personalized Medical Innovation" href="/brands/curewith3d"><img width="100%" src="/assets/images/logo2/cure1.webp"/></a></li>
-                                <li class="menu-item"><a title="Global Patient Facilitation" href="/brands/Indiamd"><img width="100%" src="/assets/images/logo2/ind1.webp"/></a></li>
+                                <li class="menu-item"><a title="Global Patient Facilitation" href="/brands/indiamd"><img width="100%" src="/assets/images/logo2/ind1.webp"/></a></li>
                                 <li class="menu-item"><a title="Home Healthcare Solutions" href="/brands/caretab"><img width="100%" src="/assets/images/logo2/care1.webp"/></a></li>
                                 <li class="menu-item"><a title="Nutrition & Food Solutions" href="/brands/akiechef"><img width="100%" src="/assets/images/logo2/ake1.webp"/></a></li>
                                 <li class="menu-item"><a title="Wellness & Grooming Services" href="/brands/tumble-salon"><img width="100%" src="/assets/images/logo2/tum1.webp"/></a></li>

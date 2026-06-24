@@ -62,18 +62,28 @@ export default function Home() {
                                         <h3 class="title text_primary title split-text effect-right font24">Premium Medical Value Travel Experience</h3>
                                         <br></br>
                                         <p>
-                                            IndiaMD was created with a vision to make quality healthcare in India more accessible, seamless, and trustworthy for international patients. As India continues to emerge as a global destination for advanced and affordable medical care, IndiaMD serves as a premium medical concierge platform that simplifies every step of the patient journey.
+                                            Every year, thousands of patients travel across borders in search of quality healthcare. While India has long been recognized for its exceptional doctors, advanced medical infrastructure, and affordable treatments, navigating an unfamiliar healthcare system can often feel overwhelming for international patients. 
                                         </p>
                                         <br></br>
                                         <p>
-                                            From treatment planning and hospital selection to travel coordination and post-treatment support, IndiaMD offers end-to-end assistance through a patient-first approach. The platform connects patients with trusted hospitals, experienced doctors, and customized treatment packages across multiple specialties, ensuring transparency, comfort, and confidence throughout the process.
+                                            IndiaMD was born from a simple yet powerful belief: if India is to become the world's preferred healthcare destination, patients deserve a trusted partner who can guide them through every step of their journey. 
                                         </p>
                                         <br></br>
                                         <p>
-                                            With app-enabled care and dedicated patient support, IndiaMD manages everything from medical visa guidance, accommodation, and airport transfers to follow-up consultations and recovery assistance. Every service is designed to reduce stress and help patients focus on what matters most — healing and recovery.
+                                            The name itself reflects our purpose. We deliberately placed India first because our mission is bigger than facilitating treatment—it is about showcasing India's medical excellence to the world and contributing to the vision of India as a Vishwa Chikitsalaya, a global center for trusted, accessible, and affordable healthcare. 
                                         </p>
                                         <br></br>
-                                        <p>By combining healthcare expertise, technology, and personalized care coordination, IndiaMD is contributing to a larger vision of positioning India as a global hub for trusted medical excellence and compassionate healthcare delivery.</p>
+                                        <p>
+                                            The term MD carries a dual meaning. While it stands for Medical Destination, representing India's position as a leading healthcare hub, it also pays tribute to the countless Indian doctors who hold the prestigious MD qualification and whose expertise, dedication, and compassion have earned global respect. Their excellence forms the foundation of the trust that patients place in Indian healthcare. 
+                                        </p>
+                                        <br></br>
+                                        <p>
+                                            IndiaMD was created to transform medical travel into a seamless and reassuring experience. Through our premium medical concierge experience, we assist patients with treatment planning, hospital selection, travel arrangements, dedicated support, and post-treatment follow-up, ensuring they receive not just healthcare, but complete peace of mind.   
+                                        </p>
+                                        <br></br>
+                                        <p>
+                                            At its heart, IndiaMD is more than a medical travel platform. It is a commitment to putting India first, connecting the world to India's finest healthcare expertise, and helping shape a future where healing knows no borders. 
+                                        </p>
                                         </div>
                                     </div>
                                 </div>

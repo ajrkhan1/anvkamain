@@ -61,18 +61,31 @@ export default function Home() {
                                         <h3 class="title text_primary title split-text effect-right font24">Redefining Surgery Through 3D Innovation </h3>
                                         <br></br>
                                         <p>
-                                            As modern healthcare advances, the need for more personalized surgical solutions has become increasingly important. Traditional implants and surgical methods often cannot fully adapt to the unique anatomy of every patient, especially during complex procedures. Curewith3D was created to bridge this gap by combining advanced engineering, medical expertise, and 3D technology to deliver highly customized surgical solutions. 
+                                            Every patient is unique. Yet for years, surgeons around the world often relied on standardized implants and surgical tools to address highly individualized medical conditions. While these solutions served many patients well, complex cases involving trauma, tumors, deformities, and reconstructive surgeries frequently demanded a level of precision that conventional approaches could not always provide. 
                                         </p>
                                         <br></br>
                                         <p>
-                                            Curewith3D focuses on patient-specific implants, customized surgical guides, anatomical models, and virtual surgery planning designed to improve surgical precision and clinical outcomes. Using detailed medical imaging and advanced digital planning, surgeons can better visualize procedures before entering the operating room, helping reduce surgical complexity and improve accuracy during treatment.
+                                            As healthcare technology advanced, a critical question emerged: What if surgical solutions could be designed specifically for each patient rather than forcing patients to adapt to standard solutions? 
                                         </p>
                                         <br></br>
                                         <p>
-                                            Every solution is carefully tailored to match the patient’s anatomy, enabling a more precise implant fit, streamlined procedures, and enhanced surgical confidence. From orthopedic and reconstructive surgeries to complex trauma and oncology cases, Curewith3D supports healthcare professionals with innovative technologies that bring personalization to the forefront of modern medicine.
+                                            This question became the foundation of Curewith3D.
                                         </p>
+                                        <br></br>
                                         <p>
-                                            By integrating healthcare with cutting-edge 3D capabilities, Curewith3D represents the future of patient-centric surgical innovation — where technology empowers better planning, greater precision, and improved patient outcomes. 
+                                            Born from a vision to bring personalization into the operating room, Curewith3D was established to bridge the gap between medicine, engineering, and advanced manufacturing. By leveraging medical imaging, digital planning, and 3D printing technologies, Curewith3D enables surgeons to move beyond traditional limitations and approach every procedure with greater confidence and precision. 
+                                        </p>
+                                        <br></br>
+                                        <p>
+                                            The name itself reflects the brand's purpose—healing through innovation, powered by 3D technology. Every patient-specific implant, customized surgical guide, virtual surgical plan, and anatomical model is developed with one goal: to help surgeons deliver better outcomes tailored to the individual patient. 
+                                        </p>
+                                        <br></br>
+                                        <p>
+                                            What began as an effort to solve a surgical challenge has evolved into a platform that is transforming the way complex procedures are planned and performed. Today, Curewith3D partners with surgeons across specialties to create personalized solutions that improve accuracy, optimize surgical workflows, and support better patient recovery. 
+                                        </p>
+                                        <br></br>
+                                        <p>
+                                            At its core, Curewith3D is built on a simple belief: when healthcare is personalized, possibilities become limitless. By combining cutting-edge technology with clinical expertise, Curewith3D is helping shape the future of precision medicine—one patient, one surgery, and one innovation at a time. 
                                         </p>
                                         </div>
                                     </div>                                    
