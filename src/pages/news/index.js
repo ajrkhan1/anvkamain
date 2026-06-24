@@ -1,6 +1,101 @@
-import Head from "next/head";
+"use client";
 
-export default function Home() {
+import Head from "next/head";
+import React, { useEffect, useRef, useState } from "react";
+
+export async function getServerSideProps() {
+  try {
+    const res = await fetch(
+      "https://woocommerce-1457894-6495841.cloudwaysapps.com/wp-json/wp/v2/posts?_embed&categories_exclude=52505&per_page=6&page=1",
+      {
+        headers: {
+          Accept: "application/json",
+          "User-Agent": "Next.js Server",
+        },
+      }
+    )
+
+    const posts = await res.json()
+
+    return {
+      props: {
+        initialPosts: posts || [],
+        totalPages:
+          Number(res.headers.get("X-WP-TotalPages")) || 1,
+      },
+    }
+  } catch (error) {
+    return {
+      props: {
+        initialPosts: [],
+        totalPages: 1,
+      },
+    }
+  }
+}
+
+
+export default function Home({
+  initialPosts,
+  totalPages,
+}) {
+  const [posts, setPosts] = useState(initialPosts)
+  const [page, setPage] = useState(1)
+  const [loading, setLoading] = useState(false)
+
+  const loadMoreRef = useRef(null)
+
+  /* =========================
+     LOAD MORE POSTS
+  ========================= */
+  const loadMorePosts = async () => {
+    if (loading || page >= totalPages) return
+
+    try {
+      setLoading(true)
+
+      const nextPage = page + 1
+
+      const res = await fetch(
+        `https://woocommerce-1457894-6495841.cloudwaysapps.com/wp-json/wp/v2/posts?_embed&categories_exclude=52505&per_page=6&page=${nextPage}`
+      )
+
+      const newPosts = await res.json()
+
+      setPosts((prev) => [...prev, ...newPosts])
+
+      setPage(nextPage)
+    } catch (error) {
+      console.log("Load More Error:", error)
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  /* =========================
+     INTERSECTION OBSERVER
+  ========================= */
+  useEffect(() => {
+    if (!loadMoreRef.current) return
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          loadMorePosts()
+        }
+      },
+      {
+        rootMargin: "300px",
+      }
+    )
+
+    observer.observe(loadMoreRef.current)
+
+    return () => observer.disconnect()
+  }, [page, loading])
+
+    
+    const [selectedService, setSelectedService] = useState(''); // Initial empty selection) {
 
 
 	return (
@@ -45,213 +140,51 @@ export default function Home() {
                     <div class="blog-post-3 tf-spacing-1">
                         <div class="tf-container">
                             <div class="tf-grid-layout lg-col-3 sm-col-2">
+
+                               {posts?.map((post) => (
                                 <div class="blog-item style-default hover-image-translate">
-                                    <a href="/news/details" class="img-style mb_23">
-                                        <img loading="lazy" decoding="async" width="445" height="334"
-                                            src="/assets/images/blog-item-8.jpg" alt="blog"/>
-                                        <div class="tag text-label">
+                                    <a  href={`/news/${post.slug}`} class="img-style mb_23">
+                                        <img loading="lazy" decoding="async"  src={post?.yoast_head_json?.og_image?.[0]?.url} alt="blog"/>
+                                        {/* <div class="tag text-label">
                                             Life Insurance
-                                        </div>
+                                        </div> */}
                                     </a>
                                     <div class="content">
                                         <ul class="meta-post mb_12 font-3">
                                             <li class="text-caption-1 ">
                                                 <div>
-                                                    by <a href="#" class="link">Nishu Negi</a>
+                                                    by <a href="#" class="link">{post.yoast_head_json.author}</a>
                                                 </div>
                                             </li>
-                                            <li class="text-caption-1">June 12, 2025</li>
+                                            <li class="text-caption-1"> {new Date(
+                                                post.date
+                                                ).toLocaleDateString("en-US", {
+                                                month: "long",
+                                                day: "2-digit",
+                                                year: "numeric",
+                                                })}</li>
                                         </ul>
                                         <h5 class="title line-clamp-2">
-                                            <a href="/news/details" class=" link hover-line-text ">Empower smart
-                                                coverage solutions now</a>
+                                            <a  href={`/news/${post.slug}`} class=" link hover-line-text ">{post.title.rendered}</a>
                                         </h5>
                                     </div>
                                 </div>
-                                <div class="blog-item style-default hover-image-translate">
-                                    <a href="/news/details" class="img-style mb_23">
-                                        <img loading="lazy" decoding="async" width="445" height="334"
-                                            src="/assets/images/blog-item-9.jpg" alt="blog"/>
-                                        <div class="tag text-label">
-                                            Health Insurance
-                                        </div>
-                                    </a>
-                                    <div class="content">
-                                        <ul class="meta-post mb_12 font-3">
-                                            <li class="text-caption-1 ">
-                                                <div>
-                                                    by <a href="#" class="link">Nishu Negi</a>
-                                                </div>
-                                            </li>
-                                            <li class="text-caption-1">June 12, 2025</li>
-                                        </ul>
-                                        <h5 class="title line-clamp-2">
-                                            <a href="/news/details" class=" link hover-line-text ">Optimize risk
-                                                planning for clients</a>
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div class="blog-item style-default hover-image-translate">
-                                    <a href="/news/details" class="img-style mb_23">
-                                        <img loading="lazy" decoding="async" width="445" height="334"
-                                            src="/assets/images/blog-item-10.jpg" alt="blog"/>
-                                        <div class="tag text-label">
-                                            Critical Illness
-                                        </div>
-                                    </a>
-                                    <div class="content">
-                                        <ul class="meta-post mb_12 font-3">
-                                            <li class="text-caption-1 ">
-                                                <div>
-                                                    by <a href="#" class="link">Nishu Negi</a>
-                                                </div>
-                                            </li>
-                                            <li class="text-caption-1">June 12, 2025</li>
-                                        </ul>
-                                        <h5 class="title line-clamp-2">
-                                            <a href="/news/details" class=" link hover-line-text ">Enhance policy
-                                                service workflows</a>
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div class="blog-item style-default hover-image-translate">
-                                    <a href="/news/details" class="img-style mb_23">
-                                        <img loading="lazy" decoding="async" width="445" height="334"
-                                            src="/assets/images/blog-item-17.jpg" alt="blog"/>
-                                        <div class="tag text-label">
-                                            Life Insurance
-                                        </div>
-                                    </a>
-                                    <div class="content">
-                                        <ul class="meta-post mb_12 font-3">
-                                            <li class="text-caption-1 ">
-                                                <div>
-                                                    by <a href="#" class="link">Nishu Negi</a>
-                                                </div>
-                                            </li>
-                                            <li class="text-caption-1">June 12, 2025</li>
-                                        </ul>
-                                        <h5 class="title line-clamp-2">
-                                            <a href="/news/details" class=" link hover-line-text ">Strengthen client
-                                                risk planning now</a>
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div class="blog-item style-default hover-image-translate">
-                                    <a href="/news/details" class="img-style mb_23">
-                                        <img loading="lazy" decoding="async" width="445" height="334"
-                                            src="/assets/images/blog-item-13.jpg" alt="blog"/>
-                                        <div class="tag text-label">
-                                            Health Insurance
-                                        </div>
-                                    </a>
-                                    <div class="content">
-                                        <ul class="meta-post mb_12 font-3">
-                                            <li class="text-caption-1 ">
-                                                <div>
-                                                    by <a href="#" class="link">Nishu Negi</a>
-                                                </div>
-                                            </li>
-                                            <li class="text-caption-1">June 12, 2025</li>
-                                        </ul>
-                                        <h5 class="title line-clamp-2">
-                                            <a href="/news/details" class=" link hover-line-text ">Deliver refined
-                                                policy choices fast</a>
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div class="blog-item style-default hover-image-translate">
-                                    <a href="/news/details" class="img-style mb_23">
-                                        <img loading="lazy" decoding="async" width="445" height="334"
-                                            src="/assets/images/blog-item-18.jpg" alt="blog"/>
-                                        <div class="tag text-label">
-                                            Critical Illness
-                                        </div>
-                                    </a>
-                                    <div class="content">
-                                        <ul class="meta-post mb_12 font-3">
-                                            <li class="text-caption-1 ">
-                                                <div>
-                                                    by <a href="#" class="link">Nishu Negi</a>
-                                                </div>
-                                            </li>
-                                            <li class="text-caption-1">June 12, 2025</li>
-                                        </ul>
-                                        <h5 class="title line-clamp-2">
-                                            <a href="/news/details" class=" link hover-line-text ">Form innovative
-                                                protect plans today</a>
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div class="blog-item style-default hover-image-translate">
-                                    <a href="/news/details" class="img-style mb_23">
-                                        <img loading="lazy" decoding="async" width="445" height="334"
-                                            src="/assets/images/blog-item-16.jpg" alt="blog"/>
-                                        <div class="tag text-label">
-                                            Life Insurance
-                                        </div>
-                                    </a>
-                                    <div class="content">
-                                        <ul class="meta-post mb_12 font-3">
-                                            <li class="text-caption-1 ">
-                                                <div>
-                                                    by <a href="#" class="link">Nishu Negi</a>
-                                                </div>
-                                            </li>
-                                            <li class="text-caption-1">June 12, 2025</li>
-                                        </ul>
-                                        <h5 class="title line-clamp-2">
-                                            <a href="/news/details" class=" link hover-line-text ">Enable smarter
-                                                risk shielding tech</a>
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div class="blog-item style-default hover-image-translate">
-                                    <a href="/news/details" class="img-style mb_23">
-                                        <img loading="lazy" decoding="async" width="445" height="334"
-                                            src="/assets/images/blog-item-19.jpg" alt="blog"/>
-                                        <div class="tag text-label">
-                                            Health Insurance
-                                        </div>
-                                    </a>
-                                    <div class="content">
-                                        <ul class="meta-post mb_12 font-3">
-                                            <li class="text-caption-1 ">
-                                                <div>
-                                                    by <a href="#" class="link">Nishu Negi</a>
-                                                </div>
-                                            </li>
-                                            <li class="text-caption-1">June 12, 2025</li>
-                                        </ul>
-                                        <h5 class="title line-clamp-2">
-                                            <a href="/news/details" class=" link hover-line-text ">Improve rapid
-                                                claim response paths</a>
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div class="blog-item style-default hover-image-translate">
-                                    <a href="/news/details" class="img-style mb_23">
-                                        <img loading="lazy" decoding="async" width="445" height="334"
-                                            src="/assets/images/blog-item-20.jpg" alt="blog"/>
-                                        <div class="tag text-label">
-                                            Critical Illness
-                                        </div>
-                                    </a>
-                                    <div class="content">
-                                        <ul class="meta-post mb_12 font-3">
-                                            <li class="text-caption-1 ">
-                                                <div>
-                                                    by <a href="#" class="link">Nishu Negi</a>
-                                                </div>
-                                            </li>
-                                            <li class="text-caption-1">June 12, 2025</li>
-                                        </ul>
-                                        <h5 class="title line-clamp-2">
-                                            <a href="/news/details" class=" link hover-line-text ">Support flexible
-                                                claim flows today</a>
-                                        </h5>
-                                    </div>
-                                </div>
+                               ))}
+                               <div ref={loadMoreRef}></div>
+
+                                 {/* LOADING */}
+                                {loading && (
+                                    <p className="text-center">
+                                    Loading...
+                                    </p>
+                                )}
+
+                                {/* END */}
+                                {page >= totalPages && (
+                                    <p className="text-center">
+                                    No more posts
+                                    </p>
+                                )}
 
                             </div>
 

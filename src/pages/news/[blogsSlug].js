@@ -90,9 +90,7 @@ const SingleBlog = ({ posts, posts5, cat }) => {
 
           <div class="page-layout-v04">
                     <div class="img-style">
-                        <img class="img-cover" width="1920" height="720" loading="eager" decoding="async"  src={
-                              posts?.yoast_head_json?.og_image?.[0]
-                                ?.url} alt="page-title"/>
+                        <img class="img-cover" width="1920" height="720" loading="eager" decoding="async"  src={posts.extra_post_image_url} alt="page-title"/>
                     </div>
                     <div class="content">
                         <div class="tf-container align-items-center text-center">
@@ -158,6 +156,7 @@ const SingleBlog = ({ posts, posts5, cat }) => {
                     </div>
 
                 </main>   
+                <br></br><br></br><br></br>
     </>
   )
 }

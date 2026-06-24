@@ -669,9 +669,9 @@ export default function Home({
                                         <a  href={`/news/${post.slug}`} class="img-style mb_23">
                                             <img loading="lazy" decoding="async" width="445" height="334"
                                                 src={post?.yoast_head_json?.og_image?.[0]?.url} alt="blog"/>
-                                            <div class="tag text-label">
+                                            {/* <div class="tag text-label">
                                                 Culture & People
-                                            </div>
+                                            </div> */}
                                         </a>
                                         <div class="content">
                                             <ul class="meta-post mb_12 font-3">
