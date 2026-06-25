@@ -56,7 +56,7 @@ export default function Header() {
                                             <span class="text" data-splitting>Reach Us</span>
                                         </a>
                                         <ul class="submenu">
-                                            <li><Link href="/news">News & Media</Link></li>
+                                            <li><a href="/news">News & Media</a></li>
                                             <li><a href="/contact-us">Contact Us</a></li>
                                         </ul>
                                     </li>
@@ -154,7 +154,7 @@ export default function Header() {
                                             <span class="text" data-splitting>Reach Us</span>
                                         </a>
                                         <ul class="submenu">
-                                            <li><Link href="/news">News & Media</Link></li>
+                                            <li><a href="/news">News & Media</a></li>
                                             <li><a href="/contact-us">Contact Us</a></li>
                                         </ul>
                                     </li>
