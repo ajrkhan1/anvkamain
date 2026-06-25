@@ -24223,7 +24223,17 @@ color: #fff;
 .post-detail p{text-align: justify;}
 .wp-block-gallery .wp-block-image{width: 33.33%; float: left; display: inline-block; padding: 7px;}
 .br10r{border-radius: 10px;}
-.blofont a{ font-size: 16px; color: #2b2a29;}
+.blofont a{ font-size: 16px; color: #2b2a29; overflow: hidden; display: inline-block;}
+.bcx{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+   border-radius: 10px;
+}
+.bcx .content{padding: 10px; padding-bottom: 4px;}
+
+.imgxc{
+      border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 @media (max-width: 767px) {
   .tf-container{max-width: 100%;}
   .tf-social a {height: 35px; width: 35px;}

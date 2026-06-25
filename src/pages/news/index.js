@@ -139,11 +139,11 @@ export default function Home({
                 <div class="main-content">
                     <div class="blog-post-3 tf-spacing-1">
                         <div class="tf-container">
-                            <div class="tf-grid-layout lg-col-3 sm-col-2">
+                            <div class="tf-grid-layout lg-col-4 sm-col-2">
 
                                {posts?.map((post) => (
-                                <div class="blog-item style-default hover-image-translate">
-                                    <a  href={`/news/${post.slug}`} class="img-style mb_23">
+                                <div class="blog-item style-default hover-image-translate bcx">
+                                    <a  href={`/news/${post.slug}`} class="img-style imgxc">
                                         <img loading="lazy" decoding="async"  src={post?.yoast_head_json?.og_image?.[0]?.url} alt="blog"/>
                                         {/* <div class="tag text-label">
                                             Life Insurance
