@@ -170,7 +170,13 @@ export default function Home({
                                     </div>
                                 </div>
                                ))}
-                               <div ref={loadMoreRef}></div>
+                              
+                            </div>
+
+                             <div className="container">
+                                <div className="row">
+                                  <div className="col-sm-12">
+                                    <div ref={loadMoreRef}></div>
 
                                  {/* LOADING */}
                                 {loading && (
@@ -185,8 +191,9 @@ export default function Home({
                                     No more posts
                                     </p>
                                 )}
-
-                            </div>
+                                  </div>
+                                </div>
+                               </div>
 
                             {/* <ul class="wg-pagination style-1 justify-content-center">
                                 <li class="active">
