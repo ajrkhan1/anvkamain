@@ -24222,6 +24222,8 @@ color: #fff;
 
 .post-detail p{text-align: justify;}
 .wp-block-gallery .wp-block-image{width: 33.33%; float: left; display: inline-block; padding: 7px;}
+.br10r{border-radius: 10px;}
+.blofont a{ font-size: 16px; color: #2b2a29;}
 @media (max-width: 767px) {
   .tf-container{max-width: 100%;}
   .tf-social a {height: 35px; width: 35px;}

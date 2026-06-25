@@ -150,7 +150,7 @@ export default function Home({
                                         </div> */}
                                     </a>
                                     <div class="content">
-                                        <ul class="meta-post mb_12 font-3">
+                                        <ul class="meta-post font-3">
                                             <li class="text-caption-1 ">
                                                 <div>
                                                     by <a href="#" class="link">{post.yoast_head_json.author}</a>
@@ -164,8 +164,8 @@ export default function Home({
                                                 year: "numeric",
                                                 })}</li>
                                         </ul>
-                                        <h5 class="title line-clamp-2">
-                                            <a  href={`/news/${post.slug}`} class=" link hover-line-text ">{post.title.rendered}</a>
+                                        <h5 class="title line-clamp-2 blofont">
+                                            <a  href={`/news/${post.slug}`} class=" link hover-line-text " dangerouslySetInnerHTML={{ __html: post.title.rendered }}></a>
                                         </h5>
                                     </div>
                                 </div>

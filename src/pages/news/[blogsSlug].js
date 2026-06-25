@@ -120,7 +120,7 @@ const SingleBlog = ({ posts, posts5, cat }) => {
                                         <div class="post-detail">
                                             <div class="heading-title mb_40">
                                                
-                                                <h3 class="title text-capitalize mb_16">{posts?.title?.rendered}</h3>
+                                                <h3 class="title text-capitalize mb_16" dangerouslySetInnerHTML={{ __html: posts?.title?.rendered }}></h3>
                                                 <ul class="meta">
                                                     <li>
                                                         <div class="text-caption-1 text_secondary mb_4">Author</div>

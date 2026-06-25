@@ -39,7 +39,7 @@ export default function Home() {
                                 <div class="col-lg-6">
                                     <div class="fixed-thumb">                                       
                                         <div class="leftimage ">
-                                            <img src="/assets/images/ourstory.webp" alt="Lintex"/>                                      
+                                            <img className="br10r" src="/assets/images/ourstory.webp" alt="Lintex"/>                                      
                                         </div>
                                     <br/>
                                     <br/>
