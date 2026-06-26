@@ -1,0 +1,18 @@
+/* components/ProtectedContent.module.css */
+.protected {
+  /* Text select disable */
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+
+  /* Image drag disable */
+  -webkit-user-drag: none;
+}
+
+.protected img {
+  pointer-events: none;
+  -webkit-user-drag: none;
+  user-drag: none;
+  draggable: false;
+}
