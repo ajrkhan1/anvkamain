@@ -24234,6 +24234,9 @@ color: #fff;
       border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+.namefff .name{font-size: 18px;}
+.teamxxx .card-team{width: 20%; float: left;}
+
 @media (max-width: 767px) {
   .tf-container{max-width: 100%;}
   .tf-social a {height: 35px; width: 35px;}

@@ -28,7 +28,7 @@ export default function Home() {
 
                 <div class="main-content ovefffk">
                     <ProtectedContent>
-                        <div class="section-team tf-spacing-1">
+                        <div class="section-team tf-spacing-1 namefff">
                             <div class="tf-container large">
                                 <div class="tf-grid-layout lg-col-4 sm-col-2 gap_20 align-items-center">
                                     <div class="box">
@@ -61,122 +61,163 @@ export default function Home() {
                                     <div class="card-team style-1">
                                         <div class="img-style">
                                             <img loading="lazy" decoding="async" width="428" height="428"
-                                                src="/assets/images/team-1.jpg" alt="team"/>
-                                            <ul class="tf-social style-3 d-grid gap_12">
+                                                src="/assets/images/team/deepak-singhal.webp" alt="team"/>
+                                            {/* <ul class="tf-social style-3 d-grid gap_12">
                                                 <li><a href="#" class="icon-FacebookLogo"></a></li>
                                                 <li><a href="#" class="icon-x-logo"></a></li>
                                                 <li><a href="#" class="icon-instagram-logo"></a></li>
-                                            </ul>
+                                            </ul> */}
                                             <a href="#" class="overlay-link"></a>
                                         </div>
                                         <div class="info">
-                                            <a href="#" class="name text_white link h5 mb_5 font-5">Vijay Kumar</a>
-                                            <p class="text-caption-1 text_white">Chief Executive Officer</p>
+                                            <a href="#" class="name text_white link h5 mb_5 font-5">Mr. Deepak Singhal</a>
+                                            <p class="text-caption-1 text_white">CEO - ANVKA</p>
+                                            
                                         </div>
                                     </div>
                                     <div class="card-team style-1">
                                         <div class="img-style">
                                             <img loading="lazy" decoding="async" width="428" height="428"
-                                                src="/assets/images/team-2.jpg" alt="team"/>
-                                            <ul class="tf-social style-3 d-grid gap_12">
+                                                src="/assets/images/team/nitin-yadav.webp" alt="team"/>
+                                            {/* <ul class="tf-social style-3 d-grid gap_12">
                                                 <li><a href="#" class="icon-FacebookLogo"></a></li>
                                                 <li><a href="#" class="icon-x-logo"></a></li>
                                                 <li><a href="#" class="icon-instagram-logo"></a></li>
-                                            </ul>
+                                            </ul> */}
                                             <a href="#" class="overlay-link"></a>
                                         </div>
                                         <div class="info">
-                                            <a href="#" class="name text_white link h5 mb_5 font-5">Aayush Verma</a>
-                                            <p class="text-caption-1 text_white">Chief Technology Officer</p>
+                                            <a href="#" class="name text_white link h5 mb_5 font-5">Mr. Nitin Yadav</a>
+                                            <p class="text-caption-1 text_white">Operations Head - ANVKA</p>
+                                            
                                         </div>
                                     </div>
                                     <div class="card-team style-1">
                                         <div class="img-style">
                                             <img loading="lazy" decoding="async" width="428" height="428"
-                                                src="/assets/images/team-3.jpg" alt="team"/>
-                                            <ul class="tf-social style-3 d-grid gap_12">
+                                                src="/assets/images/team/devpriya.webp" alt="team"/>
+                                            {/* <ul class="tf-social style-3 d-grid gap_12">
                                                 <li><a href="#" class="icon-FacebookLogo"></a></li>
                                                 <li><a href="#" class="icon-x-logo"></a></li>
                                                 <li><a href="#" class="icon-instagram-logo"></a></li>
-                                            </ul>
+                                            </ul> */}
                                             <a href="#" class="overlay-link"></a>
                                         </div>
                                         <div class="info">
-                                            <a href="#" class="name text_white link h5 mb_5 font-5">Sonali Kumari</a>
-                                            <p class="text-caption-1 text_white">Head of Strategy</p>
-                                        </div>
-                                    </div>
-                                    <div class="card-team style-1">
-                                        <div class="img-style">
-                                            <img loading="lazy" decoding="async" width="428" height="428"
-                                                src="/assets/images/team-4.jpg" alt="team"/>
-                                            <ul class="tf-social style-3 d-grid gap_12">
-                                                <li><a href="#" class="icon-FacebookLogo"></a></li>
-                                                <li><a href="#" class="icon-x-logo"></a></li>
-                                                <li><a href="#" class="icon-instagram-logo"></a></li>
-                                            </ul>
-                                            <a href="#" class="overlay-link"></a>
-                                        </div>
-                                        <div class="info">
-                                            <a href="#" class="name text_white link h5 mb_5 font-5">Manish Kumar</a>
-                                            <p class="text-caption-1 text_white">Director of Product</p>
-                                        </div>
-                                    </div>
-                                    <div class="card-team style-1">
-                                        <div class="img-style">
-                                            <img loading="lazy" decoding="async" width="428" height="428"
-                                                src="/assets/images/team-5.jpg" alt="team"/>
-                                            <ul class="tf-social style-3 d-grid gap_12">
-                                                <li><a href="#" class="icon-FacebookLogo"></a></li>
-                                                <li><a href="#" class="icon-x-logo"></a></li>
-                                                <li><a href="#" class="icon-instagram-logo"></a></li>
-                                            </ul>
-                                            <a href="#" class="overlay-link"></a>
-                                        </div>
-                                        <div class="info">
-                                            <a href="#" class="name text_white link h5 mb_5 font-5">Nushu Neggi</a>
-                                            <p class="text-caption-1 text_white">Chief Marketing Officer</p>
-                                        </div>
-                                    </div>
-                                    <div class="card-team style-1">
-                                        <div class="img-style">
-                                            <img loading="lazy" decoding="async" width="428" height="428"
-                                                src="/assets/images/team-6.jpg" alt="team"/>
-                                            <ul class="tf-social style-3 d-grid gap_12">
-                                                <li><a href="#" class="icon-FacebookLogo"></a></li>
-                                                <li><a href="#" class="icon-x-logo"></a></li>
-                                                <li><a href="#" class="icon-instagram-logo"></a></li>
-                                            </ul>
-                                            <a href="#" class="overlay-link"></a>
-                                        </div>
-                                        <div class="info">
-                                            <a href="#" class="name text_white link h5 mb_5 font-5">Kajal Verma</a>
-                                            <p class="text-caption-1 text_white">Director of Engineering</p>
-                                        </div>
-                                    </div>
-                                    <div class="card-team style-1">
-                                        <div class="img-style">
-                                            <img loading="lazy" decoding="async" width="428" height="428"
-                                                src="/assets/images/team-7.jpg" alt="team"/>
-                                            <ul class="tf-social style-3 d-grid gap_12">
-                                                <li><a href="#" class="icon-FacebookLogo"></a></li>
-                                                <li><a href="#" class="icon-x-logo"></a></li>
-                                                <li><a href="#" class="icon-instagram-logo"></a></li>
-                                            </ul>
-                                            <a href="#" class="overlay-link"></a>
-                                        </div>
-                                        <div class="info">
-                                            <a href="#" class="name text_white link h5 mb_5 font-5">Kamili Sukla</a>
-                                            <p class="text-caption-1 text_white">Head of People</p>
+                                            <a href="#" class="name text_white link h5 mb_5 font-5">Ms. Devpriya</a>
+                                            <p class="text-caption-1 text_white">HR Head - ANVKA</p>
+                                            
                                         </div>
                                     </div>
                                 </div>
+                                <br></br><br></br>
+
+                                {/* <div className="row">
+                                    <div className="col-2">dfsdfsd</div>
+                                    <div className="col-2">dfsdfsd</div>
+                                    <div className="col-2">dfsdfsd</div>
+                                    <div className="col-2">dfsdfsd</div>
+                                    <div className="col-2">dfsdfsd</div>
+                                </div> */}
+
+
+
+
+                                <div class=" teamxxx gap_20 align-items-center">                                    
+                                    <div class="card-team style-1">
+                                        <div class="img-style">
+                                            <img loading="lazy" decoding="async" width="428" height="428"
+                                                src="/assets/images/team/ashish-jain.webp" alt="team"/>
+                                            {/* <ul class="tf-social style-3 d-grid gap_12">
+                                                <li><a href="#" class="icon-FacebookLogo"></a></li>
+                                                <li><a href="#" class="icon-x-logo"></a></li>
+                                                <li><a href="#" class="icon-instagram-logo"></a></li>
+                                            </ul> */}
+                                            <a href="#" class="overlay-link"></a>
+                                        </div>
+                                        <div class="info">
+                                            <a href="#" class="name text_white link h5 mb_5 font-5">Mr. Ashish Jain</a>
+                                            <p class="text-caption-1 text_white">Senior General Manager - LINTEX</p>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="card-team style-1">
+                                        <div class="img-style">
+                                            <img loading="lazy" decoding="async" width="428" height="428"
+                                                src="/assets/images/team/yogesh-mittal.webp" alt="team"/>
+                                            {/* <ul class="tf-social style-3 d-grid gap_12">
+                                                <li><a href="#" class="icon-FacebookLogo"></a></li>
+                                                <li><a href="#" class="icon-x-logo"></a></li>
+                                                <li><a href="#" class="icon-instagram-logo"></a></li>
+                                            </ul> */}
+                                            <a href="#" class="overlay-link"></a>
+                                        </div>
+                                        <div class="info">
+                                            <a href="#" class="name text_white link h5 mb_5 font-5">Mr. Yogesh Mittal</a>
+                                            <p class="text-caption-1 text_white">General Manager - CareTAB.ai</p>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="card-team style-1">
+                                        <div class="img-style">
+                                            <img loading="lazy" decoding="async" width="428" height="428"
+                                                src="/assets/images/team/nishil-kumar.webp" alt="team"/>
+                                            {/* <ul class="tf-social style-3 d-grid gap_12">
+                                                <li><a href="#" class="icon-FacebookLogo"></a></li>
+                                                <li><a href="#" class="icon-x-logo"></a></li>
+                                                <li><a href="#" class="icon-instagram-logo"></a></li>
+                                            </ul> */}
+                                            <a href="#" class="overlay-link"></a>
+                                        </div>
+                                        <div class="info">
+                                            <a href="#" class="name text_white link h5 mb_5 font-5">Mr. Nishil Kumar</a>
+                                            <p class="text-caption-1 text_white">HOD - Curewith3D</p>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="card-team style-1">
+                                        <div class="img-style">
+                                            <img loading="lazy" decoding="async" width="428" height="428"
+                                                src="/assets/images/team/vimal-vijay.webp" alt="team"/>
+                                            {/* <ul class="tf-social style-3 d-grid gap_12">
+                                                <li><a href="#" class="icon-FacebookLogo"></a></li>
+                                                <li><a href="#" class="icon-x-logo"></a></li>
+                                                <li><a href="#" class="icon-instagram-logo"></a></li>
+                                            </ul> */}
+                                            <a href="#" class="overlay-link"></a>
+                                        </div>
+                                        <div class="info">
+                                            <a href="#" class="name text_white link h5 mb_5 font-5">Mr. Vimal Vijay</a>
+                                            <p class="text-caption-1 text_white">Manager - AkieChef</p>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="card-team style-1">
+                                        <div class="img-style">
+                                            <img loading="lazy" decoding="async" width="428" height="428"
+                                                src="/assets/images/team/surbhi-mehrotra.webp" alt="team"/>
+                                            {/* <ul class="tf-social style-3 d-grid gap_12">
+                                                <li><a href="#" class="icon-FacebookLogo"></a></li>
+                                                <li><a href="#" class="icon-x-logo"></a></li>
+                                                <li><a href="#" class="icon-instagram-logo"></a></li>
+                                            </ul> */}
+                                            <a href="#" class="overlay-link"></a>
+                                        </div>
+                                        <div class="info">
+                                            <a href="#" class="name text_white link h5 mb_5 font-5">Ms. Surbhi Mehrotra</a>
+                                            <p class="text-caption-1 text_white">Manager - Tumble</p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
+                        
                     </ProtectedContent>
 
                 </div>
-
+<br></br><br></br>
 		</>
 	);
 }
