@@ -38,7 +38,7 @@ export default function Home() {
         xhttp.send("your-name=" + event.target.name.value +
             "&your-email=" + event.target.email.value +
             "&phone=" + event.target.phone.value +
-            "&lastn=" + event.target.lastn.value +
+            "&Organization=" + event.target.Organization.value +
             "&your-message=" + event.target.message.value)
 
     }
@@ -153,27 +153,29 @@ export default function Home() {
                                                 <div class="tf-grid-layout md-col-2 gap_20  mb_20">
                                                     <fieldset class="">
                                                         <input class="style-line-bottom" type="text"
-                                                            placeholder="First Name" name="name" id="name" tabindex="2"
-                                                            aria-required="true" required=""/>
+                                                            placeholder="Name*" name="name" id="name" tabindex="2"
+                                                            aria-required="true" required/>
                                                     </fieldset>
                                                     <fieldset class="">
-                                                        <input class="style-line-bottom" id="lastn" name="lastn" type="text"
-                                                            placeholder="Last Name"  tabindex="2"
+                                                        <input class="style-line-bottom" id="email" type="email"
+                                                            placeholder="Email*" name="email" tabindex="2"
                                                             aria-required="true" required=""/>
                                                     </fieldset>
+                                                    
                                                 </div>
                                                 <div class="tf-grid-layout md-col-2 gap_20 mb_20">
                                                     <fieldset class="">
-                                                        <input class="style-line-bottom" id="email" type="email"
-                                                            placeholder="Email" name="email" tabindex="2"
+                                                        <input class="style-line-bottom" id="Organization" name="Organization" type="text"
+                                                            placeholder="Organization"  tabindex="2"
                                                             aria-required="true" required=""/>
                                                     </fieldset>
                                                     <fieldset class="">
-                                                        <input class="style-line-bottom" id="phone" type="number"
-                                                            placeholder="Phone Number" name="phone" tabindex="2"
+                                                        <input class="style-line-bottom" id="phone" type="text"
+                                                            placeholder="Phone No.*" name="phone" tabindex="2"
                                                             aria-required="true" required=""/>
                                                     </fieldset>
                                                 </div>
+                                                
                                                 <fieldset>
                                                     <textarea id="message" name="message" class="style-line-bottom" rows="4"
                                                         placeholder="Your Message" tabindex="2" aria-required="true"

@@ -18547,7 +18547,7 @@ a.mapboxgl-ctrl-logo {
   gap: 12px;
 }
 .section-team .tf-grid-layout {
-  gap: 40px 20px;
+  gap: 20px 20px;
 }
 
 .section-team-2 .tf-social {
@@ -24235,13 +24235,14 @@ color: #fff;
     border-top-right-radius: 10px;
 }
 .namefff .name{font-size: 18px;}
-.teamxxx .card-team{width: 20%; float: left;}
-
+.teamxxx .card-team{width: 16.66%; float: left;}
+.hcur{cursor: pointer;}
 @media (max-width: 767px) {
   .tf-container{max-width: 100%;}
   .tf-social a {height: 35px; width: 35px;}
   .videsl video{min-height: 400px !important;}
   .bannelogo{width: 150px;}
+  .teamxxx .card-team{width: 50%; float: left;}
   
 }
 

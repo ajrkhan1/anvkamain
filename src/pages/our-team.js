@@ -30,7 +30,7 @@ export default function Home() {
                     <ProtectedContent>
                         <div class="section-team tf-spacing-1 namefff">
                             <div class="tf-container large">
-                                <div class="tf-grid-layout lg-col-4 sm-col-2 gap_20 align-items-center">
+                                <div class="tf-grid-layout lg-col-4 sm-col-2 gap_20 align-items-center hcur">
                                     <div class="box">
                                         <div class="heading-section style-default mb_32">
                                             <div class="sub text-label text-uppercase split-text effect-up lh-16">Our Team
@@ -67,7 +67,7 @@ export default function Home() {
                                                 <li><a href="#" class="icon-x-logo"></a></li>
                                                 <li><a href="#" class="icon-instagram-logo"></a></li>
                                             </ul> */}
-                                            <a href="#" class="overlay-link"></a>
+                                            {/* <a href="#" class="overlay-link"></a> */}
                                         </div>
                                         <div class="info">
                                             <a href="#" class="name text_white link h5 mb_5 font-5">Mr. Deepak Singhal</a>
@@ -84,7 +84,7 @@ export default function Home() {
                                                 <li><a href="#" class="icon-x-logo"></a></li>
                                                 <li><a href="#" class="icon-instagram-logo"></a></li>
                                             </ul> */}
-                                            <a href="#" class="overlay-link"></a>
+                                            {/* <a href="#" class="overlay-link"></a> */}
                                         </div>
                                         <div class="info">
                                             <a href="#" class="name text_white link h5 mb_5 font-5">Mr. Nitin Yadav</a>
@@ -101,7 +101,7 @@ export default function Home() {
                                                 <li><a href="#" class="icon-x-logo"></a></li>
                                                 <li><a href="#" class="icon-instagram-logo"></a></li>
                                             </ul> */}
-                                            <a href="#" class="overlay-link"></a>
+                                            {/* <a href="#" class="overlay-link"></a> */}
                                         </div>
                                         <div class="info">
                                             <a href="#" class="name text_white link h5 mb_5 font-5">Ms. Devpriya</a>
@@ -123,7 +123,7 @@ export default function Home() {
 
 
 
-                                <div class=" teamxxx gap_20 align-items-center">                                    
+                                <div class="hcur teamxxx gap_20 align-items-center">                                    
                                     <div class="card-team style-1">
                                         <div class="img-style">
                                             <img loading="lazy" decoding="async" width="428" height="428"
@@ -133,7 +133,7 @@ export default function Home() {
                                                 <li><a href="#" class="icon-x-logo"></a></li>
                                                 <li><a href="#" class="icon-instagram-logo"></a></li>
                                             </ul> */}
-                                            <a href="#" class="overlay-link"></a>
+                                            {/* <a href="#" class="overlay-link"></a> */}
                                         </div>
                                         <div class="info">
                                             <a href="#" class="name text_white link h5 mb_5 font-5">Mr. Ashish Jain</a>
@@ -150,7 +150,7 @@ export default function Home() {
                                                 <li><a href="#" class="icon-x-logo"></a></li>
                                                 <li><a href="#" class="icon-instagram-logo"></a></li>
                                             </ul> */}
-                                            <a href="#" class="overlay-link"></a>
+                                            {/* <a href="#" class="overlay-link"></a> */}
                                         </div>
                                         <div class="info">
                                             <a href="#" class="name text_white link h5 mb_5 font-5">Mr. Yogesh Mittal</a>
@@ -167,11 +167,28 @@ export default function Home() {
                                                 <li><a href="#" class="icon-x-logo"></a></li>
                                                 <li><a href="#" class="icon-instagram-logo"></a></li>
                                             </ul> */}
-                                            <a href="#" class="overlay-link"></a>
+                                            {/* <a href="#" class="overlay-link"></a> */}
                                         </div>
                                         <div class="info">
                                             <a href="#" class="name text_white link h5 mb_5 font-5">Mr. Nishil Kumar</a>
                                             <p class="text-caption-1 text_white">HOD - Curewith3D</p>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="card-team style-1">
+                                        <div class="img-style">
+                                            <img loading="lazy" decoding="async" width="428" height="428"
+                                                src="/assets/images/team/raman.webp" alt="team"/>
+                                            {/* <ul class="tf-social style-3 d-grid gap_12">
+                                                <li><a href="#" class="icon-FacebookLogo"></a></li>
+                                                <li><a href="#" class="icon-x-logo"></a></li>
+                                                <li><a href="#" class="icon-instagram-logo"></a></li>
+                                            </ul> */}
+                                            {/* <a href="#" class="overlay-link"></a> */}
+                                        </div>
+                                        <div class="info">
+                                            <a href="#" class="name text_white link h5 mb_5 font-5">Mr. Raman Khullar</a>
+                                            <p class="text-caption-1 text_white">Asst. GM – Medical Implants</p>
                                             
                                         </div>
                                     </div>
@@ -184,7 +201,7 @@ export default function Home() {
                                                 <li><a href="#" class="icon-x-logo"></a></li>
                                                 <li><a href="#" class="icon-instagram-logo"></a></li>
                                             </ul> */}
-                                            <a href="#" class="overlay-link"></a>
+                                            {/* <a href="#" class="overlay-link"></a> */}
                                         </div>
                                         <div class="info">
                                             <a href="#" class="name text_white link h5 mb_5 font-5">Mr. Vimal Vijay</a>
@@ -201,7 +218,7 @@ export default function Home() {
                                                 <li><a href="#" class="icon-x-logo"></a></li>
                                                 <li><a href="#" class="icon-instagram-logo"></a></li>
                                             </ul> */}
-                                            <a href="#" class="overlay-link"></a>
+                                            {/* <a href="#" class="overlay-link"></a> */}
                                         </div>
                                         <div class="info">
                                             <a href="#" class="name text_white link h5 mb_5 font-5">Ms. Surbhi Mehrotra</a>
