@@ -30,8 +30,17 @@ export default function Home() {
                     <ProtectedContent>
                         <div class="section-team tf-spacing-1 namefff">
                             <div class="tf-container large">
+                                <div className="row">
+                                    <div className="col-sm-12 text-center">
+                                        <div class="sub text-label text-uppercase split-text effect-up lh-16">Our Team</div>
+                                        <h3 class="title split-text effect-right">Meet Our Leadership Team</h3>
+                                        <br></br>
+                                        <br></br>
+                                        <br></br>
+                                    </div>
+                                </div>
                                 <div class="tf-grid-layout lg-col-4 sm-col-2 gap_20 align-items-center hcur">
-                                    <div class="box">
+                                    {/* <div class="box">
                                         <div class="heading-section style-default mb_32">
                                             <div class="sub text-label text-uppercase split-text effect-up lh-16">Our Team
                                             </div>
@@ -40,24 +49,8 @@ export default function Home() {
                                                 class="desc text-body-3 text_on-suface-1 mt_6 font-3 split-text split-lines-transform">
                                                 A passionate team of experts focused on innovation, quality, and better healthcare solutions.
                                                 </p>
-                                        </div>
-                                        {/* <div class="trust d-flex align-items-center gap_12 mb_32 wow fadeInUp"
-                                            data-wow-delay="0.4s">
-                                            <div class="group">
-                                                <img width="48" height="48"
-                                                    src="/assets/images/avatar/group-avatar-2-2.jpg" alt="avatar"/>
-                                                <img width="48" height="48"
-                                                    src="/assets/images/avatar/group-avatar-2-4.jpg" alt="avatar"/>
-                                                <img width="48" height="48"
-                                                    src="/assets/images/avatar/group-avatar-4-1.jpg" alt="avatar"/>
-                                            </div>
-                                            <p class="text-caption-1 text_primary">Trusted by 50k+ users</p>
-                                        </div> */}
-                                        {/* <a href="/vacancy" class="tf-btn btn-hover-animate-2 wow fadeInUp " data-wow-delay="0.6s">
-                                            <span>Join Our Team</span>
-                                            <span></span>
-                                        </a> */}
-                                    </div>
+                                        </div>                                     
+                                    </div> */}
                                     <div class="card-team style-1">
                                         <div class="img-style">
                                             <img loading="lazy" decoding="async" width="428" height="428"
@@ -109,21 +102,7 @@ export default function Home() {
                                             
                                         </div>
                                     </div>
-                                </div>
-                                <br></br><br></br>
 
-                                {/* <div className="row">
-                                    <div className="col-2">dfsdfsd</div>
-                                    <div className="col-2">dfsdfsd</div>
-                                    <div className="col-2">dfsdfsd</div>
-                                    <div className="col-2">dfsdfsd</div>
-                                    <div className="col-2">dfsdfsd</div>
-                                </div> */}
-
-
-
-
-                                <div class="hcur teamxxx gap_20 align-items-center">                                    
                                     <div class="card-team style-1">
                                         <div class="img-style">
                                             <img loading="lazy" decoding="async" width="428" height="428"
@@ -178,23 +157,6 @@ export default function Home() {
                                     <div class="card-team style-1">
                                         <div class="img-style">
                                             <img loading="lazy" decoding="async" width="428" height="428"
-                                                src="/assets/images/team/raman.webp" alt="team"/>
-                                            {/* <ul class="tf-social style-3 d-grid gap_12">
-                                                <li><a href="#" class="icon-FacebookLogo"></a></li>
-                                                <li><a href="#" class="icon-x-logo"></a></li>
-                                                <li><a href="#" class="icon-instagram-logo"></a></li>
-                                            </ul> */}
-                                            {/* <a href="#" class="overlay-link"></a> */}
-                                        </div>
-                                        <div class="info">
-                                            <a href="#" class="name text_white link h5 mb_5 font-5">Mr. Raman Khullar</a>
-                                            <p class="text-caption-1 text_white">Asst. GM – Medical Implants</p>
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="card-team style-1">
-                                        <div class="img-style">
-                                            <img loading="lazy" decoding="async" width="428" height="428"
                                                 src="/assets/images/team/vimal-vijay.webp" alt="team"/>
                                             {/* <ul class="tf-social style-3 d-grid gap_12">
                                                 <li><a href="#" class="icon-FacebookLogo"></a></li>
@@ -226,7 +188,15 @@ export default function Home() {
                                             
                                         </div>
                                     </div>
+
+
+
+
                                 </div>
+                                
+                                {/* <div class="hcur teamxxx gap_20 align-items-center">                                    
+                                    
+                                </div> */}
 
                             </div>
                         </div>
