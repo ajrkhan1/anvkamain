@@ -99,7 +99,7 @@ export default function Footer() {
                                                         <a href="/brands/tumble-salon" class="link">Tumble Salon</a>
                                                     </li>
                                                     <li class="text-caption-1 text_white">
-                                                        <a target='_blank' href="https://azureinnolabs.com/" class="link">Azure Innovation Labs</a>
+                                                        <a href="/brands/azure-innovation-labs" class="link">Azure Innovation Labs</a>
                                                     </li>
                                                 </ul>
                                             </div>

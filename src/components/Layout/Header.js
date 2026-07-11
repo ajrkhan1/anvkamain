@@ -39,7 +39,7 @@ export default function Header() {
                                             <li><a title="Home Healthcare Solutions" href="/brands/caretab"><img width="100%" src="/assets/images/logo2/care1.webp"/></a></li>
                                             <li><a title="Nutrition & Food Solutions" href="/brands/akiechef"><img width="100%" src="/assets/images/logo2/ake1.webp"/></a></li>
                                             <li><a title="Wellness & Grooming Services" href="/brands/tumble-salon"><img width="100%" src="/assets/images/logo2/tum1.webp"/></a></li>
-                                            <li><a title="Ideas Into Innovation" target="_blank" href="https://azureinnolabs.com/"><img width="100%" src="/assets/images/logo2/lab1.webp"/></a></li>
+                                            <li><a title="Ideas Into Innovation" href="/brands/azure-innovation-labs"><img width="100%" src="/assets/images/logo2/lab1.webp"/></a></li>
                                         </ul>
                                     </li>
 
@@ -137,7 +137,7 @@ export default function Header() {
                                             <li><a title="Home Healthcare Solutions" href="/brands/caretab"><img width="100%" src="/assets/images/logo2/care1.webp"/></a></li>
                                             <li><a title="Nutrition & Food Solutions" href="/brands/akiechef"><img width="100%" src="/assets/images/logo2/ake1.webp"/></a></li>
                                             <li><a title="Wellness & Grooming Services" href="/brands/tumble-salon"><img width="100%" src="/assets/images/logo2/tum1.webp"/></a></li>
-                                            <li><a title="Ideas Into Innovation" target="_blank" href="https://azureinnolabs.com/"><img width="100%" src="/assets/images/logo2/lab1.webp"/></a></li>
+                                            <li><a title="Ideas Into Innovation" href="/brands/azure-innovation-labs"><img width="100%" src="/assets/images/logo2/lab1.webp"/></a></li>
                                         </ul>
                                     </li>
 
@@ -247,7 +247,7 @@ export default function Header() {
                                 <li class="menu-item"><a title="Home Healthcare Solutions" href="/brands/caretab"><img width="100%" src="/assets/images/logo2/care1.webp"/></a></li>
                                 <li class="menu-item"><a title="Nutrition & Food Solutions" href="/brands/akiechef"><img width="100%" src="/assets/images/logo2/ake1.webp"/></a></li>
                                 <li class="menu-item"><a title="Wellness & Grooming Services" href="/brands/tumble-salon"><img width="100%" src="/assets/images/logo2/tum1.webp"/></a></li>
-                                <li class="menu-item"><a title="Ideas Into Innovation" target="_blank" href="https://azureinnolabs.com/"><img width="100%" src="/assets/images/logo2/lab1.webp"/></a></li>
+                                <li class="menu-item"><a title="Ideas Into Innovation" href="/brands/azure-innovation-labs"><img width="100%" src="/assets/images/logo2/lab1.webp"/></a></li>
                             </ul>
                         </div>
                     </li>
