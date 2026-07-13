@@ -4,11 +4,12 @@ import styles from './YoutubeSlider.module.css'
 
 // Sirf YouTube video ID daalo (URL ka last part)
 const videos = [
-  { id: '0tE0N8Yf27U', title: 'Video 1' },
-  { id: '3Ohn8swWT6k', title: 'Video 2' },
+ 
   { id: '0tE0N8Yf27U', title: 'Video 1' },
   { id: 'iCeRbLi10GE', title: 'Video 1' },
-  { id: '3Ohn8swWT6k', title: 'Video 2' },
+   { id: '0tE0N8Yf27U', title: 'Video 1' },
+  { id: 'iCeRbLi10GE', title: 'Video 1' },
+    { id: '0tE0N8Yf27U', title: 'Video 1' },
 
 ]
 
